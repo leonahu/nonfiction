@@ -1,0 +1,17 @@
+# System files
+Icon
+.DS_Store
+.resources
+
+# Temporary files
+.sass-cache/**
+/node_modules
+
+# User files
+/user/accounts/*
+/user/avatars/*
+/user/cache/*
+/user/thumbs/*
+
+# Keep
+!**/.gitkeep

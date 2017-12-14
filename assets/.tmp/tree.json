@@ -1,0 +1,26 @@
+{
+  "asset": {
+    "css": {
+      "_reset": "asset/css/_reset.css"
+    },
+    "imgs": {
+      "spritesheet-icons": "asset/imgs/spritesheet-icons.png",
+      "spritesheet-icons@2x": "asset/imgs/spritesheet-icons@2x.png"
+    },
+    "js": {
+      "main": "asset/js/main.js"
+    },
+    ".tmp": {
+      "css": {
+        "main": "asset/.tmp/css/main.c6dcfe4d.css"
+      },
+      "imgs": {
+        "spritesheet-icons": "asset/.tmp/imgs/spritesheet-icons.d41d8cd9.png",
+        "spritesheet-icons@2x": "asset/.tmp/imgs/spritesheet-icons@2x.d41d8cd9.png"
+      },
+      "js": {
+        "main": "asset/.tmp/js/main.d41d8cd9.js"
+      }
+    }
+  }
+}
