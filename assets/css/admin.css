@@ -1,0 +1,4 @@
+.dashboard-section {
+  display: block;
+  break-inside: avoid-column;
+}

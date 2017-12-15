@@ -31,15 +31,12 @@ c::set('license', 'put your license key here');
 c::set('debug', debug);
 c::set('cache', cache);
 c::set('kirbytext.filters', array());
-//c::set('hideHistory', true);
-//c::set('hidePages', array('widgets', 'error')); // Slug
-//c::set('widgetPages', array('widgets')); // Page slug, Updates breadcrumb.
-//c::set('slugCharacters', 'a-z0-9.'); // Allowed slug characters.
-// c::set('panel.stylesheet', 'public/css/panel.css');
+c::set('panel.stylesheet', 'assets/css/admin.css');
 
-// Enable json views.
+// Routes.
 c::set('routes', [
   [
+    // JSON views.
     'pattern' => ["view(:all)"],
     'action' => function($path) {
       define('jview', true);
@@ -48,6 +45,7 @@ c::set('routes', [
       return $page;
     }
   ],[
+    // All other pages.
     'pattern' => ["(/)", "(:all)"],
     'action' => function($path) {
       define('jview', false);
