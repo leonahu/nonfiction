@@ -11,9 +11,9 @@ if ($_SERVER['HTTP_HOST'] == 'non.rickyboyce.me') {
   define("versioning", true);
 
 } else {
-  define('debug', false);
-  define('cache', true);
-  define("build", true);
+  define('debug', true);
+  define('cache', false);
+  define("build", false);
   define("cdn", false);
   define("bust", false);//time()
   define("versioning", true);
