@@ -18,7 +18,7 @@
   width: 669px;
   /* box-shadow: 0px -1px #e8eef1 inset; */
 }
-.intro .non {position: relative;display: block;margin: 0 auto;margin-bottom: 70px;width: 450px;height: 450px;overflow: hidden;}
+.intro .non {position: relative;display: block;margin: 0 auto;margin-bottom: 70px;width: 460px;height: 460px;overflow: hidden;}
 .intro .non:after {
   content: "";
   display: block;
@@ -40,7 +40,8 @@
 }
 .intro h1 {
   font-family:  Lora;
-  font-size: 21px;
+  font-family: Crimson text;
+  font-size: 22px;
   line-height: 34px;
   font-weight: 400;
   letter-spacing: 1px;

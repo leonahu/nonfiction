@@ -13,7 +13,7 @@
   <div class="box">
     <div class="non">
       <img src="<?php echo b::asset($o->tree['imgs']['1']) ?>">
-      <svg xmlns="http://www.w3.org/2000/svg" width="450" height="450" viewBox="0 0 942 942">
+      <svg xmlns="http://www.w3.org/2000/svg" width="460" height="460" viewBox="0 0 942 942">
         <defs>
           <mask id="holex">
             <rect width="100%" height="100%" fill="white"/>
