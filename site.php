@@ -1,5 +1,5 @@
 <?php
-$kirby = kirby();
+$kirby = kirby(); // Calls config.php
 define("root", __DIR__ . DS);
 define("base", "{$kirby->urls->index}/");
 

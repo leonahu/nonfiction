@@ -1,0 +1,125 @@
+.nav1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* transition: none; */
+  /* transform: translateY(-20px); */
+  /* opacity: 0; */
+  z-index: 1;
+}
+.loaded .nav1 {
+  /* transition: transform 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940), opacity 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940); */
+  /* transform: translateY(0px); */
+  /* opacity: 1; */
+}
+.nav1 .box {
+  padding: 50px 20px 55px;
+}
+.nav1:after,
+.nav1 ul:after {
+  content: '';
+  clear: both;
+  display: block;
+}
+.nav1 .logobox {}
+.nav1 .logo {
+  transition: transform 0.2s ease;
+  margin-top: 0;
+  padding: 0 9px;
+}
+.nav1 .logo img {
+  width: 247px;
+  vertical-align: top;
+}
+.nav1 .logo:hover {
+  transform: translateY(2px);
+}
+.nav1 .description {
+  display: block;
+  letter-spacing: 0.5px;
+  font-size: 13px;
+  line-height: 25px;
+  font-weight: 400;
+}
+.nav1 .description span {
+  display: block;
+}
+.nav1 ul {}
+.nav1 li {
+  display: inline-block;
+  vertical-align: top;
+}
+.nav1 li a {
+  font-size: 14px;
+  line-height: 24px;
+  /* font-weight: 100; */
+  margin: 0 13px;
+  margin-top: -2px;
+  display: block;
+  position: relative;
+}
+.x {
+  position: absolute;
+  top: 16px;
+  right: -19px;
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+  overflow: hidden;
+}
+.x:after {
+  position: absolute;
+  display: block;
+  top: 50%;
+  height: 31px;
+  width: 100%;
+  content: "\274c";
+  content: "\00D7";
+  /* use the hex value here... */
+  font-size: 33px;
+  margin-top: -12px;
+  color: #252746;
+  text-align: center;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+.x:hover:after {
+  transform: scale(0.8);
+}
+
+/* --- Nav2 -------------------------- */
+
+.nav2 {
+  display: none;
+}
+
+/* --- Responsive -------------------- */
+
+@media only screen and (max-width: 510px) {
+  .nav1 {
+    padding: 51px 20px 57px;
+  }
+  .loaded .nav1 {}
+  .nav1:before {}
+  .nav1 .logo {}
+  .nav1 .logo img {}
+  .nav1 .description {}
+  .nav1 .description span {
+    display: inline;
+  }
+  .nav1 ul {}
+  .x {
+    top: 16px;
+    right: -20px;
+    height: 90px;
+    width: 90px;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .x:after {
+    height: 29px;
+    font-size: 31px;
+    margin-top: -13px;
+  }
+  .x:hover:after {}
+}

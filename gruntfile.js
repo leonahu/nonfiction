@@ -3,8 +3,8 @@ module.exports = function(grunt) {
 	
 	grunt.initConfig({ 
 		pkg: pkg,
-    a: 'asset/',
-    b: 'asset/.tmp/',
+    a: 'assets/',
+    b: 'assets/.tmp/',
 		clean: {
 			before: ['<%= b %>']
 		},
@@ -242,7 +242,7 @@ module.exports = function(grunt) {
 		'copy:before',
 
 		'uglify',
-		//'sprite',
+		'sprite',
 		'copy:imgs',
 		'compass',
 		'cssmin',

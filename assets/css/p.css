@@ -1,0 +1,119 @@
+.box {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+h2 {
+  font-size: 23px;
+  font-weight: 800;
+  color: #000;
+  letter-spacing: -1.5px;
+  margin-bottom: 28px;
+}
+h3 {}
+.cta1 {
+  display: inline-block;
+  vertical-align: top;
+  padding: 13px 45px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0;
+  border-radius: 3px;
+  transition: all .2s ease;
+  border: 3px solid #4e4c54;
+  background-color: #56545d;
+  color: #fff;
+}
+
+/* --- Links ------------------------- */
+
+a.link,
+.content a {
+  display: inline-block;
+  position: relative;
+}
+a.link:after,
+.content a:after {
+  display: block;
+  position: absolute;
+  content: "";
+  bottom: 1px;
+  height: 3px;
+  width: 100%;
+  background-color: rgb(146, 153, 230);
+  background-color: rgb(232, 232, 232);
+  transition: transform 0.15s ease, background-color 0.2s ease;
+}
+a.link:hover:after,
+.content a:hover:after {
+  transform: translateY(2px);
+  background-color: rgb(122, 130, 220);
+  background-color: rgb(105, 105, 105);
+}
+nav a.link:after {
+  background-color: transparent;
+  height: 4px;
+}
+nav a.link:hover:after {
+  background-color: #111;
+}
+
+/* --- Content ----------------------- */
+
+.content {
+  text-align: center;
+  transition: none;
+  transform: translateY(-30px);
+  opacity: 0;
+}
+.loaded .content {
+  transition: transform 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940), opacity 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940);
+  transform: translateY(0px);
+  opacity: 1;
+}
+.content h1,
+.content h2,
+.content h3 {}
+.content h1 {
+  font-weight: 300;
+  /* font-weight: 700; */
+  font-size: 26px;
+  line-height: 39px;
+  letter-spacing: -0.5px;
+  margin-top: -6px;
+  margin-bottom: 25px;
+  /* color: #000; */
+}
+.content h2 {}
+.content h3 {}
+.content p,
+.content figure {
+  margin: 0;
+  margin-bottom: 40px;
+}
+.content p {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.content figure {
+  /* box-shadow: 0px 25px 61px 0px rgba(0, 0, 0, 0.08); */
+}
+.content figure a {}
+.content figure a::after {
+  display: none;
+}
+.content img {
+  max-width: 100%;
+  vertical-align: top;
+  box-shadow: 0px 25px 61px 0px rgba(0, 0, 0, 0.08);
+}
+@media only screen and (max-width: 510px) {
+  .content h1 {
+    font-size: 22px;
+    line-height: 35px;
+    margin-top: -4px;
+    margin-bottom: 25px;
+  }
+}

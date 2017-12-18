@@ -1,25 +1,67 @@
 {
-  "asset": {
+  "assets": {
     "css": {
-      "_reset": "asset/css/_reset.css"
+      "_reset": "assets/css/_reset.css",
+      "admin": "assets/css/admin.css",
+      "footer": "assets/css/footer.css",
+      "header": "assets/css/header.css",
+      "p-home": "assets/css/p-home.css",
+      "p": "assets/css/p.css",
+      "mustache": {
+        "generated-icons": "assets/css/mustache/generated-icons.css"
+      }
+    },
+    "fonts": {
+      "Crimson Text-400": "assets/fonts/Crimson Text-400.woff2",
+      "Crimson Text-600": "assets/fonts/Crimson Text-600.woff2",
+      "Noto Sans-400": "assets/fonts/Noto Sans-400.woff2",
+      "Noto Sans-700": "assets/fonts/Noto Sans-700.woff2"
     },
     "imgs": {
-      "spritesheet-icons": "asset/imgs/spritesheet-icons.png",
-      "spritesheet-icons@2x": "asset/imgs/spritesheet-icons@2x.png"
+      "1": "assets/imgs/1.jpg",
+      "favico": "assets/imgs/favico.ico",
+      "favico114": "assets/imgs/favico114.png",
+      "favico144": "assets/imgs/favico144.png",
+      "favico16": "assets/imgs/favico16.png",
+      "favico32": "assets/imgs/favico32.png",
+      "favico57": "assets/imgs/favico57.png",
+      "favico72": "assets/imgs/favico72.png",
+      "logo": "assets/imgs/logo.jpg",
+      "n": "assets/imgs/n.jpg",
+      "og-1200": "assets/imgs/og-1200.jpg",
+      "spritesheet-icons": "assets/imgs/spritesheet-icons.png",
+      "spritesheet-icons@2x": "assets/imgs/spritesheet-icons@2x.png"
     },
     "js": {
-      "main": "asset/js/main.js"
+      "main": "assets/js/main.js"
     },
     ".tmp": {
       "css": {
-        "main": "asset/.tmp/css/main.c6dcfe4d.css"
+        "main": "assets/.tmp/css/main.1db2b756.css"
+      },
+      "fonts": {
+        "Crimson Text-400": "assets/.tmp/fonts/Crimson Text-400.woff2",
+        "Crimson Text-600": "assets/.tmp/fonts/Crimson Text-600.woff2",
+        "Noto Sans-400": "assets/.tmp/fonts/Noto Sans-400.woff2",
+        "Noto Sans-700": "assets/.tmp/fonts/Noto Sans-700.woff2"
       },
       "imgs": {
-        "spritesheet-icons": "asset/.tmp/imgs/spritesheet-icons.d41d8cd9.png",
-        "spritesheet-icons@2x": "asset/.tmp/imgs/spritesheet-icons@2x.d41d8cd9.png"
+        "1": "assets/.tmp/imgs/1.ce0d4b8a.jpg",
+        "favico": "assets/.tmp/imgs/favico.86475878.ico",
+        "favico114": "assets/.tmp/imgs/favico114.3c33f7b8.png",
+        "favico144": "assets/.tmp/imgs/favico144.7ac1ec07.png",
+        "favico16": "assets/.tmp/imgs/favico16.19321249.png",
+        "favico32": "assets/.tmp/imgs/favico32.77088a87.png",
+        "favico57": "assets/.tmp/imgs/favico57.68866a7f.png",
+        "favico72": "assets/.tmp/imgs/favico72.01faf255.png",
+        "logo": "assets/.tmp/imgs/logo.613b8580.jpg",
+        "n": "assets/.tmp/imgs/n.f03d2146.jpg",
+        "og-1200": "assets/.tmp/imgs/og-1200.4104e601.jpg",
+        "spritesheet-icons": "assets/.tmp/imgs/spritesheet-icons.d41d8cd9.png",
+        "spritesheet-icons@2x": "assets/.tmp/imgs/spritesheet-icons@2x.d41d8cd9.png"
       },
       "js": {
-        "main": "asset/.tmp/js/main.d41d8cd9.js"
+        "main": "assets/.tmp/js/main.d41d8cd9.js"
       }
     }
   }
