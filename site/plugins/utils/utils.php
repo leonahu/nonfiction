@@ -47,11 +47,18 @@ public static function asset($url) {
   return cdn1 . $uri;
 }
 
-public static function css($urls, $media=null) {
+public static function css($base, $dirs, $media = null) {
 
   // Force an array.
   $css = array();
-  if (!is_array($urls)) $urls = array($urls);
+  $urls = $base;
+  foreach ($dirs as $d) {
+    if (!isset($urls[$d])) return '';
+    $urls = $urls[$d];
+  }
+
+  // Normalaize strings into [].
+  if (!is_array($urls)) $urls = [$urls];
 
   // Add urls
   foreach ($urls as $url) {
@@ -177,7 +184,7 @@ public static function js($base, $dirs, $async = false) {
   }
 
   // Normalaize strings into [].
-  if (!is_array($urls)) $urls = array($urls);
+  if (!is_array($urls)) $urls = [$urls];
 
   foreach ($urls as $url) {
     if (!is_string($url)) continue;

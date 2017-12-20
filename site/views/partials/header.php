@@ -18,7 +18,7 @@
   <meta property="og:image" content="<?php echo b::asset($o->tree['imgs']['og-1200']) ?>">
   <meta property="og:description" content="<?php echo $page->metadescription()->html() ?>">
 
-  <?php echo b::css($o->tree['css']['mustache']) . b::css($o->tree['css']) ?>
+  <?php echo b::css($o->tree, ['css', 'mustache']) . b::css($o->tree, ['css']) ?>
   <?php b::fonts(
     ["Crimson Text", b::asset($o->tree['fonts']['Crimson Text-400']), '400'],
     ["Crimson Text", b::asset($o->tree['fonts']['Crimson Text-600']), '600'],

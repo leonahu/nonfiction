@@ -26,6 +26,13 @@
       "favico32": "assets/imgs/favico32.png",
       "favico57": "assets/imgs/favico57.png",
       "favico72": "assets/imgs/favico72.png",
+      "featured": {
+        "1": "assets/imgs/featured/1.png",
+        "2": "assets/imgs/featured/2.png",
+        "3": "assets/imgs/featured/3.png",
+        "4": "assets/imgs/featured/4.png",
+        "feature 1": "assets/imgs/featured/feature 1.png"
+      },
       "logo": "assets/imgs/logo.jpg",
       "n": "assets/imgs/n.jpg",
       "og-1200": "assets/imgs/og-1200.jpg",
@@ -33,11 +40,15 @@
       "spritesheet-icons@2x": "assets/imgs/spritesheet-icons@2x.png"
     },
     "js": {
+      "libs": {
+        "1.jquery": "assets/js/libs/1.jquery.js",
+        "fullpage": "assets/js/libs/fullpage.js"
+      },
       "main": "assets/js/main.js"
     },
     ".tmp": {
       "css": {
-        "main": "assets/.tmp/css/main.1db2b756.css"
+        "main": "assets/.tmp/css/main.0ea02370.css"
       },
       "fonts": {
         "Crimson Text-400": "assets/.tmp/fonts/Crimson Text-400.woff2",
@@ -54,14 +65,14 @@
         "favico32": "assets/.tmp/imgs/favico32.77088a87.png",
         "favico57": "assets/.tmp/imgs/favico57.68866a7f.png",
         "favico72": "assets/.tmp/imgs/favico72.01faf255.png",
-        "logo": "assets/.tmp/imgs/logo.613b8580.jpg",
+        "logo": "assets/.tmp/imgs/logo.f7dc9997.jpg",
         "n": "assets/.tmp/imgs/n.f03d2146.jpg",
         "og-1200": "assets/.tmp/imgs/og-1200.4104e601.jpg",
         "spritesheet-icons": "assets/.tmp/imgs/spritesheet-icons.d41d8cd9.png",
         "spritesheet-icons@2x": "assets/.tmp/imgs/spritesheet-icons@2x.d41d8cd9.png"
       },
       "js": {
-        "main": "assets/.tmp/js/main.d41d8cd9.js"
+        "main": "assets/.tmp/js/main.a642ccf6.js"
       }
     }
   }

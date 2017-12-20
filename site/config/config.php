@@ -8,15 +8,13 @@ if ($_SERVER['HTTP_HOST'] == 'non.rickyboyce.me') {
   define("build", false); 
   define("cdn", false);
   define("bust", false);
-  define("versioning", true);
 
 } else {
   define('debug', true);
-  define('cache', false);
-  define("build", false);
+  define('cache', true);
+  define("build", true);
   define("cdn", false);
   define("bust", false);//time()
-  define("versioning", true);
 }
 
 define('_s', 57);
@@ -35,16 +33,16 @@ define('http', isset($_SERVER['HTTPS'])? "https://" : "http://");
 define('url', http . host . $_SERVER['REQUEST_URI']);
 $_SERVER['SERVER_NAME'] = host; // nginx..
 
-define("assets", "/" . (build? assetsbuild : assetssource));
-define("assets_", root . str_replace('/', DS, substr(assets, 1)));
+define("assets", build? assetsbuild : assetssource);
 define('imgs', assets . 'imgs/');
 define('fonts', assets . 'fonts/');
 define("views", "{$kirby->roots->templates}/");
 define("layouts", views . "/" . "layouts/");
+define("assets_", root . str_replace('/', DS, assets));
 
-// Load tree. Remove parent.
-$tree = file_get_contents(root . assetsbuild . 'tree.json');
-$tree = json_decode($tree, true);
+// Load tree and get target dir.
+$tree = @file_get_contents(root . assetsbuild . 'tree.json');
+$tree = $tree? json_decode($tree, true) : [];
 $treesub = array_filter(explode('/', assets));
 foreach($treesub as $t) $tree = $tree[$t];
 c::set('tree', $tree);
