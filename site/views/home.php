@@ -46,25 +46,37 @@
 
 
   <div id="featured" class="featured section">
-    <div class="box">
-      <div class="left">
-        <h2>We bring concepts to shelves, fiction into reality.</h2>
-        <ul>
-          <li><a href="#"><i>01</i>Wearable Technology</a></li>
-          <li><a href="#"><i>02</i>Medical / Health Care</a></li>
-          <li><a href="#"><i>03</i>Fashopm Soft Goods</a></li>
-          <li><a href="#"><i>04</i>Consumer IoT</a></li>
-          <li><a href="#"><i>05</i>Branding</a></li>
-          <li><a href="#"><i>06</i>Design Strategy</a></li>
-        </ul>
-        <a class="more" href="#">Check out out portfolio<span></span></a>
-      </div>
+    <div>
+      <div class="box">
+        <div class="left">
+          <h2>We bring concepts to shelves, fiction into reality.</h2>
+          <ul>
+            <li class="active"><a href="#"><i>01</i>Wearable Technology</a><b></b></li>
+            <li><a href="#"><i>02</i>Medical / Health Care</a><b></b></li>
+            <li><a href="#"><i>03</i>Fashion Soft Goods</a><b></b></li>
+            <li><a href="#"><i>04</i>Consumer IoT</a><b></b></li>
+            <li><a href="#"><i>05</i>Branding</a><b></b></li>
+            <li><a href="#"><i>06</i>Design Strategy</a><b></b></li>
+          </ul>
+          <a class="more linkspan" href="#">
+            <span>Check out our portfolio</span>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 12">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M1.057 7.125l23.229-.063-3.563 3.5 1.469 1.375s5.719-5.438 5.719-5.906S22.13.063 22.13.063L20.786 1.5l3.406 3.469L1.088 5s-1-.031-1 1.031.969 1.094.969 1.094z"/>
+            </svg>
+          </a>
+        </div>
 
-      <div class="right">
-        <h3></h3>
-        <h4></h4>
-        <div class="images">
-          <div><img src="<?php echo b::asset($o->tree['imgs']['featured']['1'])?>"></div>
+        <div class="right">
+          <h3></h3>
+          <h4></h4>
+          <div class="images">
+            <div><img src="<?php echo b::asset($o->tree['imgs']['featured']['1'])?>"></div>
+            <div><img src="<?php echo b::asset($o->tree['imgs']['featured']['3'])?>"></div>
+            <div><img src="<?php echo b::asset($o->tree['imgs']['featured']['2'])?>"></div>
+            <div><img src="<?php echo b::asset($o->tree['imgs']['featured']['4'])?>"></div>
+            <div><img src="<?php echo b::asset($o->tree['imgs']['featured']['3'])?>"></div>
+            <div><img src="<?php echo b::asset($o->tree['imgs']['featured']['2'])?>"></div>
+          </div>
         </div>
       </div>
     </div>

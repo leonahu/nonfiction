@@ -1,0 +1,51 @@
+Title: About
+
+----
+
+Intro: 
+
+Nonfiction is a design studio based in San Francisco.
+We specialize in industrial design, branding, strategy and packaging design.
+
+(experience)Founded in 2008 by Phnam Bagley and Mardis Bagley, we have been engaging experiences through the design of fun and sophisticated products for clients ranging from large corporations, mid-size companies and funded startups from all over the world.
+
+(philosophy)We also leverage our relationships with engineering and manufacturing partners to help execute your ideas.
+
+----
+
+Text: The approach of using subpages for storing content sections of a page can also be very useful for creating a (link: https://getkirby.com/docs/cookbook/one-pager text: one-page) website, featuring very different kinds of content.
+
+----
+
+Owner1: 
+
+## Phanm Bageley
+
+Phnam is a director-level industrial designer with over ten years experience designing and leading teams in a very wide range of product categories including Consumer Electronics, Luxury Products, Action Sports, Soft Goods, Packaging, and Aerospace. 
+
+She has designed and led teams at varied design consultancies including IDEO, Lunar, Matter, and Lifestyledesign. Phnam is the CEO and Design Director at Eternal Luxe, a brand of luxury goods made in USA. She also teaches industrial design at California College of the Arts.
+
+Hometown: Paris, France 
+Education: Strate Collège (France), Designskolen Kolding (Denmark), Sasakawa International Center for Space Architecture at the University of Houston (USA) and Amblard Leather Atelier (USA)
+
+----
+
+Owner2: 
+
+## Mardis Bageley
+
+Mardis is an industrial design director with 10 years experience in consumer electronics, lifestyle, soft goods and packaging. 
+
+Prior to his career in industrial design, Mardis worked for 15 years in the graphic design field, managing branding and digital design teams. Mardis specializes in fast, technical execution and shepherds products all the way through mass production, to insure design intent. He has worked on consumer products for Nike, Dell, Intel, Logitech, Symantec, Facebook and for mid-sized companies and startups too numerous to count.
+
+Hometown: Champaign, Illinois, USA
+Education: University of Houston (USA)
+University of Illinois (USA)
+
+----
+
+Bottom: 
+
+### Interested in working with us?
+Send us an email and your portfolio to
+jobs [at] nonfiction.design

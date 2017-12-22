@@ -1,13 +1,13 @@
-Title: Kirby Starterkit
+Title: Nonficiton
 
 ----
 
-Author: Bastian Allgeier GmbH
+Author: Ricky Boyce
 
 ----
 
-Description: This is Kirby's Starterkit.
+Description: 
 
 ----
 
-Copyright: © 2009–(date: Year) (link: http://getkirby.com text: The Kirby Team)
+Copyright: © 2017 Nonficiton

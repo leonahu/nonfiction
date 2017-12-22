@@ -24,7 +24,7 @@ module.exports = function(grunt) {
 				expand: true, 
 				filter: 'isFile',
 				cwd:	  '<%= a %>',
-				src:    ['imgs/*'],
+				src:    ['imgs/*', 'imgs/featured/*'],
 				dest:   '<%= b %>'
 			}
 		},

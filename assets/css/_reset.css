@@ -9,7 +9,7 @@ body {
   height: 100%;
   font-size: 14px;
   line-height: 31px;
-  font-family: Open Sans, arial;
+  font-family: Noto Sans, Arial;
   font-weight: 400;
   position: relative;
   text-align: center;
@@ -17,9 +17,11 @@ body {
 html,
 body {
   color: #484773;
+  color: #1b1b1d;
 }
 a {
-  color: #403f69;
+  color: #2b2c46;
+  color: #1b1b1d;
   text-decoration: none;
 }
 a:hover {

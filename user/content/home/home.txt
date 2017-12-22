@@ -2,19 +2,16 @@ Title: Home
 
 ----
 
-Intro: Yay! If you are seeing this, the installation of Kirby worked. :-)
+Intro: Nonfiction is a boutique full-service design agency,  creating real products that surprise and delight.
 
 ----
 
-Text: 
+Text: We bring concepts to shelves, fiction into reality.
 
-## Get started
+----
 
-- Go to the (link: panel text: Panel) to give Kirby's admin interface a try
-- Check out the (link: http://getkirby.com/docs text: docs) and start building your own site
-- Follow (twitter: @getkirby) on Twitter for updates
-- Visit the (link: http://forum.getkirby.com text: forum) to connect with other Kirby users
-- Sign up to (link: https://getkirby.com/#kosmos text: Kirby Kosmos), our monthly newsletter
-- (link: http://getkirby.com/support text: Get in contact) if you need support.
+Title2: We bring concepts to shelves, fiction into reality.
 
-**Have fun with Kirby!**
+----
+
+Link: Check out our portfolio

@@ -11,6 +11,10 @@ fields:
     label: Intro
     type:  textarea
 
-  text:
-    label: Text
-    type:  textarea
+  title2:
+    label: Feature Work Title
+    type:  text
+
+  link:
+    label: Portfolio link
+    type:  text

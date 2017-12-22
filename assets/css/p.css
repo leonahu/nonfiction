@@ -1,16 +1,18 @@
 .box {
   width: 100%;
-  max-width: 1400px;
-  padding-left: 20px;
-  padding-right: 20px;
+  max-width: 1425px;
+  padding-left: 38px;
+  padding-right: 38px;
   margin: 0 auto;
   box-sizing: border-box;
 }
 h2 {
-  font-size: 23px;
-  font-weight: 800;
+  font-family: "Crimson text";
+  font-size: 21px;
+  line-height: 33px;
+  font-weight: 400;
   color: #000;
-  letter-spacing: -.5px;
+  /* letter-spacing: .5px; */
   margin-bottom: 28px;
 }
 h3 {}
@@ -31,34 +33,44 @@ h3 {}
 /* --- Links ------------------------- */
 
 a.link,
+.linkspan span,
 .content a {
   display: inline-block;
   position: relative;
 }
 a.link:after,
+.linkspan span:after,
 .content a:after {
   display: block;
   position: absolute;
   content: "";
-  bottom: 1px;
-  height: 3px;
+  bottom: 6px;
+  height: 1px;
   width: 100%;
-  background-color: rgb(146, 153, 230);
-  background-color: rgb(232, 232, 232);
-  transition: transform 0.15s ease, background-color 0.2s ease;
+  background-color: rgb(0, 0, 0);
+  transition: transform 0.15s ease, background-color 0.15s ease;
 }
 a.link:hover:after,
+.linkspan:hover span:after,
 .content a:hover:after {
-  transform: translateY(2px);
+  transform: translateY(0px);
   background-color: rgb(122, 130, 220);
-  background-color: rgb(105, 105, 105);
+  background-color: rgba(105, 105, 105, 0);
 }
 nav a.link:after {
-  background-color: transparent;
+  display: block;
+  position: absolute;
+  content: "";
+  bottom: 1px;
   height: 4px;
+  width: 100%;
+  transition: transform 0.15s ease, background-color 0.2s ease;
+  background-color: transparent;
 }
 nav a.link:hover:after {
+  transform: translateY(2px);
   background-color: #3b3b3b;
+  background-color: #9192a133;
 }
 
 /* --- Content ----------------------- */

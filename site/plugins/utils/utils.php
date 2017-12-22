@@ -84,7 +84,7 @@ public static function exists($o) {
   else return false;
 }
 
-public static function fonts($link) {
+public static function fonts($link = false) {
   /**
    * Return fonts.
    * @param array(name, path, weight, style), ..
@@ -92,6 +92,7 @@ public static function fonts($link) {
    * @link https://google-webfonts-helper.herokuapp.com
    */
 
+  if (!$link) return;
   $fonts = func_get_args();
   $wantlink  = $link == 1? true : false;
   $lastname = false;

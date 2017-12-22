@@ -1,21 +1,28 @@
 title: Project
-
+pages: false
 files:
   sortable: true
 
-pages: false
-
 fields:
   title:
-    label: Title
-    type:  text
-    width: 3/4
-
-  year:
-    label: Year
-    type:  text
-    width: 1/4
-
+    label: Project Title
+    type:  title
+    
+  coverimage:
+    label: Cover Image
+    type: image
+    width: 1/2
+    
+  date:
+    icon: calendar
+    label: Date
+    type: date
+    format: LL
+    placeholder: Select a date…
+    default: today
+    required: true
+    width: 1/2
+  
   text:
     label: Text
-    type:  textarea
+    type: textarea

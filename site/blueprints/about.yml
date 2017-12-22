@@ -1,10 +1,6 @@
 title: About
-
-pages:
-  template: team
-  num: zero
-
-files: false
+files: true
+pages: false
 
 options: 
   template: false  
@@ -18,7 +14,18 @@ fields:
   intro:
     label: Intro
     type: textarea
-    
-  text:
-    label: Text
+  
+  owner1:
+    label: Owner 1
     type: textarea
+
+  owner2:
+    label: Owner 2
+    type: textarea
+
+  bottom:
+    label: Bottom Text
+    type: textarea
+
+
+
