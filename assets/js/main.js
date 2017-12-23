@@ -22,6 +22,14 @@ var b = {
     // Navigation toggle.
     $('.ham1')[0].onclick = b.navToggle;
 
+    // Smoke paralax.
+    var smoke = $('#smoke')[0];
+    var paralax = new Parallax(smoke, {
+      relativeInput: false,
+      scalarX: 4,
+      scalarY: 4
+    });
+
     // Featured links.
     rotator.init();
   },

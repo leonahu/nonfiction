@@ -92,12 +92,12 @@ nav a.link:hover:after {
 .content h1 {
   font-weight: 300;
   /* font-weight: 700; */
+  /* color: #000; */
   font-size: 26px;
   line-height: 39px;
   letter-spacing: -0.5px;
   margin-top: -6px;
   margin-bottom: 25px;
-  /* color: #000; */
 }
 .content h2 {}
 .content h3 {}

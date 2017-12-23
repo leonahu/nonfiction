@@ -12,6 +12,6 @@ Development of nonfiction.design
 
 ### KirbyCMS Admin
 
-Username : leona
-Password : 12345
-Admin: http://non.rickyboyce.com/panel
+- Username : leona
+- Password : 12345
+- Admin: http://non.rickyboyce.com/panel

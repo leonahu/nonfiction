@@ -21,7 +21,10 @@
       </div><!--
     --><div class="non">
         <div>
-          <img src="<?php echo b::asset($o->tree['imgs']['1']) ?>">
+          <div id="smoke" class="smoke">
+            <img data-depth="0.8" class="bg" src="<?php echo b::asset($o->tree['imgs']['1']) ?>">
+            <img data-depth="0.5" class="fg" src="<?php echo b::asset($o->tree['imgs']['2']) ?>">
+          </div>
           <svg xmlns="http://www.w3.org/2000/svg" width="470" height="470" viewBox="0 0 942 942">
             <defs>
               <mask id="holex">

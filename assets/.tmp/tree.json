@@ -18,7 +18,8 @@
       "Noto Sans-700": "assets/fonts/Noto Sans-700.woff2"
     },
     "imgs": {
-      "1": "assets/imgs/1.jpg",
+      "1": "assets/imgs/1.png",
+      "2": "assets/imgs/2.png",
       "favico": "assets/imgs/favico.ico",
       "favico114": "assets/imgs/favico114.png",
       "favico144": "assets/imgs/favico144.png",
@@ -33,7 +34,6 @@
         "4": "assets/imgs/featured/4.png",
         "feature 1": "assets/imgs/featured/feature 1.png"
       },
-      "logo": "assets/imgs/logo.jpg",
       "og-1200": "assets/imgs/og-1200.jpg",
       "spritesheet-icons": "assets/imgs/spritesheet-icons.png",
       "spritesheet-icons@2x": "assets/imgs/spritesheet-icons@2x.png"
@@ -41,13 +41,14 @@
     "js": {
       "libs": {
         "1.jquery": "assets/js/libs/1.jquery.js",
-        "fullpage": "assets/js/libs/fullpage.js"
+        "fullpage": "assets/js/libs/fullpage.js",
+        "paralax.min": "assets/js/libs/paralax.min.js"
       },
       "main": "assets/js/main.js"
     },
     ".tmp": {
       "css": {
-        "main": "assets/.tmp/css/main.39cb10e6.css"
+        "main": "assets/.tmp/css/main.c53013fc.css"
       },
       "fonts": {
         "Crimson Text-400": "assets/.tmp/fonts/Crimson Text-400.woff2",
@@ -56,7 +57,8 @@
         "Noto Sans-700": "assets/.tmp/fonts/Noto Sans-700.woff2"
       },
       "imgs": {
-        "1": "assets/.tmp/imgs/1.ce0d4b8a.jpg",
+        "1": "assets/.tmp/imgs/1.abf9e94c.png",
+        "2": "assets/.tmp/imgs/2.c50ac101.png",
         "favico": "assets/.tmp/imgs/favico.86475878.ico",
         "favico114": "assets/.tmp/imgs/favico114.3c33f7b8.png",
         "favico144": "assets/.tmp/imgs/favico144.7ac1ec07.png",
@@ -71,13 +73,12 @@
           "4": "assets/.tmp/imgs/featured/4.png",
           "feature 1": "assets/.tmp/imgs/featured/feature 1.png"
         },
-        "logo": "assets/.tmp/imgs/logo.f7dc9997.jpg",
         "og-1200": "assets/.tmp/imgs/og-1200.4104e601.jpg",
         "spritesheet-icons": "assets/.tmp/imgs/spritesheet-icons.d41d8cd9.png",
         "spritesheet-icons@2x": "assets/.tmp/imgs/spritesheet-icons@2x.d41d8cd9.png"
       },
       "js": {
-        "main": "assets/.tmp/js/main.0ca92402.js"
+        "main": "assets/.tmp/js/main.0f37ffdc.js"
       }
     }
   }
