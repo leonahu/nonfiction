@@ -19,12 +19,12 @@
   <meta property="og:description" content="<?php echo $page->metadescription()->html() ?>">
 
   <?php echo b::css($o->tree, ['css', 'mustache']) . b::css($o->tree, ['css']) ?>
-  <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,600|Noto+Sans:400,700" rel="stylesheet">
+  <?php //<link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,600|Noto+Sans:400,700" rel="stylesheet">?>
   <?php b::fonts(
-    //["Crimson Text", b::asset($o->tree['fonts']['Crimson Text-400']), '400'],
-    //["Crimson Text", b::asset($o->tree['fonts']['Crimson Text-600']), '600'],
-    //["Noto Sans", b::asset($o->tree['fonts']['Noto Sans-400']), '400'],
-    //["Noto Sans", b::asset($o->tree['fonts']['Noto Sans-700']), '700']
+    ["Crimson Text", b::asset($o->tree['fonts']['Crimson Text-400']), '400'],
+    ["Crimson Text", b::asset($o->tree['fonts']['Crimson Text-600']), '600'],
+    ["Noto Sans", b::asset($o->tree['fonts']['Noto Sans-400']), '400'],
+    ["Noto Sans", b::asset($o->tree['fonts']['Noto Sans-700']), '700']
   ) ?>
 </head>
 <body class="<?php echo $o->class ?>">
