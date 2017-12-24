@@ -44,6 +44,7 @@
         </div>
       </div>
       <h1>Nonfiction is a boutique full-service design agency, creating real products that surprise and delight.</h1>
+      <div class="mouse"><span></span></div>
     </div>
   </div>
 
@@ -70,15 +71,23 @@
         </div>
 
         <div class="right">
-          <h3></h3>
-          <h4></h4>
+          <div class="title">
+            <h3>Vuli: Tremor Management Wearable</h3>
+            <h4>Carla Health</h4>
+          </div>
           <div class="images">
-            <div><img src="<?php echo b::asset($o->tree['imgs']['featured']['1'])?>"></div>
-            <div><img src="<?php echo b::asset($o->tree['imgs']['featured']['3'])?>"></div>
-            <div><img src="<?php echo b::asset($o->tree['imgs']['featured']['2'])?>"></div>
-            <div><img src="<?php echo b::asset($o->tree['imgs']['featured']['4'])?>"></div>
-            <div><img src="<?php echo b::asset($o->tree['imgs']['featured']['3'])?>"></div>
-            <div><img src="<?php echo b::asset($o->tree['imgs']['featured']['2'])?>"></div>
+            <div><img data-title="Vuli: Tremor Management Wearable" data-for"Carla Health" 
+              src="<?php echo b::asset($o->tree['imgs']['featured']['1'])?>"></div>
+            <div><img data-title="Vuli: Tremor Management Wearable" data-for"Carla Health" 
+              src="<?php echo b::asset($o->tree['imgs']['featured']['3'])?>"></div>
+            <div><img data-title="Vuli: Tremor Management Wearable" data-for"Carla Health" 
+              src="<?php echo b::asset($o->tree['imgs']['featured']['2'])?>"></div>
+            <div><img data-title="Vuli: Tremor Management Wearable" data-for"Carla Health" 
+              src="<?php echo b::asset($o->tree['imgs']['featured']['4'])?>"></div>
+            <div><img data-title="Vuli: Tremor Management Wearable" data-for"Carla Health" 
+              src="<?php echo b::asset($o->tree['imgs']['featured']['3'])?>"></div>
+            <div><img data-title="Vuli: Tremor Management Wearable" data-for"Carla Health" 
+              src="<?php echo b::asset($o->tree['imgs']['featured']['2'])?>"></div>
           </div>
         </div>
       </div>
