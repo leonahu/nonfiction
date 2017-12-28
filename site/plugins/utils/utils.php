@@ -219,7 +219,7 @@ public static function replacelink($matches) {
 
 public static function title($page) {
   return $page->title() == 'Home'? $page->metatitle()->value()
-    : ($page->metatitle()->value() . " " . $site->tagname()->value());
+    : ($page->metatitle()->value() . " : Nonfiction");// . $site->tagname()->value());
 }
 
 }

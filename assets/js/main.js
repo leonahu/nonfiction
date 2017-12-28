@@ -2,14 +2,20 @@ var b = {
   init: function() {
 
     // Load fullpage scroll.
+    var timeout;
+    var body = $('body');
     $('#fullpage').fullpage({
       verticalCentered: false,
       fitToSection: false,
       onLeave: function(i, nexti, dir) {
-        $('body').addClass('sliding');
+        if (timeout) clearTimeout(timeout);
+        body.addClass('sliding slow');
+        rotator.stop();
       },
       afterLoad: function(i, nexti, dir) {
-        $('body').removeClass('sliding');
+        body.removeClass('sliding');
+        rotator.start();
+        timeout = setTimeout(function() {body.removeClass('slow');}, 500);
       } 
     });
 

@@ -67,7 +67,7 @@ c::set('routes', [
     }
   ],[
     // All other pages.
-    'pattern' => ["(/)", "(:all)"],
+    'pattern' => ["(/)", "(.+)"],
     'action' => function($path) {
       define('jview', false);
       $page = page($path == '/'? 'home' : $path);

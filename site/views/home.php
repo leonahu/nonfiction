@@ -4,7 +4,7 @@
   $o->class = $page->slug();
   $o->title = b::title($page);
   $o->tree = c::get("tree");
-  $o->home = $site->homePage();
+  //$o->home = $site->homePage();
   ob_start();
 ?>
 
@@ -62,7 +62,7 @@
             <li><a href="#"><i>05</i>Branding</a><b></b></li>
             <li><a href="#"><i>06</i>Design Strategy</a><b></b></li>
           </ul>
-          <a class="more linkspan" href="#">
+          <a class="more linkspan" href="/projects">
             <span>Check out our portfolio</span>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 12">
               <path fill-rule="evenodd" clip-rule="evenodd" d="M1.057 7.125l23.229-.063-3.563 3.5 1.469 1.375s5.719-5.438 5.719-5.906S22.13.063 22.13.063L20.786 1.5l3.406 3.469L1.088 5s-1-.031-1 1.031.969 1.094.969 1.094z"/>

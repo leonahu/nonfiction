@@ -1,0 +1,80 @@
+/* --- Projects ---------------------- */
+
+.projects .nav2 {
+  display: none;
+}
+.projects .list {
+  display: block;
+  padding-top: 150px;
+  padding-bottom: 90px;
+}
+.projects .list .box {}
+.projects .list .box:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.projects .list .box > div {
+  float: left;
+  width: 49.1%;
+  margin-bottom: 37px;
+}
+.projects .list .box > div:nth-child(2n) {
+  float: right;
+}
+.projects .list .title {}
+.projects .list h2 {
+  float: left;
+  margin-bottom: 0;
+  font-size: 1.17em;
+  line-height: 31px;
+  font-family: Noto Sans;
+  font-weight: bold;
+}
+.projects .list h3 {
+  float: right;
+  color: #747590;
+  margin-bottom: 8px;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  padding-right: 1px;
+}
+.projects .list a {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+}
+.projects .list img {
+  width: 100%;
+  height: auto;
+  vertical-align: top;
+  transition: all 0.3s ease;
+}
+.projects .list a:hover img {
+  transform: scale(1.03);
+}
+@media only screen and (max-width: 1400px) {}
+@media only screen and (max-width: 1000px) {
+  .projects .list h2 {
+    font-size: 14px;
+  }
+  .projects .list h3 {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 910px) {
+  .projects .list {
+    padding-top: 100px;
+    padding-bottom: 20px;
+  }
+  .projects .list .box {
+    max-width: 700px;
+  }
+  .projects .list .box > div {
+    float: none;
+    width: 100%;
+    margin-bottom: 25px;
+  }
+}
+@media only screen and (max-width: 520px) {}
