@@ -1,7 +1,7 @@
 /* --- Projects ---------------------- */
 
 .projects .nav2 {
-  display: none;
+  /* display: none; */
 }
 .projects .list {
   display: block;
@@ -55,7 +55,7 @@
   transform: scale(1.03);
 }
 @media only screen and (max-width: 1400px) {}
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1280px) {
   .projects .list h2 {
     font-size: 14px;
   }

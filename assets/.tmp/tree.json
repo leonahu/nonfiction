@@ -33,6 +33,8 @@
         "2": "assets/imgs/featured/2.png",
         "3": "assets/imgs/featured/3.png",
         "4": "assets/imgs/featured/4.png",
+        "5": "assets/imgs/featured/5.jpg",
+        "6": "assets/imgs/featured/6.jpg",
         "feature 1": "assets/imgs/featured/feature 1.png"
       },
       "og-1200": "assets/imgs/og-1200.jpg",
@@ -49,7 +51,7 @@
     },
     ".tmp": {
       "css": {
-        "main": "assets/.tmp/css/main.da0a3dd6.css"
+        "main": "assets/.tmp/css/main.6a573ca2.css"
       },
       "fonts": {
         "Crimson Text-400": "assets/.tmp/fonts/Crimson Text-400.woff2",
@@ -72,6 +74,8 @@
           "2": "assets/.tmp/imgs/featured/2.png",
           "3": "assets/.tmp/imgs/featured/3.png",
           "4": "assets/.tmp/imgs/featured/4.png",
+          "5": "assets/.tmp/imgs/featured/5.jpg",
+          "6": "assets/.tmp/imgs/featured/6.jpg",
           "feature 1": "assets/.tmp/imgs/featured/feature 1.png"
         },
         "og-1200": "assets/.tmp/imgs/og-1200.4104e601.jpg",
@@ -79,7 +83,7 @@
         "spritesheet-icons@2x": "assets/.tmp/imgs/spritesheet-icons@2x.d41d8cd9.png"
       },
       "js": {
-        "main": "assets/.tmp/js/main.09d483f9.js"
+        "main": "assets/.tmp/js/main.4d9eedf1.js"
       }
     }
   }

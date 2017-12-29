@@ -74,6 +74,11 @@ table: {
 .clear {
   clear: both;
 }
+.ac:after {
+  content: "";
+  display: block;
+  clear:both;
+}
 
 /* ----- Forms ----------------------------- */
 

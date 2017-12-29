@@ -4,22 +4,6 @@ var b = {
     // Load fullpage scroll.
     var timeout;
     var body = $('body');
-    $('#fullpage').fullpage({
-      verticalCentered: false,
-      fitToSection: false,
-      onLeave: function(i, nexti, dir) {
-        if (timeout) clearTimeout(timeout);
-        body.addClass('sliding slow');
-        rotator.stop();
-      },
-      afterLoad: function(i, nexti, dir) {
-        body.removeClass('sliding');
-        rotator.start();
-        timeout = setTimeout(function() {body.removeClass('slow');}, 500);
-      } 
-    });
-
-    // Loaded
     $('body').addClass('loaded');
 
     // Fast click.
@@ -28,16 +12,46 @@ var b = {
     // Navigation toggle.
     $('.ham1')[0].onclick = b.navToggle;
 
-    // Smoke paralax.
-    var smoke = $('#smoke')[0];
-    var paralax = new Parallax(smoke, {
-      relativeInput: false,
-      scalarX: 4,
-      scalarY: 4
-    });
+    if (body.hasClass('home')) {
+      $('#fullpage').fullpage({
+        verticalCentered: false,
+        fitToSection: false,
+        responsiveHeight: 665,
+        onLeave: function(i, nexti, dir) {
+          if (timeout) clearTimeout(timeout);
+          body.addClass('sliding slow');
+          rotator.stop();
+        },
+        afterLoad: function(i, nexti, dir) {
+          body.removeClass('sliding');
+          rotator.start();
+          timeout = setTimeout(function() {body.removeClass('slow');}, 500);
+        } 
+      });
 
-    // Featured links.
-    rotator.init();
+      // Smoke paralax.
+      var smoke = $('#smoke')[0];
+      var paralax = new Parallax(smoke, {
+        relativeInput: false,
+        scalarX: 4,
+        scalarY: 4
+      });
+
+      // Featured links.
+      rotator.init();
+
+    // Normal pages.
+    } else {
+      $(window).on('scroll', function() {
+      // as you scroll this will continuously be fire:
+      // if the distance you've scrolled is greater than or equal to the top position of section 2 add the in-view class 
+        if ($(window).scrollTop() > 0) {
+          body.addClass('scrolled');
+        } else {
+          body.removeClass('scrolled');
+        }
+      });
+    }
   },
 
   navToggle: function(e) {
@@ -58,11 +72,11 @@ var rotator = {
     this.imageContainer = $('#featured .images');
     this.imagelist = [];
     this.currentIndex = 0;
-    this.autoplay = true;
+    this.autoplay = false;
     this.delay = 6000;
 
     // Listners.
-    this.autoplay && this.start();
+    if (this.autoplay) this.start();
     this.links.on('mouseenter', 'a', this.mouseEnter.bind(this));
     this.links.on('mouseout', 'a', this.mouseLeave.bind(this));
     $(document).keydown(function(e) {
@@ -132,6 +146,7 @@ var rotator = {
   },
 
   start: function(i) {
+    if (!this.autoplay) return;
     if (this.interval) clearInterval(this.interval);
     this.interval = setInterval(this.next.bind(this), this.delay);
   },

@@ -110,7 +110,7 @@
 }
 .intro .mouse {
   position: absolute;
-  bottom: 101px;
+  bottom: 100px;
   left: 50%;
   margin-left: -9px;
   height: 30px;
@@ -185,16 +185,18 @@
     transform: translateY(0)
   }
 }
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1440px) {
   .intro {}
   .intro .box {}
   .intro h1 {
     max-width: 540px;
-    margin-top: 15px;
+    margin-top: 0px;
     margin-bottom: 84px;
     font-size: 21px;
     line-height: 34px;
   }
+}
+@media only screen and (max-width: 1280px) {
   .intro .mouse {
     bottom: 78px;
   }
@@ -212,6 +214,12 @@
     line-height: 34px;
   }
 }
+@media only screen and (max-width: 770px) {
+  .intro .box { 
+    padding-left: 38px;
+    padding-right: 38px;
+  }
+}
 @media only screen and (max-width: 700px) {
   .intro .mouse {
     bottom: 43px;
@@ -220,10 +228,11 @@
 @media only screen and (max-width: 520px) {
   .intro h1 {
     max-width: 540px;
-    margin-top: 24px;
+    margin-top: 7px;
     margin-bottom: 70px;
     font-size: 19px;
     line-height: 30px;
+    letter-spacing: 0;
   }
 }
 
@@ -241,7 +250,6 @@
 }
 .featured .box {
   position: relative;
-  padding-bottom: 20px;
 }
 .featured .box:after {
   content: "";
@@ -249,15 +257,17 @@
   clear: both;
 }
 .featured .left {
+  position: absolute;
+  top: 0;
+  bottom: 0;
   width: 20%;
   text-align: left;
-  margin-right: 2%;
 }
-.featured .left h2 {
-  margin-bottom: 69px;
-}
+.featured .left h2 {}
 .featured .left .more {
+  position: absolute;
   font-size: 16px;
+  bottom: 0;
 }
 .featured .left .more svg {
   width: 28px;
@@ -270,9 +280,18 @@
 .featured .left .more:hover svg {
   transform: translateX(6px);
 }
-.featured .left ul {
-  margin-bottom: 74px;
+.featured .left .list {
+  position: absolute;
+  display: table;
+  top: 0;
   width: 192%;
+  height: 100%;
+  padding-top: 24px;
+  box-sizing: border-box;
+}
+.featured .left ul {
+  display: table-cell;
+  vertical-align: middle;
 }
 .featured .left ul li {
   position: relative;
@@ -325,20 +344,19 @@
 /* right */
 
 .featured .right {
-  width: 78%;
-  /* height: 200px; */
+  width: 63%;
 }
 .featured .right .images {
   position: relative;
+  width: 100%;
   z-index: 1;
   float: right;
-  /* margin-top: 8px; */
+  padding-bottom: 68%;
+  box-sizing: border-box;
 }
+.featured .right .title {}
 .featured .right .images,
-.featured .right .title {
-  width: 80%;
-  float: right;
-}
+.featured .right .title {}
 .featured .right h3 {
   float: left;
 }
@@ -350,19 +368,25 @@
 }
 .featured .right .images img {
   width: 100%;
-  height: auto;
   position: relative;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%) translateZ(0);
+  height: 100%;
+  max-width: 300%;
+  width: auto;
 }
 .featured .right .images div {
   position: absolute;
   visibility: hidden;
+  overflow: hidden;
   top: 0;
   left: 0;
   width: 95%;
-  height: 0;
+  height: 100%;
   opacity: 1;
   /* overflow: hidden; */
-  padding-bottom: 110%;
   filter: grayscale(100%);
   transition: transform .2s cubic-bezier(.215, .61, .355, 1), opacity 0s cubic-bezier(.215, .61, .355, 1);
   transform-origin: right center;
@@ -383,12 +407,12 @@
 }
 .featured.fp-completely .right .images div:nth-child(2) {
   visibility: visible;
-  transform: scale3d(.98, .98, 1) translateX(2%) translateY(2%);
+  transform: scale3d(.98, .98, 1) translateX(2%) translateY(3.5%);
   z-index: 5;
 }
 .featured.fp-completely .right .images div:nth-child(3) {
   visibility: visible;
-  transform: scale3d(.96, .96, 1) translateX(4%) translateY(4%);
+  transform: scale3d(.96, .96, 1) translateX(4%) translateY(7%);
   z-index: 4;
 }
 .featured.fp-completely .right .images div:nth-child(4) {
@@ -397,6 +421,156 @@
 .featured.fp-completely .right .images div:nth-child(4),
 .featured.fp-completely .right .images div:nth-child(5),
 .featured.fp-completely .right .images div:nth-child(6) {
-  transform: scale3d(.94, .94, 1) translateX(6%) translateY(6%);
+  transform: scale3d(.94, .94, 1) translateX(6%) translateY(10.5%);
   z-index: 3;
+}
+@media only screen and (max-width: 1440px) {
+  .featured .left {
+    width: 22%;
+  }
+  .featured .right {
+    width: 57%;
+    min-width: 646px;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .featured .left .list {
+    padding-top: 37px;
+    width: 188%;
+  }
+  .featured .left h2 {
+    font-size: 19px;
+  }
+  .featured .left ul li a {
+    font-size: 18px;
+  }
+  .featured .left .more {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 1120px) {
+  .featured .left .list {
+    width: 168%;
+  }
+}
+@media only screen and (max-width: 1007px) {
+  .featured .box {
+    max-width: 600px;
+  }
+  .featured h2.left {
+    padding-left: 0;
+    padding-bottom: 0;
+    margin-bottom: 16px;
+    font-size: 19px;
+    line-height: 1.5em;
+  }
+  .featured .left {
+    padding-left: 28px;
+    box-sizing:  border-box;
+  }
+  .featured .left,
+  .featured .right {
+    position: relative;
+    top: auto;
+    bottom: auto;
+    width: 100%;
+    float: none;
+  }
+  .featured .left .list {
+    position: relative;
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 10px;
+  }
+  .featured .left .list ul {}
+  .featured .left .list li {}
+  .featured .left .list a {
+    font-size: 16px;
+    line-height: 1.0em;
+    padding-left: 14%;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+  }
+  .featured .left .list b {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10%;
+    padding-top: 5px;
+  }
+  .featured .left .more {
+    position: relative;
+  }
+  .featured .left .more svg {
+    width: 24px;
+  }
+  .featured .right {
+    min-width: 0;
+    overflow: hidden;
+    margin-bottom: 26px;
+  }
+  .featured .right .title {
+    position: absolute;
+  }
+  .featured .right h3 {}
+  .featured .right h4 {}
+  .featured .right .images {
+    padding-bottom: 72%;
+  }
+  .featured .right .images div {
+    transform-origin: center center;
+    transform: none !important;
+    width: 100%;
+  }
+  .featured .right .images div img {}
+}
+@media only screen and (max-width: 770px) {
+  .featured .box {
+}
+  .featured h2.left {
+    padding-left: 0;
+    padding-bottom: 0;
+    margin-bottom: 16px;
+    font-size: 17px;
+    line-height: 1.4em;
+}
+  .featured .left {
+    padding-left: 22px;
+}
+  .featured .left,
+  .featured .right {}
+  .featured .left .list {
+    padding-bottom: 2px;
+}
+  .featured .left .list ul {}
+  .featured .left .list li {}
+  .featured .left .list a {
+    font-size: 14px;
+    line-height: 1.0em;
+    padding-left: 17%;
+    padding-bottom: 9px;
+    margin-bottom: 9px;
+}
+.featured .left ul li a i {
+    padding-left: 4px;
+    margin-left: -27px;
+    margin-bottom: -11px;
+    background-color: #fff;
+}
+  .featured .left .list b {
+    width: 7%;
+    padding-top: 3px;
+}
+  .featured .left .more {}
+  .featured .left .more svg {}
+  .featured .right {
+    margin-bottom: 26px;
+}
+  .featured .right .title {}
+  .featured .right h3 {}
+  .featured .right h4 {}
+  .featured .right .images {
+}
+  .featured .right .images div {}
+  .featured .right .images div img {}
 }
