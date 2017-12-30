@@ -303,15 +303,20 @@
 @media only screen and (max-width: 1280px) {
   .nav1 {}
   .nav1 .box,
-  .nav2 .box {
+  .nav2 .box,
+  .home .nav1 .box,
+  .home .nav2 .box {
     padding-top: 27px;
     padding-bottom: 27px;
   }
-  .nav1 .logo svg {
+  .nav1 .logo svg,
+  .home .nav1 .logo svg {
     width: 204px;
   }
   .nav1 li a,
-  .nav2 li a {
+  .nav2 li a,
+  .home .nav1 li a,
+  .home .nav2 li a  {
     font-size: 15px;
   }
 }

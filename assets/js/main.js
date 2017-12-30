@@ -1,67 +1,73 @@
-var b = {
-  init: function() {
+var b = {};
 
-    // Load fullpage scroll.
-    var timeout;
-    var body = $('body');
-    $('body').addClass('loaded');
+b.init = function() {
 
-    // Fast click.
-    //window.FastClick.attach(document.body);
+  // Load fullpage scroll.
+  var timeout;
+  var body = b.body = $('body');
+  body.addClass('loaded');
+  //window.FastClick.attach(document.body);
 
-    // Navigation toggle.
-    $('.ham1')[0].onclick = b.navToggle;
+  // Navigation toggle.
+  $('.ham1')[0].onclick = b.navToggle;
 
-    if (body.hasClass('home')) {
-      $('#fullpage').fullpage({
-        verticalCentered: false,
-        fitToSection: false,
-        responsiveHeight: 665,
-        onLeave: function(i, nexti, dir) {
-          if (timeout) clearTimeout(timeout);
-          body.addClass('sliding slow');
-          rotator.stop();
-        },
-        afterLoad: function(i, nexti, dir) {
-          body.removeClass('sliding');
-          rotator.start();
-          timeout = setTimeout(function() {body.removeClass('slow');}, 500);
-        } 
-      });
+  // Home page.
+  if (body.hasClass('home')) {
 
-      // Smoke paralax.
-      var smoke = $('#smoke')[0];
-      var paralax = new Parallax(smoke, {
-        relativeInput: false,
-        scalarX: 4,
-        scalarY: 4
-      });
+    // Fullpage scrolling.
+    $('#fullpage').fullpage({
+      verticalCentered: false,
+      fitToSection: false,
+      responsiveHeight: 665,
+      onLeave: function(i, nexti, dir) {
+        if (timeout) clearTimeout(timeout);
+        body.addClass('sliding slow');
+        rotator.stop();
+      },
+      afterLoad: function(i, nexti, dir) {
+        body.removeClass('sliding');
+        rotator.start();
+        timeout = setTimeout(function() {body.removeClass('slow');}, 500);
+      } 
+    });
 
-      // Featured links.
-      rotator.init();
+    $('.mouse').on('click', function() {
+      $('#fullpage').fullpage.moveSectionDown();
+    });
 
-    // Normal pages.
-    } else {
-      $(window).on('scroll', function() {
-      // as you scroll this will continuously be fire:
-      // if the distance you've scrolled is greater than or equal to the top position of section 2 add the in-view class 
-        if ($(window).scrollTop() > 0) {
-          body.addClass('scrolled');
-        } else {
-          body.removeClass('scrolled');
-        }
-      });
-    }
-  },
+    // Smoke paralax.
+    var smoke = $('#smoke')[0];
+    var paralax = new Parallax(smoke, {
+      relativeInput: false,
+      scalarX: 4,
+      scalarY: 4
+    });
 
-  navToggle: function(e) {
-    /**
-     * Toggle navigation when ham is clicked.
-     */
-    e.preventDefault();
-    $('body').toggleClass('mm');
-    $('.ham1').toggleClass('x1');
+    // Rotating featured images.
+    rotator.init();
+
+  } else {
+
+    // Scrolling hides bottom nav.
+    var to = false;
+    $(window).on('scroll', function() {
+      if (to) clearTimeout(to);
+      else body.addClass('scrolled');
+      to = setTimeout(function() {
+        body.removeClass('scrolled');
+        to = false;
+      }, 400);
+    });
   }
+};
+
+b.navToggle = function(e) {
+  /**
+   * Toggle navigation when ham is clicked.
+   */
+  e.preventDefault();
+  $('body').toggleClass('mm');
+  $('.ham1').toggleClass('x1');
 };
 
 var rotator = {
@@ -90,7 +96,9 @@ var rotator = {
       var image = that.images.get(i);
       if (image) that.imagelist.push({
         link: $(elem),
-        image: $(image).data("index", i) // update index and return image.
+        image: $(image).data("index", i), // update index and return image.
+        title: $(image).find('img').data("title"),
+        for: $(image).find('img').data("for")
       });
     });
   },
@@ -112,10 +120,16 @@ var rotator = {
     e = e || 1;
     var image = this.imagelist[i];
     var images = $('#featured .images > div'); // needs to be fresh everytime.
+    var h3 = $('#featured .right h3');
+    var h4 = $('#featured .right h4');
 
     // Update active link.
     this.links.removeClass('active');
     image.link.addClass('active');
+
+    // Update h3 h4.
+    h3.html(image.title);
+    h4.html(image.for);
 
     // Rotate images.
     1 === e?

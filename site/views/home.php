@@ -44,7 +44,7 @@
         </div>
       </div>
       <h1>Nonfiction is a boutique full-service design agency, creating real products that surprise and delight.</h1>
-      <div class="mouse"><span></span></div>
+      <div class="mouse"><div><span></span></div></div>
     </div>
   </div>
 
@@ -56,21 +56,21 @@
 
         <div class="right">
           <div class="title ac">
-            <h3>Vuli: Tremor Management Wearable</h3>
+            <h3>Vuli: Tremor Management Wearable 1</h3>
             <h4>Carla Health</h4>
           </div>
           <div class="images">
-            <div><img data-title="Vuli: Tremor Management Wearable" data-for"Carla Health" 
+            <div><img data-title="Vuli: Tremor Management Wearable 1" data-for="Carla Health" 
               src="<?php echo b::asset($o->tree['imgs']['featured']['1'])?>"></div>
-            <div><img data-title="Vuli: Tremor Management Wearable" data-for"Carla Health" 
+            <div><img data-title="Vuli: Tremor Management Wearable 2" data-for="Carla Health" 
               src="<?php echo b::asset($o->tree['imgs']['featured']['3'])?>"></div>
-            <div><img data-title="Vuli: Tremor Management Wearable" data-for"Carla Health" 
+            <div><img data-title="Vuli: Tremor Management Wearable 3" data-for="Carla Health" 
               src="<?php echo b::asset($o->tree['imgs']['featured']['2'])?>"></div>
-            <div><img data-title="Vuli: Tremor Management Wearable" data-for"Carla Health" 
+            <div><img data-title="Vuli: Tremor Management Wearable 4" data-for="Carla Health" 
               src="<?php echo b::asset($o->tree['imgs']['featured']['4'])?>"></div>
-            <div><img data-title="Vuli: Tremor Management Wearable" data-for"Carla Health" 
+            <div><img data-title="Vuli: Tremor Management Wearable 5" data-for="Carla Health" 
               src="<?php echo b::asset($o->tree['imgs']['featured']['3'])?>"></div>
-            <div><img data-title="Vuli: Tremor Management Wearable" data-for"Carla Health" 
+            <div><img data-title="Vuli: Tremor Management Wearable 6" data-for="Carla Health" 
               src="<?php echo b::asset($o->tree['imgs']['featured']['2'])?>"></div>
           </div>
         </div>
