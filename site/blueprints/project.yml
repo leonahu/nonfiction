@@ -1,12 +1,30 @@
 title: Project
 pages: false
+
 files:
   sortable: true
+  fields:
+    alt: 
+      label: Alt
+      type: input
+    caption:
+      label: Caption
+      type: textarea
 
 fields:
   title:
-    label: Project Title
+    label: Title
     type:  title
+
+  heading: 
+    label: Subheading
+    type: input
+    width: 1/2
+
+  client: 
+    label: Client
+    type: input
+    width: 1/2
     
   coverimage:
     label: Cover Image
@@ -22,7 +40,37 @@ fields:
     default: today
     required: true
     width: 1/2
-  
-  text:
-    label: Text
-    type: textarea
+
+  tags:
+    label: Tags
+    type: tags
+
+  builder:
+    label: Sections
+    type: builder
+    fieldsets:
+      column1:
+        label: 1 Column
+        fields:
+          text:
+            label: Text or..
+            type: textarea
+          image:
+            label: ..image
+            type: image
+      column2:
+        label: 2 Columns
+        fields:
+          text1:
+            label: (Left) text or..
+            type: textarea
+          image1:
+            label: (Left) ..image
+            type: image
+          text2:
+            label: (Right) text or..
+            type: textarea
+          image2:
+            label: (Right) ..image
+            type: image
+    

@@ -1,0 +1,59 @@
+Title: Vuli: Tremor Management Wearable
+
+----
+
+Year: 2014
+
+----
+
+Text: 
+
+----
+
+Coverimage: 1.png
+
+----
+
+Date: 2017-12-22
+
+----
+
+Text2: 
+
+- 
+  street: qwef
+  zip: qwef
+  city: |
+    qwefqwef
+    qwefqwef
+
+----
+
+Builder: 
+
+- 
+  text: ""
+  image: group-2.jpg
+  _fieldset: column1
+- 
+  text: 'Placeholder text: Quiet yet distinctive, Vuli helps patients build confidence in private and public places. Consequently, their levels of anxiety go down and the tremors naturally decrease.'
+  image: ""
+  _fieldset: column1
+- 
+  text1: ""
+  image1: group-4.jpg
+  text2: ""
+  image2: group-5.jpg
+  _fieldset: column2
+
+----
+
+Heading: Funneled design and magnetic assistance for easy docking
+
+----
+
+Client: Cala Health
+
+----
+
+Tags: Wearables,Hardware,Medical

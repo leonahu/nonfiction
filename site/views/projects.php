@@ -15,7 +15,7 @@
         <h2>Vuli: Tremor Management Wearable</h2>
         <h3>Cala Health</h3>
       </div>
-      <a href="#"><img src="<?php echo b::asset($o->tree['imgs']['featured']['1']) ?>"></a>
+      <a href="http://non.rickyboyce.me/projects/vuli"><img src="<?php echo b::asset($o->tree['imgs']['featured']['1']) ?>"></a>
     </div>
     <div>
       <div class="title">

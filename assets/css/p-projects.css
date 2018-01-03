@@ -1,13 +1,29 @@
+/* --- Project ----------------------- */
+
+.project main {}
+.project .heading {}
+.project .heading .left {}
+.project .heading .right {}
+.project .heading h1 {}
+.project .heading h2 {}
+.project .heading .client {}
+.project .heading li {}
+.project .feature {}
+.project .feature .caption {}
+.project .feature .caption i {}
+.project .feature .caption span {}
+.project .feature img {
+  width: 100%;
+}
+.project .sections {}
+.project .sections .content {}
+
 /* --- Projects ---------------------- */
 
 .projects .nav2 {
   /* display: none; */
 }
-.projects .list {
-  display: block;
-  padding-top: 150px;
-  padding-bottom: 64px;
-}
+.projects .list {}
 .projects .list .box {}
 .projects .list .box:after {
   content: "";
@@ -64,10 +80,7 @@
   }
 }
 @media only screen and (max-width: 910px) {
-  .projects .list {
-    padding-top: 100px;
-    padding-bottom: 20px;
-  }
+  .projects .list {}
   .projects .list .box {
     max-width: 700px;
   }

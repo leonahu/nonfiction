@@ -31,6 +31,10 @@ public static function asset($url) {
    * @return string.
    */
 
+  // Just incase not set.
+  if (!defined('versioning')) 
+    define('versioning', false);
+
   // Tree asset.
   if (!preg_match("/user\/content/", $url))
     return cdn1 . $url;

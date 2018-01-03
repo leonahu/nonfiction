@@ -1,3 +1,8 @@
+.view > main {
+  display: block;
+  padding-top: 150px;
+  padding-bottom: 64px;
+}
 .box {
   width: 100%;
   max-width: 1425px;
@@ -29,13 +34,18 @@ h3 {}
   background-color: #56545d;
   color: #fff;
 }
+@media only screen and (max-width: 910px) {
+  .view > main {
+    padding-top: 100px;
+    padding-bottom: 20px;
+  }
+}
 @media only screen and (max-width: 770px) {
   .box {
     padding-left: 32px;
     padding-right: 32px;
   }
 }
-
 
 /* --- Links ------------------------- */
 
