@@ -5,6 +5,7 @@
       "admin": "assets/css/admin.css",
       "footer": "assets/css/footer.css",
       "header": "assets/css/header.css",
+      "p-about": "assets/css/p-about.css",
       "p-home": "assets/css/p-home.css",
       "p-projects": "assets/css/p-projects.css",
       "p": "assets/css/p.css",
@@ -21,6 +22,8 @@
     "imgs": {
       "1": "assets/imgs/1.png",
       "2": "assets/imgs/2.png",
+      "about_mardis": "assets/imgs/about_mardis.png",
+      "about_phnam": "assets/imgs/about_phnam.png",
       "favico": "assets/imgs/favico.ico",
       "favico114": "assets/imgs/favico114.png",
       "favico144": "assets/imgs/favico144.png",
@@ -33,8 +36,6 @@
         "2": "assets/imgs/featured/2.png",
         "3": "assets/imgs/featured/3.png",
         "4": "assets/imgs/featured/4.png",
-        "5": "assets/imgs/featured/5.jpg",
-        "6": "assets/imgs/featured/6.jpg",
         "feature 1": "assets/imgs/featured/feature 1.png"
       },
       "og-1200": "assets/imgs/og-1200.jpg",
@@ -51,7 +52,7 @@
     },
     ".tmp": {
       "css": {
-        "main": "assets/.tmp/css/main.6a573ca2.css"
+        "main": "assets/.tmp/css/main.8a6ec2d9.css"
       },
       "fonts": {
         "Crimson Text-400": "assets/.tmp/fonts/Crimson Text-400.woff2",
@@ -62,6 +63,8 @@
       "imgs": {
         "1": "assets/.tmp/imgs/1.abf9e94c.png",
         "2": "assets/.tmp/imgs/2.c50ac101.png",
+        "about_mardis": "assets/.tmp/imgs/about_mardis.53f30545.png",
+        "about_phnam": "assets/.tmp/imgs/about_phnam.841813ad.png",
         "favico": "assets/.tmp/imgs/favico.86475878.ico",
         "favico114": "assets/.tmp/imgs/favico114.3c33f7b8.png",
         "favico144": "assets/.tmp/imgs/favico144.7ac1ec07.png",
@@ -74,8 +77,6 @@
           "2": "assets/.tmp/imgs/featured/2.png",
           "3": "assets/.tmp/imgs/featured/3.png",
           "4": "assets/.tmp/imgs/featured/4.png",
-          "5": "assets/.tmp/imgs/featured/5.jpg",
-          "6": "assets/.tmp/imgs/featured/6.jpg",
           "feature 1": "assets/.tmp/imgs/featured/feature 1.png"
         },
         "og-1200": "assets/.tmp/imgs/og-1200.4104e601.jpg",
@@ -83,7 +84,7 @@
         "spritesheet-icons@2x": "assets/.tmp/imgs/spritesheet-icons@2x.d41d8cd9.png"
       },
       "js": {
-        "main": "assets/.tmp/js/main.4d9eedf1.js"
+        "main": "assets/.tmp/js/main.211a9356.js"
       }
     }
   }

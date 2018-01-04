@@ -4,6 +4,7 @@ Title: About
 
 Intro: 
 
+#The Studio
 Nonfiction is a design studio based in San Francisco.
 We specialize in industrial design, branding, strategy and packaging design.
 
@@ -19,7 +20,7 @@ Text: The approach of using subpages for storing content sections of a page can 
 
 Owner1: 
 
-## Phanm Bageley
+### Phanm Bageley
 
 Phnam is a director-level industrial designer with over ten years experience designing and leading teams in a very wide range of product categories including Consumer Electronics, Luxury Products, Action Sports, Soft Goods, Packaging, and Aerospace. 
 
@@ -32,7 +33,7 @@ Education: Strate Collège (France), Designskolen Kolding (Denmark), Sasakawa In
 
 Owner2: 
 
-## Mardis Bageley
+### Mardis Bageley
 
 Mardis is an industrial design director with 10 years experience in consumer electronics, lifestyle, soft goods and packaging. 
 
@@ -49,3 +50,11 @@ Bottom:
 ### Interested in working with us?
 Send us an email and your portfolio to
 jobs [at] nonfiction.design
+
+----
+
+Image1: about_phnam.png
+
+----
+
+Image2: about_mardis.png

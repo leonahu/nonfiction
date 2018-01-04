@@ -6,8 +6,30 @@
   $o->tree = c::get("tree");
   $o->tags = str::split($page->tags(),',');
   $o->cover = $page->coverimage()->toFile();
+
+  function caption($image) {
+    if (!$image->caption()->value()) 
+      return "<img src='". b::asset($image->url()) ."'>";
+    else return 
+      "<div class='captioned'><img src='". b::asset($image->url()) ."'>".
+      "<div class='caption init'>".
+      "<i><div class='close'><b></b><b></b></div></i>".
+      "<span><span>". $image->caption() ."</span></span>".
+      "</div></div>";
+  }
+
   ob_start();
 ?>
+
+
+<div class="sidebar">
+  <div class="box">
+    <div>
+      <a href="#" class="next">Next</a>
+      <a href="#" class="prev">Previous</a>
+    </div>
+  </div>
+</div>
 
 
 <main>
@@ -23,9 +45,10 @@
       </ul>
     </div>
   </div>
+
   <div class="box boxfeature">
     <div class="feature">
-      <div class="caption">
+      <div class="caption init">
         <i><div class="close"><b></b><b></b></div></i>
         <span><span><?php echo $o->cover->caption() ?></span></span>
       </div>
@@ -42,19 +65,21 @@
     $image1 = $page->image($s->image1());
     $text2 = $s->text2();
     $image2 = $page->image($s->image2());
-    echo "<section class='$type'><div class='box content'>";
+    echo "<section class='$type'><div class='box content ac'>";
 
     if ($type == 'column1') {
       if ($text1->value) echo $text1->kt();
-      else echo "<div class='captioned'><img src='". b::asset($image1->url()) ."'>".
-        "<div class='caption'>".
-        "<i><div class='close'><b></b><b></b></div></i>".
-        "<span><span>". $image1->caption() ."</span></span>".
-        "</div></div>";
+      else echo caption($image1);
 
     } else {
+      echo "<div>";
       if ($text1->value) echo $text1->kt();
-      else echo "<img src='". b::asset($image1->url()) ."'>";
+      else echo caption($image1);
+
+      echo "</div><div>";
+      if ($text2->value) echo $text2->kt();
+      else echo caption($image2);
+      echo "</div>";
     }
     
     echo "</div></section>";

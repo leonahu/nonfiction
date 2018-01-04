@@ -1,12 +1,13 @@
 /* --- Project ----------------------- */
 
 .project .view {
-    padding-bottom: 120;
-}
-.project .box {
-  max-width: 1356px;
+  padding-bottom: 120;
 }
 .project main {}
+.project main,
+.project section {
+  padding: 0 0 10px 0;
+}
 .project .heading {
   margin-bottom: 60px;
 }
@@ -37,18 +38,25 @@
 }
 .project .feature img {
   width: 100%;
+  padding-bottom: 5px;
 }
 
 /* --- Project sections -------------- */
 
-.project section {
-  padding: 0 0 10px 0;
-}
+.project section {}
 .project section .box {}
 .project section .content {}
 .project .column1 {}
+.project .column2 {}
 .project .column2 .box {
-    text-align: left;
+  text-align: left;
+}
+.project .column2 .box > div {
+  float: left;
+  width: 45.5%;
+}
+.project .column2 .box > div:nth-child(2n) {
+  float: right;
 }
 
 /* --- Project captions -------------- */
@@ -62,6 +70,7 @@
   cursor: pointer;
   min-width: 48px;
   min-height: 48px;
+  overflow: hidden;
   transition: transform 0.2s ease, margin 0.2s ease;
 }
 .project .caption i {
@@ -113,7 +122,7 @@
 }
 .project .caption span span {
   display: block;
-  padding: 34px 35px;
+  padding: 40px 35px 45px;
   font-style: normal;
   transition: all 0.2s ease-out;
 }
@@ -123,20 +132,25 @@
 .project .caption.on {
   margin-top: 0;
   margin-left: 0;
-  transform: translateX(-70px);
+  transform: translateX(-55px);
 }
 .project .caption.on > span {
   opacity: 1;
-  max-width: 538px;
-  max-height: 190px;
   transition: max-width ease-out 0.2s, max-height 0.2s 0.05s ease-out, opacity 0.2s ease;
 }
-.project .caption span span {
-}
-
+.project .caption span span {}
 .project .caption.on > i {}
 .project .caption.on .close {
   transform: rotate(45deg);
+}
+
+/* Init */
+
+.project .caption.init > span {
+  position: absolute;
+  width: 460px;
+  max-width: none !important;
+  max-height: none !important;
 }
 
 /* --- Projects ---------------------- */
@@ -213,3 +227,51 @@
   }
 }
 @media only screen and (max-width: 520px) {}
+
+/* --- Sidenav ----------------------- */
+
+.sidebar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+}
+.sidebar.fixed {
+  position: fixed;
+}
+.sidebar .box {}
+.sidebar .box > div {
+  position: absolute;
+  left: 7px;
+  top: 310px;
+  z-index: 3;
+}
+.sidebar a {
+  position: relative;
+  display: block;
+  transform: rotate(-90deg);
+  /* transform: rotate(-90deg) translateZ(0px); */
+  border: 1px solid #eee;
+  padding: 20px 38px;
+  transform-origin: center center;
+  font-size: 17px;
+  /* width: 98px; */
+  /* height: 146px; */
+  margin-left: -37px;
+  margin-bottom: 137px;
+}
+.sidebar a:hover {}
+.sidebar .prev {
+  border-top-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+}
+.sidebar .next {
+  margin-top: 39px;
+  border-top-width: 0;
+  border-bottom-width: 0;
+  /* border-right-width: 0; */
+}
+.sidebar.fixed .box > div {
+  top: 76px;
+}

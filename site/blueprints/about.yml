@@ -10,7 +10,17 @@ fields:
   title:
     label: Title
     type: title
-    
+  
+  image1:
+    label: Left image
+    type: image
+    width: 1/2
+
+  image2:
+    label: Right image
+    type: image
+    width: 1/2
+
   intro:
     label: Intro
     type: textarea

@@ -49,9 +49,18 @@ b.init = function() {
   } else {
 
     // Caption toggle.
-    $('.caption').on('click', function(e) {
-      $(this).toggleClass('on');
+    b.captions($('.caption'));
+
+    // Sidebar.
+    $(window).scroll(function() {
+      var y = $(document).scrollTop();
+      if (y > 235) $('.sidebar').addClass('fixed');
+      else $('.sidebar').removeClass('fixed');
     });
+    //$('.sidebar').stickySidebar({
+      //topSpacing: 60,
+      //bottomSpacing: 60
+    //});
 
     // Scrolling hides bottom nav.
     var to = false;
@@ -64,6 +73,43 @@ b.init = function() {
       }, 400);
     });
   }
+};
+
+b.captions = function(elems) {
+
+  // Find natual width/height.
+  $(window).on('resize', getsizes);
+  getsizes();
+  
+  function getsizes() {
+    var html = '';
+    elems.each(function(i) {
+      $(this).addClass('init');
+      var text = $(this).children('span');
+      var id = $(this).attr('id');
+      var w = text.width();
+      var h = text.height();
+
+      // No id.
+      if (!id) {
+        id = 'c'+i;
+        $(this).attr('id', id);
+      }
+
+      html += '#'+id+'.on > span{max-width:'+w+'px; max-height:'+h+'px;}';
+      $(this).removeClass('init');
+      //console.log(w,h);
+    });
+
+    // Update css.
+    $('#captioncss').remove();
+    $('<style id="captioncss" type="text/css">'+html+'</style>').appendTo('head');
+  }
+  
+  // Listen to clicks.
+  elems.on('click', function(e) {
+    $(this).toggleClass('on');
+  });
 };
 
 b.navToggle = function(e) {

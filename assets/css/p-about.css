@@ -1,0 +1,102 @@
+/* --- About ------------------------- */
+
+.about {}
+.about .view > main {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 0;
+  z-index: 1;
+}
+.about main .heading {
+  position: relative;
+  min-height: 67vh;
+}
+.about main .heading .middle {
+  max-width: 47%;
+  margin: 0 auto;
+  padding: 25px 0 25px;
+}
+.about main .heading .left,
+.about main .heading .right {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  overflow: hidden;
+  transition: all 0.6s 1s ease;
+}
+.about main .heading .left {
+  left: 0;
+  right: 50%;
+}
+.about main .heading .right {
+  right: 0;
+  left: 50%;
+}
+.about main .heading img {
+  margin-bottom: 0;
+  box-shadow: none;
+  /* width: 100%; */
+  /* position: relative; */
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%) translateZ(0);
+  height: 102%;
+  max-width: 300%;
+  width: auto;
+}
+
+/* Loaded animation */
+
+.about.loaded main .heading .left {
+  transform: translateX(-60%);
+}
+.about.loaded main .heading .right {
+  transform: translateX(60%);
+}
+
+/* Sections */
+
+.about main + section {
+  margin-top: -29px;
+}
+.about section {
+  clear: both;
+}
+.about section .box {
+  margin-bottom: 75px;
+}
+.about section .left,
+.about section .right {
+  margin-top: 65px;
+  width: 41%;
+  padding-right: 9%;
+  text-align: left;
+}
+.about section .left {
+  border-right: 1px solid #eee;
+}
+.about section .right {
+  padding-right: 0;
+}
+.about .content h2 {}
+.about .content h3 {
+  font-size: 30px;
+}
+.about .content h4 {}
+
+/* Who */
+
+.about section {
+  opacity: 0;
+  transition: all 0.4s 0.45s ease;
+}
+.about.loaded section {
+  opacity: 1;
+}
+
+/* Work with us */
+
+.about section.workwith .content {
+  text-align: center;
+}
