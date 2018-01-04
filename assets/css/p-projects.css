@@ -1,22 +1,143 @@
 /* --- Project ----------------------- */
 
+.project .view {
+    padding-bottom: 120;
+}
+.project .box {
+  max-width: 1356px;
+}
 .project main {}
-.project .heading {}
-.project .heading .left {}
-.project .heading .right {}
+.project .heading {
+  margin-bottom: 60px;
+}
+.project .heading .left {
+  text-align: left;
+}
+.project .heading .right {
+  text-align: right;
+}
 .project .heading h1 {}
-.project .heading h2 {}
-.project .heading .client {}
-.project .heading li {}
-.project .feature {}
-.project .feature .caption {}
-.project .feature .caption i {}
-.project .feature .caption span {}
+.project .heading h2 {
+  margin-bottom: 6px;
+}
+.project .heading .client {
+  font-size: 17px;
+}
+.project .heading li {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.7em;
+}
+.project .feature {
+  position: relative;
+}
+.project .boxfeature,
+.project section .box {
+  padding-left: 124px;
+}
 .project .feature img {
   width: 100%;
 }
-.project .sections {}
-.project .sections .content {}
+
+/* --- Project sections -------------- */
+
+.project section {
+  padding: 0 0 10px 0;
+}
+.project section .box {}
+.project section .content {}
+.project .column1 {}
+.project .column2 .box {
+    text-align: left;
+}
+
+/* --- Project captions -------------- */
+
+.project .caption {
+  position: absolute;
+  top: 0;
+  left: auto;
+  margin-top: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+  min-width: 48px;
+  min-height: 48px;
+  transition: transform 0.2s ease, margin 0.2s ease;
+}
+.project .caption i {
+  position: absolute;
+  display: block;
+  right: 0;
+  bottom: 0;
+  width: 48px;
+  height: 48px;
+  background: #fff;
+  z-index: 2;
+}
+.project .caption .close {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  margin-top: -5px;
+  margin-left: -5px;
+  transform-origin: center center;
+  transition: all 0.2s 0.15s ease-out;
+}
+.project .caption .close b {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  margin-top: 4px;
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+  border-radius: 10px;
+  transform-origin: center;
+}
+.project .caption .close b:nth-child(2n) {
+  transform: rotate(90deg);
+}
+.project .caption > span {
+  display: block;
+  max-width: 0px;
+  max-height: 0px;
+  font-size: 17px;
+  text-align: left;
+  overflow: hidden;
+  opacity: 0;
+  background: #fff;
+  transition: max-width ease-out 0.25s, max-height 0.25s ease-out, opacity 0.2s ease-out;
+}
+.project .caption span span {
+  display: block;
+  padding: 34px 35px;
+  font-style: normal;
+  transition: all 0.2s ease-out;
+}
+.project .caption span {
+  color: transparent;
+}
+.project .caption.on {
+  margin-top: 0;
+  margin-left: 0;
+  transform: translateX(-70px);
+}
+.project .caption.on > span {
+  opacity: 1;
+  max-width: 538px;
+  max-height: 190px;
+  transition: max-width ease-out 0.2s, max-height 0.2s 0.05s ease-out, opacity 0.2s ease;
+}
+.project .caption span span {
+}
+
+.project .caption.on > i {}
+.project .caption.on .close {
+  transform: rotate(45deg);
+}
 
 /* --- Projects ---------------------- */
 
@@ -55,6 +176,7 @@
   font-weight: 400;
   letter-spacing: 0.5px;
   padding-right: 1px;
+  font-family: Noto Sans;
 }
 .projects .list a {
   display: block;

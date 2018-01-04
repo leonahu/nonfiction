@@ -16,7 +16,8 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 html,
-body {
+body,
+.project .caption span span {
   color: #484773;
   color: #1b1b1d;
 }
@@ -35,6 +36,14 @@ a:hover {
 i {
   font-style: normal;
 }
+.featured .right h4,
+.project .heading li {
+  color: #bdbcc1;
+}
+.project .heading h2,
+.project .heading .client {
+  color: #606175;
+}
 h1,
 h2,
 h3,
@@ -42,6 +51,7 @@ h4,
 h5 {
   margin: 0;
   padding: 0;
+  font-family: "Crimson text";
 }
 ul,
 li {

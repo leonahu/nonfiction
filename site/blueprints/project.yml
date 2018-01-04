@@ -16,7 +16,7 @@ fields:
     label: Title
     type:  title
 
-  heading: 
+  subheading: 
     label: Subheading
     type: input
     width: 1/2
@@ -52,10 +52,10 @@ fields:
       column1:
         label: 1 Column
         fields:
-          text:
+          text1:
             label: Text or..
             type: textarea
-          image:
+          image1:
             label: ..image
             type: image
       column2:

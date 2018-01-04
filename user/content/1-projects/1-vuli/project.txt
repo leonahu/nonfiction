@@ -10,7 +10,7 @@ Text:
 
 ----
 
-Coverimage: 1.png
+Coverimage: feature-1.png
 
 ----
 
@@ -32,12 +32,12 @@ Text2:
 Builder: 
 
 - 
-  text: ""
-  image: group-2.jpg
+  text1: ""
+  image1: group-2.jpg
   _fieldset: column1
 - 
-  text: 'Placeholder text: Quiet yet distinctive, Vuli helps patients build confidence in private and public places. Consequently, their levels of anxiety go down and the tremors naturally decrease.'
-  image: ""
+  text1: 'Placeholder text: Quiet yet distinctive, Vuli helps patients build confidence in private and public places. Consequently, their levels of anxiety go down and the tremors naturally **decrease**.'
+  image1: ""
   _fieldset: column1
 - 
   text1: ""
@@ -57,3 +57,7 @@ Client: Cala Health
 ----
 
 Tags: Wearables,Hardware,Medical
+
+----
+
+Subheading: Funneled design and magnetic assistance for easy docking

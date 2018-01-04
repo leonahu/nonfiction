@@ -48,6 +48,11 @@ b.init = function() {
 
   } else {
 
+    // Caption toggle.
+    $('.caption').on('click', function(e) {
+      $(this).toggleClass('on');
+    });
+
     // Scrolling hides bottom nav.
     var to = false;
     $(window).on('scroll', function() {
