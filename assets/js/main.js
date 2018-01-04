@@ -5,7 +5,7 @@ b.init = function() {
   // Load fullpage scroll.
   var timeout;
   var body = b.body = $('body');
-  body.addClass('loaded');
+  setTimeout(function(){ body.addClass('loaded'); }, 100);
   //window.FastClick.attach(document.body);
 
   // Navigation toggle.
