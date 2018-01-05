@@ -260,6 +260,9 @@
   margin-left: -37px;
   margin-bottom: 137px;
 }
+.sidebar a.off {
+  color: #bebfc5;
+}
 .sidebar a:hover {}
 .sidebar .prev {
   border-top-width: 0;

@@ -6,6 +6,8 @@
   $o->tree = c::get("tree");
   $o->tags = str::split($page->tags(),',');
   $o->cover = $page->coverimage()->toFile();
+  $o->next = $page->nextVisible();
+  $o->prev = $page->prevVisible();
 
   function caption($image) {
     if (!$image->caption()->value()) 
@@ -25,8 +27,8 @@
 <div class="sidebar">
   <div class="box">
     <div>
-      <a href="#" class="next">Next</a>
-      <a href="#" class="prev">Previous</a>
+      <?php echo '<a href="'. ($o->next? $o->next->url() : "#") .'" class="next '. ($o->next? '' : "off") .'">Next</a>'; ?>
+      <?php echo '<a href="'. ($o->prev? $o->prev->url() : "#") .'" class="prev '. ($o->prev? '' : "off") .'">Previous</a>'; ?>
     </div>
   </div>
 </div>
