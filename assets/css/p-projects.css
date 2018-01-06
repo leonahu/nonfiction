@@ -17,7 +17,9 @@
 .project .heading .right {
   text-align: right;
 }
-.project .heading h1 {}
+.project .heading h1 {
+    margin-bottom: 4px;
+}
 .project .heading h2 {
   margin-bottom: 6px;
 }
@@ -38,7 +40,7 @@
 }
 .project .feature img {
   width: 100%;
-  padding-bottom: 5px;
+  /* padding-bottom: 5px; */
 }
 
 /* --- Project sections -------------- */
@@ -50,13 +52,20 @@
 .project .column2 {}
 .project .column2 .box {
   text-align: left;
+  display: table;
 }
-.project .column2 .box > div {
-  float: left;
+.project .column2 .box > div,
+.project .column2 .box > figure {
+  display: table-cell;
   width: 45.5%;
 }
+.project .column2 .box > span {
+}
+.project .column2 .box > div {
+  vertical-align: middle;
+}
+.project .column2 .box > figure:nth-child(2n),
 .project .column2 .box > div:nth-child(2n) {
-  float: right;
 }
 
 /* --- Project captions -------------- */

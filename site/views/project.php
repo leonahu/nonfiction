@@ -71,17 +71,16 @@
 
     if ($type == 'column1') {
       if ($text1->value) echo $text1->kt();
-      else echo caption($image1);
+      else echo "<figure>". caption($image1)."</figure>"; 
 
     } else {
-      echo "<div>";
-      if ($text1->value) echo $text1->kt();
-      else echo caption($image1);
+      if ($text1->value) echo "<div>". $text1->kt()."</div>";
+      else echo "<figure>". caption($image1)."</figure>"; 
 
-      echo "</div><div>";
-      if ($text2->value) echo $text2->kt();
-      else echo caption($image2);
-      echo "</div>";
+      echo "<span>&nbsp;</span>";
+
+      if ($text2->value) echo "<div>". $text2->kt()."</div>";
+      else echo "<figure>". caption($image2)."</figure>"; 
     }
     
     echo "</div></section>";

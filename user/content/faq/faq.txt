@@ -1,0 +1,147 @@
+Title: FAQ
+
+----
+
+Heading1: Design & Philosophy
+
+----
+
+Questions1: 
+
+- 
+  question: >
+    Have we been more liberated by the
+    changes in technology?
+  answer: |
+    The answer is easy. Because you didn’t
+    do you f**king work and you pretended
+    you did.
+    
+    So now, go back to finish your work
+    and stop whining.
+- 
+  question: Why did Phnam yell at me?
+  answer: |
+    The answer is easy. Because you didn’t
+    do you f**king work and you pretended
+    you did.
+    
+    So now, go back to finish your work
+    and stop whining.
+- 
+  question: 'Should I whine at Mardis if Phnam yells  at me for producing poor work?'
+  answer: |
+    The answer is easy. Because you didn’t
+    do you f**king work and you pretended
+    you did.
+    
+    So now, go back to finish your work
+    and stop whining.
+- 
+  question: >
+    Should I quit being a designer because I
+    clearly have nothing intelligent to say?
+  answer: |
+    The answer is easy. Because you didn’t
+    do you f**king work and you pretended
+    you did.
+    
+    So now, go back to finish your work
+    and stop whining.
+
+----
+
+Heading2: Manufacturing &  Engineering
+
+----
+
+Questions2: 
+
+- 
+  question: 'I have no clue with how to make my  doodle into a real prototype, where should I get started?'
+  answer: |
+    The answer is easy. Because you didn’t
+    do you f**king work and you pretended
+    you did.
+    
+    So now, go back to finish your work
+    and stop whining.
+- 
+  question: Do I need to learn Chinese?
+  answer: |
+    The answer is easy. Because you didn’t
+    do you f**king work and you pretended
+    you did.
+    
+    So now, go back to finish your work
+    and stop whining.
+- 
+  question: >
+    What if I only have $ budget but I want
+    to materials cost $$$$ ?
+  answer: |
+    The answer is easy. Because you didn’t
+    do you f**king work and you pretended
+    you did.
+    
+    So now, go back to finish your work
+    and stop whining.
+- 
+  question: How hard is hardware engineering?
+  answer: |
+    The answer is easy. Because you didn’t
+    do you f**king work and you pretended
+    you did.
+    
+    So now, go back to finish your work
+    and stop whining.
+
+----
+
+Heading3: Client  Questions
+
+----
+
+Questions3: 
+
+- 
+  question: >
+    Have we been more liberated by the
+    changes in technology?
+  answer: |
+    The answer is easy. Because you didn’t
+    do you f**king work and you pretended
+    you did.
+    
+    So now, go back to finish your work
+    and stop whining.
+- 
+  question: Why Phnam yelled at me?
+  answer: |
+    The answer is easy. Because you didn’t
+    do you f**king work and you pretended
+    you did.
+    
+    So now, go back to finish your work
+    and stop whining.
+- 
+  question: 'Should I whine at Mardis if Phnam yells  at me for producing poor work?'
+  answer: |
+    The answer is easy. Because you didn’t
+    do you f**king work and you pretended
+    you did.
+    
+    So now, go back to finish your work
+    and stop whining.
+- 
+  question: >
+    Should I quit being a designer because I
+    clearly have nothing intellengent to
+    say?
+  answer: |
+    The answer is easy. Because you didn’t
+    do you f**king work and you pretended
+    you did.
+    
+    So now, go back to finish your work
+    and stop whining.

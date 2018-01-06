@@ -1,0 +1,67 @@
+title: FAQ
+files: false
+pages: false
+
+options: 
+  template: false  
+  status: false  
+  
+fields:
+  title:
+    label: Title
+    type: title
+
+  heading1:
+    label: Heading 1
+    type: input
+    width: 1/2
+
+  heading2:
+    label: Heading 2
+    type: input
+    width: 1/2
+
+  heading3:
+    label: Heading 3
+    type: input
+    width: 1/2
+  
+  questions1:
+    label: Questions 1
+    type: structure
+    entry: >
+      {{question}}
+    fields:
+      question:
+        label: Question
+        type: text
+      answer:
+        label: Answer
+        type: textarea
+  
+  questions2:
+    label: Questions 2
+    type: structure
+    entry: >
+      {{question}}
+    fields:
+      question:
+        label: Question
+        type: text
+      answer:
+        label: Answer
+        type: textarea
+  
+  questions3:
+    label: Questions 3
+    type: structure
+    entry: >
+      {{question}}
+    fields:
+      question:
+        label: Question
+        type: text
+      answer:
+        label: Answer
+        type: textarea
+

@@ -1,0 +1,17 @@
+/* --- FAQ --------------------------- */
+
+.faq {}
+.faq .view {}
+.faq main {}
+.faq .box {}
+.faq .box > div {}
+.faq .box > div h2 {}
+.faq .box > div > div {}
+.faq .box > div > div h3 {}
+.faq .box > div > div span {}
+.faq .box > div .close {}
+.faq .box > div .close.on {}
+
+/* Open */
+
+.faq .box > div > div.on {}

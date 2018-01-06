@@ -6,6 +6,7 @@
       "footer": "assets/css/footer.css",
       "header": "assets/css/header.css",
       "p-about": "assets/css/p-about.css",
+      "p-faq": "assets/css/p-faq.css",
       "p-home": "assets/css/p-home.css",
       "p-projects": "assets/css/p-projects.css",
       "p": "assets/css/p.css",
@@ -52,7 +53,7 @@
     },
     ".tmp": {
       "css": {
-        "main": "assets/.tmp/css/main.8a6ec2d9.css"
+        "main": "assets/.tmp/css/main.da652a48.css"
       },
       "fonts": {
         "Crimson Text-400": "assets/.tmp/fonts/Crimson Text-400.woff2",
@@ -84,7 +85,7 @@
         "spritesheet-icons@2x": "assets/.tmp/imgs/spritesheet-icons@2x.d41d8cd9.png"
       },
       "js": {
-        "main": "assets/.tmp/js/main.211a9356.js"
+        "main": "assets/.tmp/js/main.82e4550c.js"
       }
     }
   }

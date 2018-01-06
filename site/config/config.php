@@ -3,6 +3,7 @@
 // --- Configurations -------------------
 
 if ($_SERVER['HTTP_HOST'] == 'non.rickyboyce.me') {
+  define('prod', false);
   define('debug', true);
   define('cache', false);
   define("build", false); 
@@ -10,6 +11,7 @@ if ($_SERVER['HTTP_HOST'] == 'non.rickyboyce.me') {
   define("bust", false);
 
 } else {
+  define('prod', true);
   define('debug', true);
   define('cache', true);
   define("build", true);
@@ -51,6 +53,7 @@ c::set('tree', $tree);
 c::set('license', 'put your license key here');
 c::set('debug', debug);
 c::set('cache', cache);
+c::set('thumbs.driver', prod? 'im' : 'gd');
 c::set('kirbytext.filters', array());
 c::set('panel.stylesheet', 'assets/css/admin.css');
 

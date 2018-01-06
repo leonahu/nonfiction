@@ -50,9 +50,9 @@
   <div class="box">
     <div class="navbg"></div>
     <ul>
-      <li><a href='#' class='link'>Clients</a></li><!--
+      <li><a href='/clients' class='link'>Clients</a></li><!--
     --><li><a href='/projects' class='link'>Work</a></li><!--
-    --><li><a href='#' class='link'>FAQ</a></li>
+    --><li><a href='/faq' class='link'>FAQ</a></li>
     </ul>
   </div>
 </nav>
@@ -85,11 +85,11 @@
   <div class="box">
     <div class="navbg"></div>
     <ul>
-      <li><a href='#' class='link'>About</a></li><!--
+      <li><a href='/about' class='link'>About</a></li><!--
     --><li><a href='#' class='link'>Contact</a></li><!--
-    --><li><a href='#' class='link'>Clients</a></li><!--
+    --><li><a href='/clients' class='link'>Clients</a></li><!--
     --><li><a href='/projects' class='link'>Work</a></li><!--
-    --><li><a href='#' class='link'>FAQ</a></li>
+    --><li><a href='/faq' class='link'>FAQ</a></li>
     </ul>
   </div>
 </nav>
