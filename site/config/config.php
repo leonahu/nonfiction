@@ -56,6 +56,13 @@ c::set('cache', cache);
 c::set('thumbs.driver', prod? 'im' : 'gd');
 c::set('kirbytext.filters', array());
 c::set('panel.stylesheet', 'assets/css/admin.css');
+c::set('simplemde.kirbytagHighlighting', false);
+c::set('simplemde.buttons', array(
+  "bold",
+  "italic",
+  "link",
+  "email"
+));
 
 // Routes.
 c::set('routes', [

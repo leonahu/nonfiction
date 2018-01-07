@@ -17,10 +17,16 @@
       <div class="left">
         <img src="<?php echo b::asset($page->image1()->toFile()->url()) ?>" 
           alt="<?php echo $page->image1()->toFile()->alt() ?>">
+        <svg xmlns="http://www.w3.org/2000/svg" width="470" height="470" viewBox="0 0 942 942">
+          <path fill-rule="evenodd" clip-rule="evenodd" fill="#fff" d="M86 670l199-200L86 272 272 86l199 198L668 88l188 184-198 197 198 200-185 187-200-200-199 198L86 670z"/>
+        </svg>
       </div>
       <div class="right">
         <img src="<?php echo b::asset($page->image2()->toFile()->url()) ?>" 
           alt="<?php echo $page->image2()->toFile()->alt() ?>">
+        <svg xmlns="http://www.w3.org/2000/svg" width="470" height="470" viewBox="0 0 942 942">
+          <path fill-rule="evenodd" clip-rule="evenodd" fill="#fff" d="M86 670l199-200L86 272 272 86l199 198L668 88l188 184-198 197 198 200-185 187-200-200-199 198L86 670z"/>
+        </svg>
       </div>
     </div>
   </div>

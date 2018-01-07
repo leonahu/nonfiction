@@ -1,0 +1,71 @@
+Title: Clients
+
+----
+
+Image1: 
+
+----
+
+Image2: 
+
+----
+
+Intro: 
+
+----
+
+Owner1: 
+
+----
+
+Owner2: 
+
+----
+
+Bottom: 
+
+----
+
+Heading1: Who Do We Work With
+
+----
+
+Heading2: Our Clients
+
+----
+
+Text: The studio engages in projects of varying scales and scopes both locally and internationally. Our clients are artisans, obsessives, game-changers. From start-ups to global brands, our engagements are founded on a shared passion for design and creativity, down to every last detail.
+
+----
+
+Clients: 
+
+- 
+  category: Technologies
+  text: |
+    Client name
+    Client name
+    Client name
+    Client name
+- 
+  category: Health care
+  text: |
+    Client name
+    Client name
+- 
+  category: Jewelry
+  text: |
+    Client name
+    Client name
+- 
+  category: Aerospace
+  text: Client name
+- 
+  category: Soft goods
+  text: |
+    Client name
+    Client name
+    Client name
+- 
+  category: "Kid's products"
+  text: Client name

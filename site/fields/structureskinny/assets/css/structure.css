@@ -1,0 +1,60 @@
+.structureskinny {
+  padding-bottom: 0.5em;
+}
+.structureskinny-entries {
+  border: 1px dashed #ADB8C5;
+  padding: 0.25em;
+}
+.structureskinny-entry {
+  background: #fff;
+  position: relative;
+}
+.structureskinny-entry.ui-sortable-placeholder {
+  /*margin-bottom: 0px;*/
+}
+.structureskinny-entry.ui-sortable-helper > * {
+  border-bottom-color: #fff;
+}
+.structureskinny-entry:last-child {
+  margin-bottom: 0;
+}
+.structureskinny-entry-content {
+  padding: 9px 1.5em;
+  border-bottom: 1px solid #efefef;
+  cursor: move;
+  overflow: hidden;
+  height: 43px;
+  line-height: 26px;
+}
+.structureskinny-entry-options {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-left: 1px solid #efefef;
+}
+.structureskinny-entry-options ul {
+  
+}
+.structureskinny-entry-options li {
+    display: block;
+  
+    float: left;
+    border-right: 1px solid #efefef;
+    background: #fff;
+}
+.structureskinny-entry-options .btn {
+  padding: 13px 1.5em;
+  width: 100%;
+  margin-bottom: -1px;
+}
+.structureskinny-empty {
+  padding: 1.5em;
+  background: #ddd;
+}
+.structureskinny-empty a {
+  border-bottom: 2px solid #aaa;
+  margin-left: .5em;
+}
+.structureskinny-empty a:hover {
+  border-color: #000;
+}

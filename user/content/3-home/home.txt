@@ -15,3 +15,14 @@ Title2: We bring concepts to shelves, fiction into reality.
 ----
 
 Link: Check out our portfolio
+
+----
+
+Projects: 
+
+- 
+  project: vuli
+- 
+  project: sound
+- 
+  project: shuttle-collection

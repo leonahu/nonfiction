@@ -1,0 +1,40 @@
+title: Clients
+files: false
+pages: false
+
+options:
+  template: false 
+  status: false  
+  
+fields:
+  title:
+    label: Title
+    type: title
+  
+  heading1:
+    label: Heading 1
+    type: input
+    width: 1/2
+
+  heading2:
+    label: Heading 2
+    type: input
+    width: 1/2
+
+  text:
+    label: Text
+    type: textarea
+
+  clients:
+    label: Client Columns
+    type: structure
+    style: table
+    entry:
+      - category
+    fields:
+      category:
+        label: Category
+        type: text
+      text:
+        label: Text
+        type: simplemde

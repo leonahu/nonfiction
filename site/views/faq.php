@@ -12,10 +12,10 @@
   <div class="box ac">
     <div>
       <h2><?php echo $page->heading1() ?></h2>
-      <?php foreach ($page->questions1()->toStructure() as $q) { ?>
-      <div>
+      <?php foreach ($page->questions1()->toStructure() as $i=>$q) { ?>
+      <div class="qa <?php if (!$i) echo 'on' ?>">
         <h3><?php echo $q->question() ?></h3>
-        <span><?php echo $q->answer()->qt() ?></span>
+        <span class="text"><span><?php echo $q->answer()->qt() ?></span></span>
         <div class="close"><b></b><b></b></div>
       </div>
       <?php } ?>
@@ -23,10 +23,10 @@
 
     <div>
       <h2><?php echo $page->heading2() ?></h2>
-      <?php foreach ($page->questions2()->toStructure() as $q) { ?>
-      <div>
+      <?php foreach ($page->questions2()->toStructure() as $i=>$q) { ?>
+      <div class="qa <?php if (!$i) echo 'on' ?>">
         <h3><?php echo $q->question() ?></h3>
-        <span><?php echo $q->answer()->qt() ?></span>
+        <span class="text"><span><?php echo $q->answer()->qt() ?></span></span>
         <div class="close"><b></b><b></b></div>
       </div>
       <?php } ?>
@@ -34,10 +34,10 @@
 
     <div>
       <h2><?php echo $page->heading3() ?></h2>
-      <?php foreach ($page->questions3()->toStructure() as $q) { ?>
-      <div>
+      <?php foreach ($page->questions3()->toStructure() as $i=>$q) { ?>
+      <div class="qa <?php if (!$i) echo 'on' ?>">
         <h3><?php echo $q->question() ?></h3>
-        <span><?php echo $q->answer()->qt() ?></span>
+        <span class="text"><span><?php echo $q->answer()->qt() ?></span></span>
         <div class="close"><b></b><b></b></div>
       </div>
       <?php } ?>

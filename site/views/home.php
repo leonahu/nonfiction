@@ -4,7 +4,6 @@
   $o->class = $page->slug();
   $o->title = b::title($page);
   $o->tree = c::get("tree");
-  //$o->home = $site->homePage();
   ob_start();
 ?>
 

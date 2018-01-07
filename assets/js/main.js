@@ -48,6 +48,8 @@ b.init = function() {
 
   } else {
 
+    b.faq();
+
     // Caption toggle.
     b.captions($('.caption'));
 
@@ -119,6 +121,57 @@ b.navToggle = function(e) {
   e.preventDefault();
   $('body').toggleClass('mm');
   $('.ham1').toggleClass('x1');
+};
+
+b.faq = function() {
+  var style = false;
+  var blocks = $('.qa .text');
+
+  if (blocks.length) {
+    // Need a lag for div > ul height to set in.
+    setTimeout(calc, 20);
+    setTimeout(function() { blocks.addClass('initiated'); }, 100);
+    $(window).on('resize', calc);
+    $('.qa').on('click', expand);
+  }
+
+  function calc() {
+    var css = '';
+    var heights = [];
+    blocks.each(function(i) {
+      var text = $(this);
+      var span = text.children('span');
+      var qa = text.parent();
+      var id = qa.attr('id');
+
+      // Add ID if not already made.
+      if (!id) {
+        id = "qa"+i;
+        qa.attr('id', id);
+      }
+
+      // Add css.
+      css += '#qa'+ i +'.on .text{max-height:'+ span.height() +'px}';
+    });
+
+    if (!style) {
+      style = $('<style>' + css + '</style>');
+      $('body').append(style);
+      
+    } else {
+      style.html(css);
+    }
+  }
+
+  function expand(e) {
+    e.preventDefault();
+    var qa = $(this);
+    var on = qa.hasClass('on');
+
+    // Close opened qa in column.
+    qa.parent().find('.qa.on').removeClass('on');
+    if (!on) qa.addClass('on');
+  }
 };
 
 var rotator = {

@@ -8,13 +8,35 @@ fields:
     type:  text
 
   intro:
-    label: Intro
-    type:  textarea
+    label: Intro text
+    type:  text
+    width: 1/2
 
   title2:
-    label: Feature Work Title
+    label: Featured work heading
     type:  text
+    width: 1/2
 
   link:
-    label: Portfolio link
+    label: Portfolio link text
     type:  text
+    width: 1/2
+
+  projects: 
+    label: Featured projects
+    type: structure
+    style: table
+    entry: >
+      {{project}}
+    fields:
+      project:
+        label: Project
+        type: select 
+        options: query
+        required: true
+        query:
+          page: /projects
+          fetch: children
+          value: '{{uid}}'
+          text: '{{title}}'
+

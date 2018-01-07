@@ -29,8 +29,9 @@ fields:
   questions1:
     label: Questions 1
     type: structure
-    entry: >
-      {{question}}
+    style: table
+    entry:
+      - question
     fields:
       question:
         label: Question
@@ -42,8 +43,9 @@ fields:
   questions2:
     label: Questions 2
     type: structure
-    entry: >
-      {{question}}
+    style: table
+    entry:
+      - question
     fields:
       question:
         label: Question
@@ -55,8 +57,9 @@ fields:
   questions3:
     label: Questions 3
     type: structure
-    entry: >
-      {{question}}
+    style: table
+    entry:
+      - question
     fields:
       question:
         label: Question
