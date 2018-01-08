@@ -89,8 +89,11 @@
 .about section {
   clear: both;
 }
-.about section .box {
+.about section.who .box {
   margin-bottom: 75px;
+}
+.about section.workwith .box {
+  margin-bottom: 30px;
 }
 .about section .left,
 .about section .right {

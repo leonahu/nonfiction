@@ -2,7 +2,7 @@ Title: Home
 
 ----
 
-Intro: Nonfiction is a boutique full-service design agency,  creating real products that surprise and delight.
+Intro: Nonfiction is a boutique, full-service design agency. We create real products that surprise and delight.
 
 ----
 
@@ -24,17 +24,25 @@ Projects:
   title: Wearable Technology
   project: sound
 - 
-  title: Medical / Health Care
-  project: shuttle-collection
+  title: Audio
+  project: archt
 - 
   title: Fashion Soft Goods
   project: shuttle-collection
 - 
   title: Consumer IoT
-  project: shuttle-collection
+  project: intel
 - 
   title: Branding
   project: sound
 - 
   title: Design Strategy
   project: shuttle-collection
+
+----
+
+Metatitle: Nonfiction
+
+----
+
+Metadescription: 

@@ -1,0 +1,51 @@
+Title: Emirates Wireless Charging Station
+
+----
+
+Subheading: Bringing Convenience to a Luxury Space
+
+----
+
+Client: Intel
+
+----
+
+Coverimage: intel01.png
+
+----
+
+Date: 2018-01-08
+
+----
+
+Tags: Technology,Consumer,Airport
+
+----
+
+Builder: 
+
+- 
+  text1: >
+    Wireless charging technology from Intel,
+    designed for Emirates First Class
+    Lounges all over the world. Integrating
+    our designs into an environment rich in
+    unique materials and textures.
+  image1: ""
+  _fieldset: column1
+- 
+  text1: ""
+  image1: intel_2.png
+  _fieldset: column1
+- 
+  text1: ""
+  image1: intel_3.png
+  text2: ""
+  image2: intel_4.png
+  _fieldset: column2
+- 
+  text1: ""
+  image1: intel_5.png
+  text2: 'Emirates First Class Lounges: Color way of dusted gold and soft beige.'
+  image2: ""
+  _fieldset: column2

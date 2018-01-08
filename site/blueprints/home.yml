@@ -9,7 +9,6 @@ fields:
   intro:
     label: Intro text
     type:  text
-    width: 1/2
 
   title2:
     label: Featured work heading
