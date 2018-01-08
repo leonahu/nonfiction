@@ -18,7 +18,7 @@
   text-align: right;
 }
 .project .heading h1 {
-    margin-bottom: 4px;
+  margin-bottom: 4px;
 }
 .project .heading h2 {
   margin-bottom: 6px;
@@ -59,14 +59,12 @@
   display: table-cell;
   width: 45.5%;
 }
-.project .column2 .box > span {
-}
+.project .column2 .box > span {}
 .project .column2 .box > div {
   vertical-align: middle;
 }
 .project .column2 .box > figure:nth-child(2n),
-.project .column2 .box > div:nth-child(2n) {
-}
+.project .column2 .box > div:nth-child(2n) {}
 
 /* --- Project captions -------------- */
 

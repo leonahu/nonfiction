@@ -26,11 +26,15 @@ fields:
     label: Featured projects
     type: structure
     style: table
-    entry: >
-      {{project}}
+    entry: 
+      - title
+      - project
     fields:
+      title:
+        label: Title
+        type: input
       project:
-        label: Project
+        label: Featured project
         type: select 
         options: query
         required: true
@@ -39,4 +43,4 @@ fields:
           fetch: children
           value: '{{uid}}'
           text: '{{title}}'
-
+      

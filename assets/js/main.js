@@ -130,7 +130,7 @@ b.faq = function() {
   if (blocks.length) {
     // Need a lag for div > ul height to set in.
     setTimeout(calc, 20);
-    setTimeout(function() { blocks.addClass('initiated'); }, 100);
+    setTimeout(function() { blocks.addClass('initiated'); }, 300);
     $(window).on('resize', calc);
     $('.qa').on('click', expand);
   }

@@ -41,7 +41,8 @@
 
 /* --- Nav1/2 ------------------------ */
 
-.nav1, .nav2 {
+.nav1,
+.nav2 {
   opacity: 0.99;
 }
 .nav1 .box,
@@ -316,7 +317,7 @@
   .nav1 li a,
   .nav2 li a,
   .home .nav1 li a,
-  .home .nav2 li a  {
+  .home .nav2 li a {
     font-size: 15px;
   }
 }

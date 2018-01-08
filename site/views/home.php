@@ -42,7 +42,7 @@
           </svg>
         </div>
       </div>
-      <h1>Nonfiction is a boutique full-service design agency, creating real products that surprise and delight.</h1>
+      <h1><?php echo $page->intro()->kt() ?></h1>
       <div class="mouse"><div><span></span></div></div>
     </div>
   </div>
@@ -51,42 +51,47 @@
   <div id="featured" class="featured section">
     <div>
       <div class="box">
-        <h2 class="left">We bring concepts to shelves, fiction into reality.</h2>
+        <h2 class="left"><?php echo $page->title2()->kt() ?></h2>
 
+        <?php 
+          // Get projects data.
+          $projs = [];
+          foreach ($page->projects()->toStructure() as $item) {
+            $proj = $site->find('projects')->find($item->project());
+            array_push($projs, (object) [
+              "heading"=> $item->title(),
+              "url" => $proj->url(),
+              "title" => $proj->title(),
+              "client" => $proj->client(),
+              "cover" => b::asset($proj->coverimage()->toFile()->resize(811, 578)->url())
+            ]);
+          }
+        ?>  
         <div class="right">
           <div class="title ac">
-            <h3>Vuli: Tremor Management Wearable 1</h3>
-            <h4>Carla Health</h4>
+            <h3><?php echo $projs[0]->title ?></h3>
+            <h4><?php echo $projs[0]->client ?></h4>
           </div>
           <div class="images">
-            <div><img data-title="Vuli: Tremor Management Wearable 1" data-for="Carla Health" 
-              src="<?php echo b::asset($o->tree['imgs']['featured']['1'])?>"></div>
-            <div><img data-title="Vuli: Tremor Management Wearable 2" data-for="Carla Health" 
-              src="<?php echo b::asset($o->tree['imgs']['featured']['3'])?>"></div>
-            <div><img data-title="Vuli: Tremor Management Wearable 3" data-for="Carla Health" 
-              src="<?php echo b::asset($o->tree['imgs']['featured']['2'])?>"></div>
-            <div><img data-title="Vuli: Tremor Management Wearable 4" data-for="Carla Health" 
-              src="<?php echo b::asset($o->tree['imgs']['featured']['4'])?>"></div>
-            <div><img data-title="Vuli: Tremor Management Wearable 5" data-for="Carla Health" 
-              src="<?php echo b::asset($o->tree['imgs']['featured']['3'])?>"></div>
-            <div><img data-title="Vuli: Tremor Management Wearable 6" data-for="Carla Health" 
-              src="<?php echo b::asset($o->tree['imgs']['featured']['2'])?>"></div>
+            <?php foreach ($projs as $p) { ?>
+              <div>
+                <img data-title="<?php echo $p->title ?>" data-for="<?php echo $p->client ?>" src="<?php echo $p->cover ?>">
+              </div>
+            <?php } ?>
           </div>
         </div>
 
         <div class="left">
           <div class="list">
             <ul>
-              <li class="active"><a href="#"><i>01</i>Wearable Technology</a><b></b></li>
-              <li><a href="#"><i>02</i>Medical / Health Care</a><b></b></li>
-              <li><a href="#"><i>03</i>Fashion Soft Goods</a><b></b></li>
-              <li><a href="#"><i>04</i>Consumer IoT</a><b></b></li>
-              <li><a href="#"><i>05</i>Branding</a><b></b></li>
-              <li><a href="#"><i>06</i>Design Strategy</a><b></b></li>
+              <?php foreach ($projs as $i => $p) { ?>
+                <?php $active = !$i? 'class="active"' : ''; ?>
+                <?php echo "<li $active><a href='$p->url'><i>0". ($i+1) ."</i>$p->heading</a><b></b></li>" ?>
+              <?php } ?>
             </ul>
           </div>
           <a class="more linkspan" href="/projects">
-            <span>Check out our portfolio</span>
+            <span><?php echo $page->link() ?></span>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 12">
               <path fill-rule="evenodd" clip-rule="evenodd" d="M1.057 7.125l23.229-.063-3.563 3.5 1.469 1.375s5.719-5.438 5.719-5.906S22.13.063 22.13.063L20.786 1.5l3.406 3.469L1.088 5s-1-.031-1 1.031.969 1.094.969 1.094z"/>
             </svg>

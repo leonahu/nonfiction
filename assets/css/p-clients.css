@@ -56,35 +56,35 @@
 .clients .bg,
 .clients .grad1,
 .clients .grad2 {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    z-index: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 0;
 }
 .clients .grad1 {
-    z-index: 2;
-    background-color: #000000;
-    opacity: 0.2;
+  z-index: 2;
+  background-color: #000000;
+  opacity: 0.2;
 }
 .clients .grad2 {
-    z-index: 2;
-    background-image: linear-gradient(213deg, #7bada9, #ff8f6b 35%, #5f6fa0 63%, #5f6fa0 77%, #5f6fa0);
-    opacity: 0.7;
+  z-index: 2;
+  background-image: linear-gradient(213deg, #7bada9, #ff8f6b 35%, #5f6fa0 63%, #5f6fa0 77%, #5f6fa0);
+  opacity: 0.7;
 }
 .clients .video {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    overflow: hidden;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  overflow: hidden;
 }
 .clients video {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%) translateZ(0);
-    height: 100%;
-    max-width: 300%;
-    width: auto;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%) translateZ(0);
+  height: 100%;
+  max-width: 300%;
+  width: auto;
 }

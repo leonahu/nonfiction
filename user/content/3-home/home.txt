@@ -21,8 +21,20 @@ Link: Check out our portfolio
 Projects: 
 
 - 
+  title: Wearable Technology
   project: vuli
 - 
+  title: Medical / Health Care
   project: sound
 - 
+  title: Fashion Soft Goods
+  project: shuttle-collection
+- 
+  title: Consumer IoT
+  project: vuli
+- 
+  title: Branding
+  project: sound
+- 
+  title: Design Strategy
   project: shuttle-collection
