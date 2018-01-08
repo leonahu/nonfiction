@@ -2,7 +2,7 @@ Title: Shuttle Collection
 
 ----
 
-Subheading: Random subheading here
+Subheading: Collaboration with Divka, A/W 2016
 
 ----
 
@@ -10,7 +10,7 @@ Client: Eternal Luxe x Divka
 
 ----
 
-Coverimage: 3.png
+Coverimage: shuttle_01.png
 
 ----
 
@@ -18,8 +18,43 @@ Date: 2018-01-05
 
 ----
 
-Tags: Shuttle,Collection,Eternal
+Tags: Softgoods,Luxury,Fashion
 
 ----
 
 Builder: 
+
+- 
+  text1: |
+    The Shuttle Collection: made in collaboration with Divka, a fashion house based in Tokyo.
+    
+    A distintive take on the every day handbag featuring our beautiful custom-dyed leather, signature loop handle design and our exclusive leather covered wood slats at the bottom. The Shuttle Barrel Bag has one large zippered compartment and two drop side pockets.
+  image1: ""
+  _fieldset: column1
+- 
+  text1: ""
+  image1: shuttle_02.png
+  text2: >
+    The construction is extremely rugged,
+    with each panel fully lined with denim
+    or leather. The Shuttle Barrel Bag is
+    hand and machine stitched, cut and
+    finished by hand.
+  image2: ""
+  _fieldset: column2
+- 
+  text1: ""
+  image1: imageb1.jpg
+  text2: ""
+  image2: imageb2.jpg
+  _fieldset: column2
+- 
+  text1: ""
+  image1: shuttle_03.png
+  _fieldset: column1
+- 
+  text1: ""
+  image1: imageb5.jpg
+  text2: ""
+  image2: imageb6.jpg
+  _fieldset: column2

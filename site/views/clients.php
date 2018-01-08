@@ -2,8 +2,9 @@
   $o = (object)[];
   $o->page = $page->slug();// $page->intendedTemplate();
   $o->class = "clients";
-  $o->title = b::title($page);
+  $o->title = b::title($page, $site);
   $o->tree = c::get("tree");
+  $o->heading = $page->heading1()->value;
   ob_start();
 ?>
 
@@ -12,7 +13,7 @@
   <div class="box">
     <div class="content">
       <div class="box2">
-        <h1><?php echo $page->heading1() ?></h1>
+        <?php if ($o->heading) { ?><h1><?php echo $o->heading ?></h1><?php } ?>
         <?php echo $page->text()->kt() ?>
         <h2><?php echo $page->heading2() ?></h2>
         <div class="columns"><!--

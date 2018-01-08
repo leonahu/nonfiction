@@ -22,16 +22,16 @@ Projects:
 
 - 
   title: Wearable Technology
-  project: vuli
+  project: sound
 - 
   title: Medical / Health Care
-  project: sound
+  project: shuttle-collection
 - 
   title: Fashion Soft Goods
   project: shuttle-collection
 - 
   title: Consumer IoT
-  project: vuli
+  project: shuttle-collection
 - 
   title: Branding
   project: sound

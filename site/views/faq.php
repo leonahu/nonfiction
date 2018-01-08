@@ -2,7 +2,7 @@
   $o = (object)[];
   $o->page = $page->slug();// $page->intendedTemplate();
   $o->class = "faq";
-  $o->title = b::title($page);
+  $o->title = b::title($page, $site);
   $o->tree = c::get("tree");
   ob_start();
 ?>

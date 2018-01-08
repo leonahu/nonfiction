@@ -2,17 +2,27 @@ title: Site
 
 fields:
   title:
-    label: Title
+    label: Admin name
     type:  text
+    width: 1/2
 
-  author:
-    label: Author
+  tagname:
+    label: Appended meta title
     type:  text
+    width: 1/2
 
-  description:
-    label: Description
+  contactheading:
+    label: Contact Heading
+    type:  input
+
+  contact:
+    label: Contact text
     type:  textarea
-    
+
   copyright:
     label: Copyright
+    type:  textarea
+
+  google:
+    label: Google Anyaltic Code
     type:  textarea

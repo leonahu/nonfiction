@@ -221,9 +221,9 @@ public static function replacelink($matches) {
   return u($matches[0]);
 }
 
-public static function title($page) {
-  return $page->title() == 'Home'? $page->metatitle()->value()
-    : ($page->metatitle()->value() . " : Nonfiction");// . $site->tagname()->value());
+public static function title($page, $site) {
+  $main = $page->metatitle()->value()? $page->metatitle() : $page->title();
+  return $page->isHomePage()? $main : $main . " " . $site->tagname()->value();
 }
 
 }

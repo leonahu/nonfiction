@@ -158,25 +158,21 @@ nav a.link:hover:after {
   margin-top: -6px;
   margin-bottom: 30px;
 }
-.content p,
-.content p > img,
-.content > img,
-.content figure,
-.content div > img,
-.content .captioned img,
-.boxfeature .feature img {
-  margin: 0;
-  margin-bottom: 45px;
-}
 .content p {
   max-width: 800px;
-  margin-top: -5px;
+  margin-top: 0;
+  margin-top: -8px;
   margin-left: auto;
   margin-right: auto;
-  /* padding-bottom: 5px; */
+  margin-bottom: 42px;
   font-size: 17px;
 }
+.content img,
+.boxfeature .feature img {
+  margin-bottom: 45px;
+}
 .content figure {
+  margin: 0;
   /* box-shadow: 0px 25px 61px 0px rgba(0, 0, 0, 0.08); */
 }
 .content figure a {}

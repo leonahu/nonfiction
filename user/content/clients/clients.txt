@@ -26,7 +26,7 @@ Bottom:
 
 ----
 
-Heading1: Who Do We Work With
+Heading1: 
 
 ----
 
@@ -34,38 +34,68 @@ Heading2: Our Clients
 
 ----
 
-Text: The studio engages in projects of varying scales and scopes both locally and internationally. Our clients are artisans, obsessives, game-changers. From start-ups to global brands, our engagements are founded on a shared passion for design and creativity, down to every last detail.
+Text: 
+
+Nonfiction collaborates on projects of varying scale and scope, both locally and internationally. 
+Our clients are artisans, obsessives, and game-changers. From start-ups to global brands, 
+our engagements are founded on a shared passion for creative innovation, down to the last detail.
 
 ----
 
 Clients: 
 
 - 
-  category: Technologies
+  category: Technology
   text: |
-    Client name
-    Client name
-    Client name
-    Client name
+    Intel
+    Facebook
+    Comcast
+    Corning
+    Symantec
+    Dell
+    HP
+    Seagate\
+- 
+  category: Audio
+  text: |
+    Human
+    The House of Marley
+    Mark Levinson
+    Altec Lansing
+    Plantronics
+    JBL Synthesis
+    Denon
+    The Sharper Image
+- 
+  category: 'Fashion & Lifestyle'
+  text: |
+    Lancel
+    Eternal Luxe
+    Tinsel
+    Teva
+    Case Logic
+    Twelve South
+    Altego
 - 
   category: Health care
   text: |
-    Client name
-    Client name
+    Philips
+    Cala Health
+    Halo Neuroscience
+    R2 Technology
+    BodyMedia
+    Vorso
 - 
-  category: Jewelry
+  category: Packaging
   text: |
-    Client name
-    Client name
+    Klipsch
+    Henge Docks
+    Felt Audio
+    June
+    Archt
 - 
-  category: Aerospace
-  text: Client name
-- 
-  category: Soft goods
+  category: Kids and Pets
   text: |
-    Client name
-    Client name
-    Client name
-- 
-  category: "Kid's products"
-  text: Client name
+    Edwin The Duck
+    Scollar
+    Nummy

@@ -33,7 +33,7 @@ Tags: Wearables,headphone,audio
 Builder: 
 
 - 
-  text1: "CAPACITIVE TOUCH CONTROL - Sound's touch-control system transcends other touch technologies by taking advantage of the device's outer real estate. Using natural human motion, listeners can execute multiple playback controls -- including volume adjustment, pause, play, skip a track, replaying a track, accept/deny call, and additional feature controls."
+  text1: "Human is building a headphone for you.  A headphone inspired by the design of your ear.  A headphone that attaches comfortably and securely as you move through each part of your day.  And we're building a headphone that allows you to hear and connect with others and your surroundings in entirely new ways."
   image1: ""
   _fieldset: column1
 - 
@@ -42,7 +42,16 @@ Builder:
   _fieldset: column1
 - 
   text1: ""
-  image1: human_image_2.png
-  text2: "Sound's design provides the space to house our advanced hardware and support our superior software, while still being unobtrusive and securely attached to the listener's head."
+  image1: human_image_1.png
+  text2: |
+    Sound's touch-control system transcends other touch technologies by taking advantage of the device's outer real estate. Using natural human motion, listeners can execute multiple playback controls -- including volume adjustment, pause, play, skip a track, replaying a track, accept/deny call, and additional feature controls.
+    
+    Sound's design provides the space to house our advanced hardware and support our superior software, while still being unobtrusive and securely attached to the listener's head.
   image2: ""
+  _fieldset: column2
+- 
+  text1: ""
+  image1: human_image_5.png
+  text2: ""
+  image2: human_image_4.png
   _fieldset: column2

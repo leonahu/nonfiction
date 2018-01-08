@@ -11,3 +11,23 @@ Description:
 ----
 
 Copyright: © 2017 Nonficiton
+
+----
+
+Tagname: 
+
+----
+
+Contactheading: Get in touch
+
+----
+
+Contact: 
+
+info [at] nonfiction.design
++1 (805)-455-7581
+San Francisco, California
+
+----
+
+Google: 

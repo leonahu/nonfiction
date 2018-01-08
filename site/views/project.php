@@ -2,7 +2,7 @@
   $o = (object)[];
   $o->page = $page->slug();// $page->intendedTemplate();
   $o->class = "project";
-  $o->title = b::title($page);
+  $o->title = b::title($page, $site);
   $o->tree = c::get("tree");
   $o->tags = str::split($page->tags(),',');
   $o->cover = $page->coverimage()->toFile();

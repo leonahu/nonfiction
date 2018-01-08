@@ -11,6 +11,11 @@ b.init = function() {
   // Navigation toggle.
   $('.ham1')[0].onclick = b.navToggle;
 
+  // Contact toggle
+  $('.cbtn').on('click', function() {
+    body.toggleClass('con');
+  });
+
   // Home page.
   if (body.hasClass('home')) {
 
@@ -59,18 +64,21 @@ b.init = function() {
       if (y > 235) $('.sidebar').addClass('fixed');
       else $('.sidebar').removeClass('fixed');
     });
-    //$('.sidebar').stickySidebar({
-      //topSpacing: 60,
-      //bottomSpacing: 60
-    //});
+
+    // scrolling logo on normal pages.
+    $(window).scroll(function() {
+      var y = $(document).scrollTop();
+      if (y > 5) body.addClass('scrolled');
+      else body.removeClass('scrolled')
+    });
 
     // Scrolling hides bottom nav.
     var to = false;
     $(window).on('scroll', function() {
       if (to) clearTimeout(to);
-      else body.addClass('scrolled');
+      else body.addClass('scrolling');
       to = setTimeout(function() {
-        body.removeClass('scrolled');
+        body.removeClass('scrolling');
         to = false;
       }, 400);
     });

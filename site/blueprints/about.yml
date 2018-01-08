@@ -10,7 +10,7 @@ fields:
   title:
     label: Title
     type: title
-  
+
   image1:
     label: Left image
     type: image
@@ -38,4 +38,15 @@ fields:
     type: textarea
 
 
+  line2: 
+    type: line
 
+  metatitle:
+    label: Meta Title
+    type: text
+    width: 1/3
+
+  metadescription:
+    label: Meta Description
+    type: text
+    width: 2/3
