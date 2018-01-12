@@ -16,6 +16,9 @@
   margin: 0 auto;
   padding: 25px 0 25px;
 }
+.about main .heading .middle svg {
+  width: 26px;
+}
 .about main .heading .left,
 .about main .heading .right {
   position: absolute;
@@ -33,19 +36,19 @@
   left: 50%;
 }
 .about main .heading img {
+  width: 100%;
+  height: 100%;
+  max-width: none;
   margin-bottom: 0;
   box-shadow: none;
-  /* width: 100%; */
-  /* position: relative; */
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%) translateZ(0);
-  height: 102%;
-  max-width: 300%;
-  width: auto;
+  object-fit: cover;
+  object-position: center right;
 }
-.about main .heading svg {
+.about main .heading .right img {
+  object-position: center left;
+}
+.about main .left svg,
+.about main .right svg {
   position: absolute;
   width: 230px;
   height: 400px;
@@ -54,10 +57,9 @@
   margin-right: -115px;
   margin-top: -200px;
   transition: all 0.5s 1s ease;
+  z-index: 1;
 }
-.about main .heading .right svg {
-  position: absolute;
-  top: 50%;
+.about main .right svg {
   right: auto;
   left: 0px;
   margin-left: -115px;
@@ -71,14 +73,13 @@
 .about.loaded main .heading .right {
   transform: translateX(60%);
 }
-.about.loaded main .heading svg {
-  opacity: 0;
+.about.loaded main .left svg,
+.about.loaded main .right svg {
+  opacity: 0.5;
+  transform: translateX(95px);
 }
-.about.loaded main .heading svg {
-  transform: translateX(80px);
-}
-.about.loaded main .heading .right svg {
-  transform: translateX(-80px);
+.about.loaded main .right svg {
+  transform: translateX(-95px);
 }
 
 /* Sections */
@@ -97,7 +98,7 @@
 }
 .about section .left,
 .about section .right {
-  margin-top: 65px;
+  margin-top: 134px;
   width: 41%;
   padding-right: 9%;
   text-align: left;
@@ -108,7 +109,13 @@
 .about section .right {
   padding-right: 0;
 }
-.about .content h2 {}
+.about .content h2 {
+  position: absolute;
+  left: 0;
+  bottom: -37px;
+  width: 100%;
+  text-align: center;
+}
 .about .content h3 {
   font-size: 30px;
 }
@@ -116,16 +123,105 @@
 
 /* Who */
 
-.about section {
-  opacity: 0;
-  transition: all 0.4s 0.45s ease;
-}
-.about.loaded section {
-  opacity: 1;
+.about.loaded .view section {
+  transition-delay: 0.45s;
 }
 
 /* Work with us */
 
 .about section.workwith .content {
   text-align: center;
+}
+@media only screen and (max-width: 800px) {
+  .about main .heading {}
+  .about main .heading .middle {
+    max-width: 100%;
+    padding: 0;
+  }
+  .about .content h2 {
+    position: relative;
+    left: auto;
+    bottom: auto;
+    padding-top: 2px;
+  }
+  .about main .heading .middle svg {}
+  .about main .heading .left,
+  .about main .heading .right {
+    position: relative;
+    left: auto;
+    right: auto;
+    top: auto;
+    bottom: auto;
+    float: left;
+    width: 50%;
+    height: 0;
+    padding-bottom: 91%;
+    margin-bottom: 38px;
+  }
+  .about.loaded main .heading .left,
+  .about.loaded main .heading .right {
+    transform: translateX(0px);
+    transition: none;
+  }
+  .about main .heading .left {}
+  .about main .heading .right {
+}
+  .about main .heading img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .about main .left svg,
+  .about main .right svg,
+  .about.loaded main .left svg,
+  .about.loaded main .right svg {
+    transform: translateX(0px);
+    opacity: 1;
+    width: 56%;
+    height: 56%;
+    margin-right: -28%;
+    margin-top: -50%;
+    transition: none;
+  }
+  .about main .right svg {
+    margin-left: -28%;
+  }
+  /* Section */
+  .about .content h3 {
+    font-size: 25px;
+  }
+  .about main + section {
+    margin-top: 0px;
+  }
+  .about section .left,
+  .about section .right {
+    margin-top: 0px;
+    /* margin-bottom: 5px; */
+    width: 100%;
+    margin-top: 0;
+    padding-right: 0;
+    text-align: left;
+    border-width: 0;
+  }
+  .about section .right {
+    margin-top: 2px;
+    padding-top: 35px;
+    border-top: 1px solid #eee;
+  }
+  .about section.who .box {
+    margin-bottom: 17px;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .about main .heading .left,
+  .about main .heading .right {
+    padding-left: 25px;
+    margin-left: -25px;
+  }
+  .about main .heading .right {
+    margin-left: 0;
+    margin-right: -25px;
+  }
 }

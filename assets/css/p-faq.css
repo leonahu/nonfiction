@@ -15,12 +15,25 @@
   margin-right: 0;
 }
 .faq .box > div h2 {
+  position: relative;
   font-family: Noto Sans;
-  font-weight: 800;
+  font-weight: bold;
   font-size: 22px;
   line-height: 1.5em;
+  margin-bottom: 40px;
+  /* margin-bottom: 30px; */
+}
+.faq .box > div h2 span {
+  display: block;
   max-width: 178px;
-  margin-bottom: 46px;
+}
+.faq .box > div h2 svg {
+  position: absolute;
+  display: block;
+  width: 24px;
+  right: 4px;
+  bottom: 1px;
+  margin-left: 20px;
 }
 .faq .qa {
   position: relative;
@@ -37,6 +50,7 @@
 .faq .qa h3 {
   font-size: 21px;
   line-height: 1.3em;
+  padding-right: 33px;
 }
 .faq .qa .text {
   display: block;
@@ -46,6 +60,7 @@
   overflow: hidden;
 }
 .faq .qa .text.initiated {
+  -webkit-transition: max-height 0.3s ease-out;
   transition: max-height 0.3s ease-out;
 }
 .faq .qa .text span:before {
@@ -59,14 +74,94 @@
   left: auto;
   right: 11px;
   margin: 0;
+  -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
-.faq .qa .close.on {}
 
 /* Open */
 
-.faq .qa.on {}
-.faq .qa.on .text {}
 .faq .qa.on .close {
+  -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
+}
+@media only screen and (max-width: 1050px) {
+  .faq main .box > div {
+    width: 30.3%;
+    margin-right: 4.5%;
+  }
+  .faq .box > div h2 {
+    font-size: 19px;
+  }
+  .faq .box > div h2 span {
+    max-width: 149px;
+  }
+  .faq .qa h3 {
+    font-size: 19px;
+  }
+  .faq .qa .text {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 740px) {
+  .faq main .box > div {
+    float: none;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    max-width: 550px;
+    clear: both;
+  }
+  .faq .box > div:last-child {
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+  .faq .box > div h2 {
+    margin-bottom: 30px;
+  }
+  .faq .qa {
+    padding: 19px 0 16px;
+  }
+  .faq .qa .text span {
+    display: block;
+  }
+  .faq .qa .text span:before {
+    height: 8px;
+  }
+  .faq .qa .text span:after {
+    content: "";
+    display: block;
+    height: 2px;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .faq main .box > div {
+    margin-bottom: 40px;
+  }
+  .faq .box > div h2 {
+    font-size: 16px;
+    margin-bottom: 22px;
+  }
+  .faq .box > div h2 span {
+    max-width: 100%;
+    padding-right: 34px;
+  }
+  .faq .box > div h2 svg {
+    width: 18px;
+    bottom: 50%;
+    right: 7px;
+    margin-bottom: -10px;
+  }
+  .faq .qa {
+    /* border-color: #000; */
+  }
+  .faq .qa h3 {
+    font-size: 16px;
+  }
+  .faq .qa .close {
+    top: 23px;
+    bottom: auto;
+    left: auto;
+    right: 11px;
+    margin: 0;
+  }
 }

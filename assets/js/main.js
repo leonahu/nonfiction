@@ -80,7 +80,7 @@ b.init = function() {
       to = setTimeout(function() {
         body.removeClass('scrolling');
         to = false;
-      }, 400);
+      }, 300);
     });
   }
 };
@@ -186,7 +186,7 @@ var rotator = {
   init: function() {
     var that = this;
     this.links = $('#featured li');
-    this.images = $('#featured .images > div');
+    this.images = $('#featured .images .image');
     this.imageContainer = $('#featured .images');
     this.imagelist = [];
     this.currentIndex = 0;
@@ -231,7 +231,7 @@ var rotator = {
     i = i >= 0 && i <= this.imagelist.length? i : 0;
     e = e || 1;
     var image = this.imagelist[i];
-    var images = $('#featured .images > div'); // needs to be fresh everytime.
+    var images = $('#featured .images .image'); // needs to be fresh everytime.
     var h3 = $('#featured .right h3');
     var h4 = $('#featured .right h4');
 

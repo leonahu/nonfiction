@@ -17,8 +17,8 @@
     ?>
       <div>
         <div class="title">
-          <h2><?php echo $s->title() ?></h2>
           <h3><?php echo $s->client() ?></h3>
+          <h2><?php echo $s->title() ?></h2>  
         </div>
         <a href="/<?php echo $s->uri() ?>"><img src="<?php echo b::asset($thumburl) ?>"></a>
       </div>

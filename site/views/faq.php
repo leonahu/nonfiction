@@ -7,11 +7,10 @@
   ob_start();
 ?>
 
-
 <main>
   <div class="box ac">
     <div>
-      <h2><?php echo $page->heading1() ?></h2>
+      <h2><span><?php echo $page->heading1() ?></span><?php echo b::x(['#ffb8c5', '#7597b3', '#5f6fa0']) ?></h2>
       <?php foreach ($page->questions1()->toStructure() as $i=>$q) { ?>
       <div class="qa <?php if (!$i) echo 'on' ?>">
         <h3><?php echo $q->question() ?></h3>
@@ -22,7 +21,7 @@
     </div>
 
     <div>
-      <h2><?php echo $page->heading2() ?></h2>
+      <h2><span><?php echo $page->heading2() ?></span><?php echo b::x(['#ff8f6b', '#fbdf64']) ?></h2>
       <?php foreach ($page->questions2()->toStructure() as $i=>$q) { ?>
       <div class="qa <?php if (!$i) echo 'on' ?>">
         <h3><?php echo $q->question() ?></h3>
@@ -33,7 +32,7 @@
     </div>
 
     <div>
-      <h2><?php echo $page->heading3() ?></h2>
+      <h2><span><?php echo $page->heading3() ?></span><?php echo b::x(['#369aae', '#75c19c']) ?></h2>
       <?php foreach ($page->questions3()->toStructure() as $i=>$q) { ?>
       <div class="qa <?php if (!$i) echo 'on' ?>">
         <h3><?php echo $q->question() ?></h3>

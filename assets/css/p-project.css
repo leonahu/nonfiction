@@ -1,0 +1,382 @@
+/* --- Project ----------------------- */
+
+.project .view {
+  /* padding-bottom: 95px; */
+}
+.project main {}
+.project main,
+.project section {
+  padding: 0 0 10px 0;
+}
+.project .heading {
+  margin-bottom: 60px;
+}
+.project .heading .left {
+  text-align: left;
+}
+.project .heading .right {
+  text-align: right;
+}
+.project .heading h1 {
+  margin-bottom: 4px;
+}
+.project .heading h2 {
+  margin-bottom: 6px;
+}
+.project .heading .client {
+  font-size: 17px;
+}
+.project .heading li {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.7em;
+}
+.project .feature {
+  position: relative;
+}
+.project .boxfeature,
+.project section .box {
+  padding-left: 124px;
+}
+.project .feature img {
+  width: 100%;
+}
+
+/* --- Project sections -------------- */
+
+.project section {}
+.project section:last-child {
+  padding-bottom: 0px;
+}
+.project section .box {}
+.project section .content {}
+.project .column1 {}
+.project .column2 {}
+.project .column2 .box {
+  text-align: left;
+  display: table;
+}
+.project .column2 .box > div,
+.project .column2 .box > figure {
+  display: table-cell;
+  width: 45.5%;
+  vertical-align: middle;
+}
+.project .column2 .box > span {}
+.project .column2 .box > div {}
+.project .column2 .box > figure:nth-child(2n),
+.project .column2 .box > div:nth-child(2n) {}
+
+/* --- Project captions -------------- */
+
+.close {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  margin-top: -5px;
+  margin-left: -5px;
+  transform-origin: center center;
+  transition: all 0.2s 0.15s ease-out;
+}
+.close b {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  margin-top: 4px;
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+  border-radius: 10px;
+  transform-origin: center;
+}
+.close b:nth-child(2n) {
+  transform: rotate(90deg);
+}
+.captioned {
+  position: relative;
+  overflow-y: auto;
+}
+.caption {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  cursor: pointer;
+  min-width: 48px;
+  min-height: 48px;
+  overflow: hidden;
+  transition: transform 0.2s ease, top 0.2s ease, left 0.2s ease;
+}
+.caption i {
+  position: absolute;
+  display: block;
+  right: 0;
+  bottom: 0;
+  width: 48px;
+  height: 48px;
+  background: #fff;
+  z-index: 2;
+}
+.caption > span {
+  display: block;
+  max-width: 0px;
+  max-height: 0px;
+  font-size: 17px;
+  text-align: left;
+  overflow: hidden;
+  opacity: 0;
+  background: #fff;
+  transition: max-width ease-out 0.25s, max-height 0.25s ease-out, opacity 0.2s ease-out;
+}
+.caption span span {
+  display: block;
+  padding: 40px 35px 45px;
+  font-style: normal;
+  transition: all 0.2s ease-out;
+}
+.caption span {
+  color: transparent;
+}
+.caption.on {
+  top: 0;
+  left: 0;
+  transform: translateX(-55px);
+}
+.caption.on > span {
+  opacity: 1;
+  transition: max-width ease-out 0.2s, max-height 0.2s 0.05s ease-out, opacity 0.2s ease;
+}
+.caption span span {}
+.caption.on > i {}
+.caption.on .close {
+  transform: rotate(45deg);
+}
+
+/* Init */
+
+.caption.init {
+  width: 100%;
+  max-width: 460px;
+}
+.caption.init i {
+  display: none;
+}
+.caption.init > span {
+  position: absolute;
+  max-width: none !important;
+  max-height: none !important;
+}
+
+/* --- Sidenav ----------------------- */
+
+.sidebar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+}
+.sidebar.fixed {
+  position: fixed;
+}
+.sidebar .box {}
+.sidebar .box > div {
+  position: absolute;
+  left: 7px;
+  top: 310px;
+  z-index: 3;
+}
+.sidebar a {
+  position: relative;
+  display: block;
+  transform: rotate(-90deg);
+  /* transform: rotate(-90deg) translateZ(0px); */
+  border: 1px solid #eee;
+  padding: 20px 38px;
+  transform-origin: center center;
+  font-size: 17px;
+  /* width: 98px; */
+  /* height: 146px; */
+  margin-left: -37px;
+  margin-bottom: 137px;
+}
+.sidebar a.off {
+  color: #bebfc5;
+}
+.sidebar a:hover {}
+.sidebar .prev {
+  border-top-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+}
+.sidebar .next {
+  margin-top: 39px;
+  border-top-width: 0;
+  border-bottom-width: 0;
+  /* border-right-width: 0; */
+}
+.sidebar.fixed .box > div {
+  top: 76px;
+}
+
+/* --- Responsive -------------------- */
+
+@media only screen and (max-width: 770px) {
+  .project .boxfeature,
+  .project section .box {}
+}
+@media only screen and (max-width: 750px) {
+  .project .heading {
+    margin-bottom: 46px;
+  }
+  .project .heading h1 {
+    font-size: 25px;
+  }
+  .project .heading h2 {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 4px;
+  }
+  .project .heading .client {
+    font-size: 15px;
+  }
+  .project .heading li {
+    font-size: 15px;
+    line-height: 1.7em;
+  }
+  .project .column2 {
+    padding-bottom: 0;
+  }
+  .project .column2 .box > div,
+  .project .column2 .box > figure {
+    padding-bottom: 10px;
+  }
+  .sidebar .box > div {
+    top: 272px;
+    z-index: 3;
+  }
+  .sidebar.fixed .box > div {
+    top: 67px;
+  }
+  .caption {
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+    min-width: 38px;
+    min-height: 38px;
+  }
+  .caption i {
+    width: 38px;
+    height: 38px;
+  }
+  .caption > span {
+    font-size: 14px;
+    line-height: 1.9em;
+  }
+  .caption span span {
+    padding: 22px 35px 27px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .project .column2 .box {
+    display: block;
+  }
+  .project .column2 .box > div,
+  .project .column2 .box > figure {
+    width: 100%;
+    display: block;
+  }
+  .project .column2 .box > span {
+    display: none;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .project .view {}
+  .project main {}
+  .project main,
+  .project section {}
+  .project .heading {
+    margin-bottom: 33px;
+  }
+  .project .heading .left {}
+  .project .heading .right {
+    display: none;
+  }
+  .project .heading h1 {
+    margin-bottom: 2px;
+  }
+  .project .heading h2 {
+    margin-bottom: 2px;
+  }
+  .project .heading .client {}
+  .project .heading li {}
+  .project .feature {}
+  .project .boxfeature,
+  .project section .box {
+    padding-left: 45px;
+  }
+  .project .feature img {}
+  .project section {}
+  .project section .box {}
+  .project section .content {}
+  .project .column1 {
+    text-align: left;
+  }
+  .project .column2 .box > span {}
+  .project .column2 .box > div {}
+  .project .column2 .box > figure:nth-child(2n),
+  .project .column2 .box > div:nth-child(2n) {}
+  .caption {}
+  .caption.on {
+    transform: translateX(0px);
+  }
+  .caption i {}
+  .caption > span {
+    font-size: 13px;
+    line-height: 1.8em;
+  }
+  .caption span span {
+    padding: 22px 22px;
+  }
+  .sidebar {
+    position: relative;
+  }
+  .sidebar.fixed {}
+  .sidebar .box {}
+  .sidebar .box > div {
+    position: relative;
+    left: auto;
+    top: auto;
+  }
+  .sidebar .box > div:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  .sidebar a {}
+  .sidebar a.off {}
+  .sidebar a:hover {}
+  .sidebar .prev {}
+  .sidebar .next {}
+  .sidebar .prev,
+  .sidebar .next {
+    transform: none;
+    transition: none;
+    margin: 0;
+    padding: 10px 20px 20px 0;
+    border: 0;
+    float: left;
+    font-size: 14px;
+    opacity: 0.6;
+  }
+  .sidebar.fixed .box > div {
+    top: auto;
+  }
+}
+@media only screen and (max-width: 570px) {
+  .project .boxfeature,
+  .project section .box {
+    padding-left: 25px;
+  }
+}

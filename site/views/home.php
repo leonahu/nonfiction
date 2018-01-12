@@ -74,9 +74,9 @@
           </div>
           <div class="images">
             <?php foreach ($projs as $p) { ?>
-              <div>
+              <a href="<?php echo $p->url ?>" class="image">
                 <img data-title="<?php echo $p->title ?>" data-for="<?php echo $p->client ?>" src="<?php echo $p->cover ?>">
-              </div>
+              </a>
             <?php } ?>
           </div>
         </div>

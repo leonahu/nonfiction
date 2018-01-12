@@ -7,8 +7,10 @@
       "header": "assets/css/header.css",
       "p-about": "assets/css/p-about.css",
       "p-clients": "assets/css/p-clients.css",
+      "p-contact": "assets/css/p-contact.css",
       "p-faq": "assets/css/p-faq.css",
       "p-home": "assets/css/p-home.css",
+      "p-project": "assets/css/p-project.css",
       "p-projects": "assets/css/p-projects.css",
       "p": "assets/css/p.css",
       "mustache": {
@@ -26,7 +28,8 @@
       "2": "assets/imgs/2.png",
       "about_mardis": "assets/imgs/about_mardis.png",
       "about_phnam": "assets/imgs/about_phnam.png",
-      "client_bg": "assets/imgs/client_bg.mov",
+      "client_bg": "assets/imgs/client_bg.mp4",
+      "client_bg2": "assets/imgs/client_bg2.mov",
       "favico": "assets/imgs/favico.ico",
       "favico114": "assets/imgs/favico114.png",
       "favico144": "assets/imgs/favico144.png",
@@ -49,13 +52,14 @@
       "libs": {
         "1.jquery": "assets/js/libs/1.jquery.js",
         "fullpage": "assets/js/libs/fullpage.js",
+        "object-fit-polyfill": "assets/js/libs/object-fit-polyfill.js",
         "paralax.min": "assets/js/libs/paralax.min.js"
       },
       "main": "assets/js/main.js"
     },
     ".tmp": {
       "css": {
-        "main": "assets/.tmp/css/main.2744f283.css"
+        "main": "assets/.tmp/css/main.0d5c6a4e.css"
       },
       "fonts": {
         "Crimson Text-400": "assets/.tmp/fonts/Crimson Text-400.woff2",
@@ -68,7 +72,8 @@
         "2": "assets/.tmp/imgs/2.c50ac101.png",
         "about_mardis": "assets/.tmp/imgs/about_mardis.53f30545.png",
         "about_phnam": "assets/.tmp/imgs/about_phnam.841813ad.png",
-        "client_bg": "assets/.tmp/imgs/client_bg.mov",
+        "client_bg": "assets/.tmp/imgs/client_bg.mp4",
+        "client_bg2": "assets/.tmp/imgs/client_bg2.mov",
         "favico": "assets/.tmp/imgs/favico.86475878.ico",
         "favico114": "assets/.tmp/imgs/favico114.3c33f7b8.png",
         "favico144": "assets/.tmp/imgs/favico144.7ac1ec07.png",
@@ -88,7 +93,7 @@
         "spritesheet-icons@2x": "assets/.tmp/imgs/spritesheet-icons@2x.d41d8cd9.png"
       },
       "js": {
-        "main": "assets/.tmp/js/main.6659a9dd.js"
+        "main": "assets/.tmp/js/main.216780e6.js"
       }
     }
   }

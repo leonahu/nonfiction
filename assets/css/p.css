@@ -1,8 +1,8 @@
 .view,
 .clients .box2 {
   position: relative;
-  padding-top: 150px;
-  padding-bottom: 120px;
+  padding-top: 140px;
+  padding-bottom: 115px;
   z-index: 1;
 }
 .home .view {
@@ -19,7 +19,6 @@
 }
 .view > main {
   display: block;
-  /* padding-top: 150px; */
   box-sizing: border-box;
 }
 .box {
@@ -54,15 +53,35 @@ h3 {}
   color: #fff;
 }
 @media only screen and (max-width: 910px) {
-  .view > main {
-    padding-top: 100px;
-    padding-bottom: 20px;
+  .view > main {}
+  .view,
+  .clients .box2 {
+    padding-top: 130px;
+    padding-bottom: 70px;
   }
 }
 @media only screen and (max-width: 770px) {
   .box {
-    padding-left: 32px;
-    padding-right: 32px;
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+}
+@media only screen and (max-width: 770px) {}
+@media only screen and (max-width: 700px) {
+  .view {
+    padding-bottom: 50px;
+  }
+  .clients .box2 {
+    padding-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 570px) {
+  .view {
+    padding-bottom: 25px;
+  }
+  .box {
+    padding-left: 25px;
+    padding-right: 25px;
   }
 }
 
@@ -98,7 +117,7 @@ nav a.link:after {
   position: absolute;
   content: "";
   bottom: 1px;
-  height: 4px;
+  height: 0px;
   width: 100%;
   transition: transform 0.15s ease, background-color 0.2s ease;
   background-color: transparent;
@@ -115,6 +134,7 @@ nav a.link:hover:after {
 .projects main,
 .faq main,
 .about main,
+.about section,
 .clients .content {
   text-align: center;
   transition: none;
@@ -125,6 +145,7 @@ nav a.link:hover:after {
 .loaded.projects main,
 .loaded.faq main,
 .loaded.about main,
+.loaded.about section,
 .loaded.clients .content {
   transition: transform 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940), opacity 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940);
   transform: translateY(0px);
@@ -134,7 +155,7 @@ nav a.link:hover:after {
 .content h2,
 .content h3 {}
 .content h1 {
-  font-weight: 800;
+  font-weight: bold;
   /* color: #000; */
   font-size: 28px;
   line-height: 39px;
@@ -169,7 +190,7 @@ nav a.link:hover:after {
 }
 .content img,
 .boxfeature .feature img {
-  margin-bottom: 45px;
+  margin-bottom: 42px;
 }
 .content figure {
   margin: 0;
@@ -184,11 +205,37 @@ nav a.link:hover:after {
   vertical-align: middle;
   box-shadow: 0px 25px 61px 0px rgba(0, 0, 0, 0.04);
 }
+@media only screen and (max-width: 1000px) {
+  .content p {
+    font-size: 16px;
+    line-height: 1.9em;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .content h1,
+  .content h2,
+  .content h3 {
+    font-size: 26px;
+    margin-bottom: 25px;
+  }
+  .content p {
+    margin-bottom: 33px;
+    font-size: 15px;
+    line-height: 1.8em;
+  }
+  .content img,
+  .project .feature img {
+    margin-bottom: 33px;
+  }
+}
 @media only screen and (max-width: 510px) {
   .content h1 {
-    font-size: 22px;
+    font-size: 25px;
     line-height: 35px;
     margin-top: -4px;
     margin-bottom: 25px;
+  }
+  .content p {
+    font-size: 14px;
   }
 }

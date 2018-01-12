@@ -1,0 +1,104 @@
+/* --- Contact ----------------------- */
+
+.contact {
+  position: absolute;
+  overflow-y: auto;
+  z-index: 10;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: -200%;
+  right: 0;
+  opacity: 0;
+  box-sizing: border-box;
+  transition: left linear 0s 0.3s, opacity cubic-bezier(.55, .085, .68, .53) 0.2s;
+}
+.contact > div {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+.contact > div > div {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+}
+.contact .bg {
+  display: block;
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.66);
+}
+.contact .cbox {
+  position: relative;
+  max-width: 334px;
+  margin: 0 auto;
+  padding: 54px;
+  background: #fff;
+  font-size: 16px;
+  line-height: 2.6em;
+  border: 3px solid #3d3d3d;
+  margin-bottom: 20px;
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: all cubic-bezier(.55, .055, .675, .19) 0.2s 0.02s;
+}
+.contact h2 {
+  margin-bottom: 24px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.contact .closebox {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  cursor: pointer;
+  padding: 20px;
+}
+.contact .close {
+  position: relative;
+  top: auto;
+  right: auto;
+  left: auto;
+  bottom: auto;
+  margin: 0;
+  transform: rotate(45deg);
+}
+.contact .close b {}
+
+/* on */
+
+.con .contact {
+  left: 0;
+  opacity: 1;
+  transition: opacity cubic-bezier(.25, .46, .45, .94) 0.3s, left linear 0s 0s;
+}
+.con .contact .cbox {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all cubic-bezier(.215, .61, .355, 1) 0.3s 0.19s;
+}
+
+@media only screen and (max-width: 480px) {
+  .contact {
+  }
+  .contact > div {
+  }
+  .contact > div > div {
+  }
+  .contact .bg {
+  }
+  .contact .cbox {
+  padding: 45px 30px;
+  font-size: 14px;
+  }
+  .contact h2 {
+  font-size: 26px;
+  margin-bottom: 20px;
+  }
+}

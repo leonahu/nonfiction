@@ -34,11 +34,7 @@ Heading2: Our Clients
 
 ----
 
-Text: 
-
-Nonfiction collaborates on projects of varying scale and scope, both locally and internationally. 
-Our clients are artisans, obsessives, and game-changers. From start-ups to global brands, 
-our engagements are founded on a shared passion for creative innovation, down to the last detail.
+Text: Nonfiction collaborates on projects of varying scale and scope, both locally and internationally. Our clients are artisans, obsessives, and game-changers. From start-ups to global brands, our engagements are founded on a shared passion for creative innovation, down to the last detail.
 
 ----
 
@@ -99,3 +95,11 @@ Clients:
     Edwin The Duck
     Scollar
     Nummy
+
+----
+
+Metatitle: 
+
+----
+
+Metadescription: 

@@ -23,6 +23,7 @@ class kirbytextExtended extends kirbytext {
 
 // Helpers.
 class b {
+static $gradcount=0;
 
 public static function asset($url) {
   /**
@@ -224,6 +225,24 @@ public static function replacelink($matches) {
 public static function title($page, $site) {
   $main = $page->metatitle()->value()? $page->metatitle() : $page->title();
   return $page->isHomePage()? $main : $main . " " . $site->tagname()->value();
+}
+
+public static function grad($colors) {
+  self::$gradcount++;
+  $multi = 100 / (count($colors) - 1);
+  $out = '<defs><linearGradient id="grad'. self::$gradcount .'" gradientTransform="rotate(0)" '.
+    'x1="0%" y1="0%" x2="100%" y2="100%">';
+  foreach ($colors as $i=>$c)
+    $out .=  "<stop offset='". ($i * $multi) ."%' stop-color='$c'/>";
+  return $out . '</linearGradient></defs>';
+}
+
+public static function x($colors = ['#3b3b3b']) {
+  $def = (count($colors) === 1)? '' : self::grad($colors);
+  $fill = (count($colors) === 1)? $colors[0] : "url(#grad". self::$gradcount .")";
+  return '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 942 942" class="x">'. $def .
+  '<path fill-rule="evenodd" clip-rule="evenodd" fill="'. $fill .'" d="M86 670l199-200L86 272 272 '.
+  '86l199 198L668 88l188 184-198 197 198 200-185 187-200-200-199 198L86 670z"/></svg>';
 }
 
 }

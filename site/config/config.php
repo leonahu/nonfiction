@@ -50,7 +50,7 @@ foreach($treesub as $t) $tree = $tree[$t];
 c::set('tree', $tree);
 
 // Kirby configurations.
-c::set('license', 'put your license key here');
+c::set('license', 'K2-PERSONAL-c6b3515c6fdce1eb791bde3c772befbd');
 c::set('debug', debug);
 c::set('cache', cache);
 c::set('thumbs.driver', prod? 'im' : 'gd');
