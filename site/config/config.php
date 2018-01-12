@@ -15,7 +15,7 @@ if ($_SERVER['HTTP_HOST'] == 'non.rickyboyce.me') {
   define('debug', true);
   define('cache', true);
   define("build", true);
-  define("cdn", false);
+  define("cdn", true);
   define("bust", false);//time()
 }
 

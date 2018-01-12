@@ -1,0 +1,63 @@
+Title: Scollar: Smart Pet Wearable
+
+----
+
+Subheading: Small dog and cat smart collar featuring interchangeable modules with different functions
+
+----
+
+Client: Scollar
+
+----
+
+Coverimage: nonfiction_intro_r1j4.jpg
+
+----
+
+Date: 2018-01-09
+
+----
+
+Tags: Wearables,IoT,Consumer
+
+----
+
+Builder: 
+
+- 
+  text1: |
+    City living and country living. Staycations and road trips. Kibble and people food. ​
+    We know you and your best furry friend are totally unique. ​
+    We designed Scollar on an open, modular platform so you can have life with your pets your way. Expand Scollar with easily inserted modules that seamlessly integrate with the smart collar.
+  image1: ""
+  _fieldset: column1
+- 
+  text1: ""
+  image1: nonfiction_intro_r1j.jpg
+  text2: 'The Scollar Mini features swappable battery, LCD screen on the back on the neck, interchangeable modules, a breakaway feature for cats, strap adjustment and reliable GPS. The Kit: Smart collar, portable battery charger, active area beacons, portable base station and an assortment of modules.'
+  image2: ""
+  _fieldset: column2
+- 
+  text1: ""
+  image1: nonfiction_intro_r1j2.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: nonfiction_intro_r1j3.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: nonfiction_intro_r1j5.jpg
+  _fieldset: column1
+
+----
+
+Line2: 
+
+----
+
+Metatitle: 
+
+----
+
+Metadescription: 

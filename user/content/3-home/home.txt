@@ -31,13 +31,13 @@ Projects:
   project: shuttle-collection
 - 
   title: Consumer IoT
-  project: intel
+  project: scollar
 - 
   title: Branding
-  project: sound
+  project: intel
 - 
   title: Design Strategy
-  project: shuttle-collection
+  project: edwin
 
 ----
 

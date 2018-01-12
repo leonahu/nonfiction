@@ -1,0 +1,58 @@
+Title: Comcast ELD
+
+----
+
+Subheading: Bringing Design to a Commodity Brand
+
+----
+
+Client: Comcast
+
+----
+
+Coverimage: nonfiction_intro_r1j2.jpg
+
+----
+
+Date: 2018-01-10
+
+----
+
+Tags: Consumer,Home,Internet
+
+----
+
+Builder: 
+
+- 
+  text1: ""
+  image1: nonfiction_intro_r1j3.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: nonfiction_intro_r1j1.jpg
+  _fieldset: column1
+- 
+  text1: >
+    An white glove Xfinity experience, with
+    a minimalistic design language,
+    delightful details and sophisticated
+    colors and materials. Stack feature
+    disks on top of the main device to add
+    functionality to the system. Connect
+    security cameras and Wi-Fi repeaters
+    where needed.
+  image1: ""
+  _fieldset: column1
+
+----
+
+Line2: 
+
+----
+
+Metatitle: 
+
+----
+
+Metadescription: 
