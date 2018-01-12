@@ -207,7 +207,7 @@
 }
 @media only screen and (max-width: 1280px) {
   .intro .mouse {
-    bottom: 64px;
+    bottom: 69px;
   }
 }
 @media only screen and (max-width: 1000px) {
@@ -244,26 +244,13 @@
     letter-spacing: 0;
   }
 }
-@media only screen and (max-height: 900px) {
-  .intro h1 {
-    margin-top: -28px;
-    margin-bottom: 100px;
-  }
-  .intro .non {
-    max-width: 400px;
-  }
-  .intro .n1,
-  .intro .n2 {
-    max-width: 55px;
-  }
-}
 
 /* --- Featured ---------------------- */
 
 .featured {
   display: table;
   position: relative;
-  height: 100vh !important;
+  height: 100vh;
   width: 100%;
 }
 .featured > div {
@@ -285,6 +272,7 @@
   width: 20%;
   text-align: left;
 }
+.featured .left p  {margin: 0;margin-top: 0px;}
 .featured .left h2 {}
 .featured .left .more {
   position: absolute;
@@ -476,7 +464,7 @@
     width: 168%;
   }
 }
-@media only screen and (max-width: 1007px) {
+@media only screen and (max-width: 1007px), screen and (max-height: 665px) {
   .featured .box {
     max-width: 600px;
   }
@@ -594,4 +582,51 @@
   .featured .right .images {}
   .featured .right .images .image {}
   .featured .right .images .image img {}
+}
+
+/* Max height */
+
+@media only screen and (max-height: 900px) {
+  .intro h1 {
+    margin-top: -28px;
+    margin-bottom: 100px;
+  }
+  .intro .non {
+    max-width: 400px;
+  }
+  .intro .n1,
+  .intro .n2 {
+    max-width: 55px;
+  }
+}
+@media only screen and (max-height: 665px) {
+  #fullpage {}
+  .intro h1 {
+    margin-top: 8px;
+    margin-bottom: 40px;
+  }
+  .intro .mouse {
+    display: none;
+  }
+  .home .featured {
+    height: auto !important;
+    display: block;
+  }
+  .home .featured > div {
+    display: block;
+  }
+  .featured .left {
+  }
+  .featured .left .list {
+    display: block;
+    padding: 20px 0;
+    height: auto;
+  }
+  .featured .left .list ul {
+    display: block;
+  }
+  .featured .left .more {
+    display: block;
+    margin-bottom: 45px;
+  }
 }

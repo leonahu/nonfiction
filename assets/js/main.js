@@ -16,6 +16,13 @@ b.init = function() {
     body.toggleClass('con');
   });
 
+  // scrolling logo on normal pages.
+  $(window).scroll(function() {
+    var y = $(document).scrollTop();
+    if (y > 5) body.addClass('scrolled');
+    else body.removeClass('scrolled')
+  });
+
   // Home page.
   if (body.hasClass('home')) {
 
@@ -26,11 +33,12 @@ b.init = function() {
       responsiveHeight: 665,
       onLeave: function(i, nexti, dir) {
         if (timeout) clearTimeout(timeout);
-        body.addClass('sliding slow');
+        body.addClass('sliding slow' + (nexti > 1? ' scrolled' : ''));
+        if (nexti == 1) body.removeClass('scrolled');
         rotator.stop();
       },
       afterLoad: function(i, nexti, dir) {
-        body.removeClass('sliding');
+        body.removeClass('sliding' );
         rotator.start();
         timeout = setTimeout(function() {body.removeClass('slow');}, 500);
       } 
@@ -63,13 +71,6 @@ b.init = function() {
       var y = $(document).scrollTop();
       if (y > 235) $('.sidebar').addClass('fixed');
       else $('.sidebar').removeClass('fixed');
-    });
-
-    // scrolling logo on normal pages.
-    $(window).scroll(function() {
-      var y = $(document).scrollTop();
-      if (y > 5) body.addClass('scrolled');
-      else body.removeClass('scrolled')
     });
 
     // Scrolling hides bottom nav.
