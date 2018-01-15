@@ -188,16 +188,18 @@ var rotator = {
     var that = this;
     this.links = $('#featured li');
     this.images = $('#featured .images .image');
+    this.imagesa = $('#featured .images a');
     this.imageContainer = $('#featured .images');
     this.imagelist = [];
     this.currentIndex = 0;
-    this.autoplay = false;
-    this.delay = 6000;
+    this.autoplay = true;
+    this.delay = 5000;
 
     // Listners.
     if (this.autoplay) this.start();
     this.links.on('mouseenter', 'a', this.mouseEnter.bind(this));
     this.links.on('mouseout', 'a', this.mouseLeave.bind(this));
+    //this.imagesa.on('mouseenter', this.imageover.bind(this));
     $(document).keydown(function(e) {
       if (e.keyCode == 37 || e.keyCode == 39) that.start();
       if (e.keyCode == 37) that.prev();
@@ -214,6 +216,16 @@ var rotator = {
         for: $(image).find('img').data("for")
       });
     });
+  },
+
+  imageover: function(e) {
+    e.stopPropagation();
+    var i = $(e.currentTarget).index();
+    if (this.autoplay) {
+      this.stop();
+      this.start();
+    }
+    this.goto(i);
   },
 
   mouseEnter: function(e) {

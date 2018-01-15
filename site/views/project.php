@@ -9,6 +9,10 @@
   $o->next = $page->nextVisible();
   $o->prev = $page->prevVisible();
 
+  // Use first and last if none.
+  if (!$o->prev) $o->prev = $page->parent()->children()->visible()->last();
+  if (!$o->next) $o->next = $page->parent()->children()->visible()->first();
+
   function caption($image) {
     if (!$image->caption()->value()) 
       return "<img src='". b::asset($image->url()) ."'>";
