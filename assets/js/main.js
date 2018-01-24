@@ -188,18 +188,20 @@ var rotator = {
     var that = this;
     this.links = $('#featured li');
     this.images = $('#featured .images .image');
-    this.imagesa = $('#featured .images a');
-    this.imageContainer = $('#featured .images');
+    this.imageContainer = $('#featured .images > div');
     this.imagelist = [];
     this.currentIndex = 0;
     this.autoplay = true;
     this.delay = 5000;
+    this.imageready = true;
+    this.imagemouseover = false;
 
     // Listners.
     if (this.autoplay) this.start();
     this.links.on('mouseenter', 'a', this.mouseEnter.bind(this));
     this.links.on('mouseout', 'a', this.mouseLeave.bind(this));
-    //this.imagesa.on('mouseenter', this.imageover.bind(this));
+    this.images.on('mouseenter', this.imageover.bind(this));
+    this.images.on('mouseout', this.imageLeave.bind(this));
     $(document).keydown(function(e) {
       if (e.keyCode == 37 || e.keyCode == 39) that.start();
       if (e.keyCode == 37) that.prev();
@@ -213,19 +215,40 @@ var rotator = {
         link: $(elem),
         image: $(image).data("index", i), // update index and return image.
         title: $(image).find('img').data("title"),
-        for: $(image).find('img').data("for")
+        for: $(image).find('img').data("for"),
+        href: $(image).attr("href")
       });
     });
   },
 
   imageover: function(e) {
-    e.stopPropagation();
-    var i = $(e.currentTarget).index();
+    var i = 1;
+    var that = this;
+    if (e) {
+      e.stopPropagation();
+      i = $(e.currentTarget).index();
+    }
+
+    // Next slide, and turn refresh autoplay.
+    this.imagemouseover = true;
+    if (!this.imageready) return;
+    this.imageready = false;
+    this.next();
     if (this.autoplay) {
       this.stop();
       this.start();
     }
-    this.goto(i);
+
+    // Limit how many times per second we can trigger next.
+    // And start again if we are still hovered. (fixes element switching)
+    setTimeout(function() { 
+      that.imageready = true;
+      if (that.imagemouseover == true) that.imageover();
+    }, 500);
+  },
+
+  imageLeave: function(e) {
+    this.imagemouseover = false;
   },
 
   mouseEnter: function(e) {
@@ -251,6 +274,9 @@ var rotator = {
     // Update active link.
     this.links.removeClass('active');
     image.link.addClass('active');
+
+    // Update hittext with link.
+    $('.images .hittest').attr('href', image.href)
 
     // Update h3 h4.
     h3.html(image.title);

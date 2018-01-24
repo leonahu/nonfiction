@@ -65,26 +65,29 @@
               "client" => $proj->client(),
               "cover" => b::asset($proj->coverimage()->toFile()->resize(811, 578)->url())
             ]);
-          }
-        ?>  
-        <div class="right">
-          <div class="title ac">
-            <h3><?php echo $projs[0]->title ?></h3>
-            <h4><?php echo $projs[0]->client ?></h4>
+            } 
+          ?>  
+          <div class="right">
+            <div class="title ac">
+              <h3><?php echo $projs[0]->title ?></h3>
+              <h4><?php echo $projs[0]->client ?></h4>
+            </div>
+            <div class="images">
+              <a class="hittest" href="<?php echo $projs[0]->url ?>"></a>
+              <div>
+                <?php foreach ($projs as $p) { ?>
+                  <a href="<?php echo $p->url ?>" class="image">
+                    <img data-title="<?php echo $p->title ?>" data-for="<?php echo $p->client ?>" src="<?php echo $p->cover ?>">
+                  </a>
+                <?php } ?>
+              </div>
+            </div>
           </div>
-          <div class="images">
-            <?php foreach ($projs as $p) { ?>
-              <a href="<?php echo $p->url ?>" class="image">
-                <img data-title="<?php echo $p->title ?>" data-for="<?php echo $p->client ?>" src="<?php echo $p->cover ?>">
-              </a>
-            <?php } ?>
-          </div>
-        </div>
 
-        <div class="left">
-          <div class="list">
-            <ul>
-              <?php foreach ($projs as $i => $p) { ?>
+          <div class="left">
+            <div class="list">
+              <ul>
+                <?php foreach ($projs as $i => $p) { ?>
                 <?php $active = !$i? 'class="active"' : ''; ?>
                 <?php echo "<li $active><a href='$p->url'><i>0". ($i+1) ."</i>$p->heading</a><b></b></li>" ?>
               <?php } ?>

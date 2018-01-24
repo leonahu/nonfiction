@@ -388,7 +388,8 @@
   max-width: 300%;
   width: auto;
 }
-.featured .right .images .image {
+.featured .right .images .image,
+.featured .right .images .hittest {
   position: absolute;
   visibility: hidden;
   overflow: hidden;
@@ -406,11 +407,16 @@
   transition-duration: 0.51s !important;
   transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
 }
-.featured .right .images .image:nth-child(1) {
+.featured .right .images .image:nth-child(1),
+.featured .right .images .hittest {
   transform: scale3d(1, 1, 1);
   z-index: 6;
   filter: none;
   opacity: 1;
+}
+.featured .right .images .hittest {
+    z-index: 10;
+    visibility: visible;
 }
 .featured .right .images .image:nth-child(1) img {
   visibility: visible;
