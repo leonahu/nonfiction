@@ -446,14 +446,14 @@
     width: 22%;
   }
   .featured .right {
-    width: 57%;
+    width: 56%;
     min-width: 646px;
   }
 }
 @media only screen and (max-width: 1280px) {
   .featured .left .list {
     padding-top: 37px;
-    width: 188%;
+    width: 190%;
   }
   .featured .left h2 {
     font-size: 19px;
