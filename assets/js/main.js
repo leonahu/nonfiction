@@ -30,7 +30,7 @@ b.init = function() {
     $('#fullpage').fullpage({
       verticalCentered: false,
       fitToSection: false,
-      responsiveHeight: 665,
+      responsiveHeight: 700,
       onLeave: function(i, nexti, dir) {
         if (timeout) clearTimeout(timeout);
         body.addClass('sliding slow' + (nexti > 1? ' scrolled' : ''));
