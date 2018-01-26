@@ -200,8 +200,8 @@ var rotator = {
     if (this.autoplay) this.start();
     this.links.on('mouseenter', 'a', this.mouseEnter.bind(this));
     this.links.on('mouseout', 'a', this.mouseLeave.bind(this));
-    this.images.on('mouseenter', this.imageover.bind(this));
-    this.images.on('mouseout', this.imageLeave.bind(this));
+    //this.images.on('mouseenter', this.imageover.bind(this));
+    //this.images.on('mouseout', this.imageLeave.bind(this));
     $(document).keydown(function(e) {
       if (e.keyCode == 37 || e.keyCode == 39) that.start();
       if (e.keyCode == 37) that.prev();
