@@ -3,6 +3,9 @@ Icon
 .DS_Store
 .resources
 
+#new
+panel
+
 # Temporary files
 .sass-cache/**
 /node_modules
