@@ -228,6 +228,12 @@ public static function title($page, $site) {
 }
 
 public static function grad($colors) {
+  /**
+   * Returns gradient to be used in css
+   * @param colors, array of colors e.g ['#000', '#fff']
+   * @return string, svg definition
+   */
+  
   self::$gradcount++;
   $multi = 100 / (count($colors) - 1);
   $out = '<defs><linearGradient id="grad'. self::$gradcount .'" gradientTransform="rotate(0)" '.
