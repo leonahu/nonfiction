@@ -37,7 +37,7 @@ gulp.task("default", function(callback) {
 
 // public task::  watch for changes
 gulp.task("watch", ["browserSync"], function() {
-  gulp.watch("assets/**").on("change", browserSync.reload);
+  //gulp.watch("assets/**").on("change", browserSync.reload);
   gulp.watch("*.php", browserSync.reload);
   gulp.watch(["site/**/*.php", "user/**/*.php"], browserSync.reload);
 });

@@ -1,5 +1,5 @@
 <?php 
-if (jview) {
+if (defined('jview') && jview) {
   echo json_encode([
     "view" => $o->view,
     "page" => $o->page,

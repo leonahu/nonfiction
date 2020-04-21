@@ -21,7 +21,7 @@ html,
 body,
 .project .caption span span {
   color: #484773;
-  color: #1b1b1d;
+  color: #020202;
 }
 a {
   color: #2b2c46;
@@ -127,7 +127,7 @@ label + .input,
 input,
 .nonInput,
 textarea {
-  margin: 0;
+  margin: 0 0 1em;
   padding: 5px 19px 5px 19px;
   text-align: left;
   font-size: 13.5px;
@@ -135,16 +135,13 @@ textarea {
   vertical-align: top;
   background: #fff;
   border-radius: 3px;/*@include box-shadow(rgba(0, 0, 0, 0.04) 0px 0px 1px 1px);*/
-  line-height: inherit;
   width: 100%;
-  font-family: Open Sans;
-  font-weight: 600;
+  font-family: Noto Sans, Arial;
   outline: 0;
   border: 1px solid #D8DFE6;
-  color: #9EA2B5;
+  color: #3e3e3e;
   box-sizing: border-box;
   height: 48px;
-  line-height: 28px;
   transition: border ease 0.2s, box-shadow ease 0.2s;
 }
 input:focus,
@@ -153,13 +150,18 @@ textarea:focus,
 textarea:active {
   outline: 0;
   background: #fff;
-  border: 1px solid #1BD2E4;
-  color: #6F7488;
-  box-shadow: 0 0 0 50px white inset, 0 0 0 1px #1BD2E4;
+  border: 1px solid #000000;
+  color: #000000;
+  box-shadow: 0 0 0 50px white inset, 0 0 0 1px #0000000f;
 }
 input::selection {
   color: #fff;
   -webkit-text-fill-color: #fff;
+}
+input[type="password"] {
+  font-size: 21px;
+  letter-spacing: 1px;
+  margin-bottom: 0.7em;
 }
 input.half1,
 input.half2 {
@@ -266,8 +268,9 @@ form > .info {
 
 button, 
 .button {
+  width: 100%;
   position: relative;
-  cursor: default;
+  cursor: pointer;
   display: inline-block;
   padding: 15px 44px;
   margin-bottom: 14px;
@@ -277,12 +280,10 @@ button,
   font-size: 13px;
   line-height: 18px;
   font-weight: 800;
-  font-family: Open Sans, arial;
+  font-family: Noto Sans, Arial;
   border: 0;
-  background-color: #18C5D6;
-  text-shadow: 0 0 1px rgb(28, 163, 177);
+  background-color: #000000;
   border-radius: 4px;
-  box-shadow: 0 3px 0 #10A9B7;
   box-sizing: border-box;
   transition: background-color .2s,
   border-color .2s,
@@ -326,12 +327,12 @@ button.active .default,
 
 /* Button1 */
 
-button.active:focus, 
-.button.one.active:focus, 
-button.active:hover, 
-.button.one.active:hover {
+button:focus, 
+.button.one:focus, 
+button:hover, 
+.button.one:hover {
   color: #fff;
-  background-color: #4FD5E2;
+  background-color: #404040;
 }
 
 /* Button2 */
@@ -389,12 +390,13 @@ button.active:hover,
 
 input:-webkit-autofill {
   box-shadow: 0 0 0 50px white inset;
-  -webkit-text-fill-color: #9EA2B5;
+  -webkit-text-fill-color: #000000;
 }
 input:-webkit-autofill:focus {
-  box-shadow: 0 0 0 50px white inset, 0 0 0 1px #1BD2E4;
-  -webkit-text-fill-color: #6F7488;
+  box-shadow: 0 0 0 50px white inset, 0 0 0 1px #0000000f;
+  -webkit-text-fill-color: #000000;
 }
+
 
 /* Placeholder */
 

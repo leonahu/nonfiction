@@ -16,6 +16,10 @@ fields:
     label: Title
     type:  title
 
+  password: 
+    label: Password
+    type: input
+
   subheading: 
     label: Subheading
     type: input

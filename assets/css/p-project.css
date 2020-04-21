@@ -42,6 +42,34 @@
   width: 100%;
 }
 
+/* --- Project password -------------- */
+
+.project .boxpassword {}
+.project .boxpassword > div {
+  padding-left: 55px;
+  padding-right: 55px;
+  margin: 0 auto;
+}
+.project .boxpassword p {}
+.project .boxpassword form {
+  margin: 0 auto;
+}
+.project .boxpassword form input {
+}
+.project .boxpassword form button {}
+
+@media only screen and (max-width: 600px) {
+  .project .boxpassword {
+    text-align: left;
+  }
+  .project .boxpassword > div {
+    padding: 0;
+  }
+  .project .boxpassword form {
+    margin: 0;
+  }
+}
+
 /* --- Project sections -------------- */
 
 .project section {}

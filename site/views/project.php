@@ -8,6 +8,8 @@
   $o->cover = $page->coverimage()->toFile();
   $o->next = $page->nextVisible();
   $o->prev = $page->prevVisible();
+  if (array_key_exists('password', $_POST)) $hasAccess = requestAccess($page);
+  else $hasAccess = $page->password() == ""? true : hasAccess($page);
 
   // Use first and last if none.
   if (!$o->prev) $o->prev = $page->parent()->children()->visible()->last();
@@ -24,6 +26,32 @@
       "</div></div>";
   }
 
+  function requestAccess($page) {
+    if ($_POST['password'] == "") return;
+    $id = "p-" . preg_replace("/\//", "-", $page->id());
+    $opts = [ 'salt' => 'qwef3HDsnf823fff3445dhfy' ]; // fix salt
+    $hash = password_hash($page->password() . $id, PASSWORD_BCRYPT, $opts);
+    // Verify password is correct
+    if (password_verify($_POST['password'] . $id, $hash)) {
+      setcookie($id, $hash, time() + 60*60*24*364, '/');
+      return true;
+    }
+  }
+
+  function hasAccess($page) {
+    $id = "p-" . preg_replace("/\//", "-", $page->id());
+    $opts = [ 'salt' => 'qwef3HDsnf823fff3445dhfy' ]; // fix salt
+    // Check if password cookie is set
+    if (!isset($_COOKIE[$id])) return;
+    // Get the true password hash
+    $hash = password_hash($page->password() . $id, PASSWORD_BCRYPT, $opts);
+    // Check if cookie checks out
+    if ($hash == $_COOKIE[$id]) {
+      setcookie($id, $hash, time() + 60*60*24*364, '/'); // prolong
+      return true;
+    }
+  }
+
   ob_start();
 ?>
 
@@ -38,6 +66,30 @@
 </div>
 
 
+<?php if (!$hasAccess) { ?>
+<main>
+  <div class="box">
+    <div class="heading ac">
+      <div class="left">
+        <h1><?php echo $page->title() ?></h1>
+        <h2>Password protected</h2>
+      </div>
+    </div>
+  </div>
+  <div class="box boxpassword content ac">
+    <div>
+      <p>This project is password protected, please enter the provided password below.</p>
+      <form method="post">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="" />
+        <button type="submit" value="Submit">Submit</button>
+      </form>
+    </div>
+  </form>
+</main>
+
+
+<?php } else { ?>
 <main>
   <div class="box">
     <div class="heading ac">
@@ -90,6 +142,7 @@
     echo "</div></section>";
   }
 ?>
+<?php } ?>
 
 
 <?php $o->view = ob_get_clean() ?>
