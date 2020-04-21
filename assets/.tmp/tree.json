@@ -59,7 +59,7 @@
     },
     ".tmp": {
       "css": {
-        "main": "assets/.tmp/css/main.0d5c6a4e.css"
+        "main": "assets/.tmp/css/main.94aa1a65.css"
       },
       "fonts": {
         "Crimson Text-400": "assets/.tmp/fonts/Crimson Text-400.woff2",
@@ -93,7 +93,7 @@
         "spritesheet-icons@2x": "assets/.tmp/imgs/spritesheet-icons@2x.d41d8cd9.png"
       },
       "js": {
-        "main": "assets/.tmp/js/main.216780e6.js"
+        "main": "assets/.tmp/js/main.30efe001.js"
       }
     }
   }
