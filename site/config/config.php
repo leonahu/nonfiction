@@ -1,8 +1,7 @@
 <?php 
 
 // --- Configurations -------------------
-
-if ($_SERVER['HTTP_HOST'] == 'non.rickyboyce.me') {
+if (preg_match("/localhost/i", $_SERVER['HTTP_HOST'])) {
   define('prod', false);
   define('debug', true);
   define('cache', false);
@@ -50,6 +49,7 @@ foreach($treesub as $t) $tree = $tree[$t];
 c::set('tree', $tree);
 
 // Kirby configurations.
+c::set('url', http . host);
 c::set('license', 'K2-PERSONAL-c6b3515c6fdce1eb791bde3c772befbd');
 c::set('debug', debug);
 c::set('cache', cache);
