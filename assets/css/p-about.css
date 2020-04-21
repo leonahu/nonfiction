@@ -90,11 +90,11 @@
 .about section {
   clear: both;
 }
+
+/* Who */
+
 .about section.who .box {
-  margin-bottom: 75px;
-}
-.about section.workwith .box {
-  margin-bottom: 30px;
+  margin-bottom: 100px;
 }
 .about section .left,
 .about section .right {
@@ -120,15 +120,80 @@
   font-size: 30px;
 }
 .about .content h4 {}
-
-/* Who */
-
 .about.loaded .view section {
   transition-delay: 0.45s;
 }
 
+/* team */
+
+.about section.team .box {
+  margin-bottom: 20px;
+}
+.about section.team .content {
+  max-width: 1380px;
+}
+.about .members {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-right: -30px;
+}
+.about .member {
+  padding: 0 30px;
+  width: 33%;
+  box-sizing: border-box;
+  text-align: left;
+  margin-bottom: 2.5em;
+}
+.about .member img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto 1.5em;
+}
+.about .member h4 {
+  font-weight: 800;
+  font-size: 27px;
+  line-height: 31px;
+  letter-spacing: -0.5px;
+  margin-bottom: 4px;
+}
+.about .member .position {
+  font-size: 16px;
+  line-height: 22px;
+  font-style: italic;
+  margin-bottom: 1.8em;
+}
+.about .member .description {
+}
+.about .member p {
+}
+@media only screen and (max-width: 800px) {
+  .about .members {
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+  .about .member {
+    width: 50%;
+    padding: 0 20px;
+    margin-bottom: 1em;
+  }
+}
+@media only screen and (max-width: 570px) {
+  .about .member {
+    width: 100%;
+    padding: 0 20px;
+    margin-bottom: 1em;
+  }
+  .about .member img {
+    max-width: 375px;
+  }
+}
+
 /* Work with us */
 
+.about section.workwith .box {
+  margin-bottom: 30px;
+}
 .about section.workwith .content {
   text-align: center;
 }
@@ -210,6 +275,9 @@
     border-top: 1px solid #eee;
   }
   .about section.who .box {
+    margin-bottom: 17px;
+  }
+  .about section.team .box {
     margin-bottom: 17px;
   }
 }

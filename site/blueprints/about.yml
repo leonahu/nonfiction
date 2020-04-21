@@ -33,10 +33,31 @@ fields:
     label: Owner 2
     type: textarea
 
+  team: 
+    label: Team Members
+    type: structure
+    style: table
+    entry: 
+      - name
+    fields:
+      name:
+        label: Full name
+        type: input
+        width: 1/2
+      image:
+        label: Profile Image
+        type: image
+        width: 1/2
+      position:
+        label: Position
+        type: input
+      description:
+        label: Description
+        type: textarea
+
   bottom:
     label: Bottom Text
     type: textarea
-
 
   line2: 
     type: line

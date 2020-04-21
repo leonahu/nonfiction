@@ -11,36 +11,10 @@
 <div id="fullpage">
   <div class="intro section">
     <div class="box">
-      <div class="n1">
-        <div>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 71">
-            <path fill-rule="evenodd" clip-rule="evenodd" fill="#3b3b3b" d="M0 71V0h16l32 42V0h17v71H49L17 29v42H0z"/>
-          </svg>
-        </div>
-      </div><!--
-    --><div class="non">
-        <div>
-          <div id="smoke" class="smoke">
-            <img data-depth="0.8" class="bg" src="<?php echo b::asset($o->tree['imgs']['1']) ?>">
-            <img data-depth="0.5" class="fg" src="<?php echo b::asset($o->tree['imgs']['2']) ?>">
-          </div>
-          <svg xmlns="http://www.w3.org/2000/svg" width="470" height="470" viewBox="0 0 942 942">
-            <defs>
-              <mask id="holex">
-                <rect width="100%" height="100%" fill="white"/>
-                <path fill-rule="evenodd" clip-rule="evenodd" fill="#000" d="M86 670l199-200L86 272 272 86l199 198L668 88l188 184-198 197 198 200-185 187-200-200-199 198L86 670z"/>
-              </mask>
-            </defs>
-            <path fill-rule="evenodd" clip-rule="evenodd" fill="#fff" mask="url(#holex)" d="M0 0h942v942H0V0z"/>
-          </svg>
-        </div>
-      </div><!--
-    --><div class="n2">
-        <div>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 71">
-            <path fill-rule="evenodd" clip-rule="evenodd" fill="#3b3b3b" d="M0 71V0h16l32 42V0h17v71H49L17 29v42H0z"/>
-          </svg>
-        </div>
+      <div class="non">
+        <svg width="470" height="470" viewBox="0 0 470 470" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M23.5526 344.294L132.846 234.451L23.5526 125.706L125.706 23.5526L235 132.297L343.195 24.651L446.447 125.706L337.703 233.902L446.447 343.744L344.843 446.447L235 336.605L125.706 445.349L23.5526 344.294Z" fill="#231F20"/>
+        </svg>
       </div>
       <h1><?php echo $page->intro()->kt() ?></h1>
       <div class="mouse"><div><span></span></div></div>

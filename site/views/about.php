@@ -4,6 +4,7 @@
   $o->class = "about";
   $o->title = b::title($page, $site);
   $o->tree = c::get("tree");
+  $members = $page->team()->toStructure();
   ob_start();
 ?>
 
@@ -37,6 +38,27 @@
     <div class="right"><?php echo $page->owner2()->kt() ?></div>
   </div>
 </section>
+
+
+<?php if (count($members) > 0) { ?>
+<section class="team">
+  <div class="box content ac">
+    <div class="members">
+      <?php
+      foreach ($members as $member) {
+        $img = b::asset($member->image()->toFile()->crop(500, 500)->url())
+      ?>
+        <div class="member">
+          <img src="<?php echo $img ?>" />
+          <h4><?php echo $member->name ?></h4>
+          <div class="position"><?php echo $member->position ?></div>
+          <div class="description"><?php echo $member->description->kt() ?></div>
+        </div>
+      <?php } ?>
+    </div>
+  </div>
+</section>
+<?php } ?>
 
 
 <section class="workwith">

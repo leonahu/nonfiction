@@ -53,7 +53,7 @@ c::set('url', http . host);
 c::set('license', 'K2-PERSONAL-c6b3515c6fdce1eb791bde3c772befbd');
 c::set('debug', debug);
 c::set('cache', cache);
-c::set('thumbs.driver', prod? 'im' : 'gd');
+c::set('thumbs.driver', prod? 'im' : 'im'); // 'gd' needs to be compiled with your PHP build
 c::set('kirbytext.filters', array());
 c::set('panel.stylesheet', 'assets/css/admin.css');
 c::set('simplemde.kirbytagHighlighting', false);
