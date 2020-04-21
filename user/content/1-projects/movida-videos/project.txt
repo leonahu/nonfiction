@@ -1,0 +1,54 @@
+Title: Movida Videos
+
+----
+
+Subheading: The future of learning
+
+----
+
+Client: Movida
+
+----
+
+Coverimage: view-6_000.png
+
+----
+
+Date: 2020-03-13
+
+----
+
+Tags: #education,#educationdesign,#lifelonglearners,#futureofwork,#architecture
+
+----
+
+Builder: 
+
+- 
+  text1: '<iframe src="https://player.vimeo.com/video/396842731" width="1200" height="675" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>'
+  image1: video-titles-hearth.jpg
+  _fieldset: column1
+- 
+  text1: '<iframe src="https://player.vimeo.com/video/394080955" width="1200" height="675" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>'
+  image1: video-titles-playground.jpg
+  _fieldset: column1
+- 
+  text1: '<iframe src="https://player.vimeo.com/video/394030751" width="1200" height="675" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>'
+  image1: video-titles-hive.jpg
+  _fieldset: column1
+- 
+  text1: '<iframe src="https://player.vimeo.com/video/400843603" width="1200" height="675" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>'
+  image1: ""
+  _fieldset: column1
+
+----
+
+Line2: 
+
+----
+
+Metatitle: Movida is the future of learning.
+
+----
+
+Metadescription: Movida is the future of learning.

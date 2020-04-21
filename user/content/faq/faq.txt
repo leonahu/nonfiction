@@ -9,28 +9,37 @@ Heading1: Design & Philosophy
 Questions1: 
 
 - 
-  question: Our design philosophy.
+  question: "What's special about working with Nonfiction?"
+  answer: "We are small, and like to keep it that way. That doesn't mean we haven't taken on big projects. We are exclusively made of highly experienced, intelligent, efficient and well-rounded designers. This means no intern is going to run your project, ever. This is the only way we can guarantee the highest quality of work for each of our clients, from startup to big corporation."
+- 
+  question: What is your design philosophy?
   answer: >
     Fun and sophistication. We bring
     together design and engineering to
     ensure innovative product development
-    and beautiful products down to the last
+    and beautiful objects down to the last
     detail.
 - 
-  question: Our design process.
+  question: How do you work?
   answer: |
-    We utilize a four-step process: Discover problems and identify opportunities, Design solutions (sketch, 3D modeling, prototyping), followed by a Refinement phase and finally the Delivery of files. Following this process, we offer extended services to ensure design intent is kept through the complexities of manufacturing.
-    Throughout the whole process, we collaborate with the client, making decisions together, and advising them on calculated risks.
+    Every project is unique, but we typically follow a multi-step process. We Discover problems and identify opportunities, Design solutions (sketch, 3D modeling, prototyping), followed by a Refinement phase and Delivery of files. We are often asked to Extend our services through manufacturing, distribution, marketing and more. This extended engagement ensures design intent is kept through the complexities of product development and manufacturing.
+    During the whole process, we collaborate with the client,  PD firm and CM, making decisions together, and advising on calculated risks.
 - 
-  question: How we approach to sustainability.
+  question: How do you approach sustainability?
   answer: >
     Plastic is inherent to mass
     manufacturing, and we cannot always
     replace it with a more sustainable
     material. In those cases, we strive to
     create beautiful products that people
-    want to own for years. We call it
-    sustainability through desire.
+    will own for years. We have extensive
+    experience using manufacturing processes
+    that limit or eliminate wasted
+    materials, practice design for
+    disassembly when applicable. We also use
+    recycled and recyclable materials,
+    non-toxic materials and finishes when it
+    makes a difference.
 
 ----
 
@@ -45,6 +54,7 @@ Questions2:
     Do you practice lean product
     development?
   answer: >
+    Yes, when the client is open for it.
     Closely aligned design, engineering, and
     development teams can reduce time to
     market while mitigating risk and
@@ -59,6 +69,22 @@ Questions2:
     cut-and-sew samples are created in our
     workshop. High-end cosmetic and
     functional prototypes are outsourced.
+- 
+  question: Do you work with overseas vendors?
+  answer: "Definitely. We work directly with manufacturing and prototyping partners on a regular basis – whether onsite factory visits or via conference calls. Strong relationships are the key to a product's success. These relationships help shepherd products through production and ensure quality, durability and attention to detail."
+- 
+  question: >
+    How comfortable are you with Design For
+    Manufacturing?
+  answer: "DFM would be our specialty. This is precisely why we named our company Nonfiction. We don't see the point of fancy concepts that lead to nowhere. Bringing beautiful, useful, well-tested, well-engineered and innovative products to market is what we do best. Over the years, we have become known to solve problems most design studios can't handle. For us, every single detail matters: the shape, the quality of materials, where it is sourced, how it is assembled, the weight and thickness of your product, part alignment, the need for features. We question everything and remove as much as possible. We believe in products that do few things, but do them right."
+- 
+  question: Can you help us manage our factory?
+  answer: >
+    Yes. Nonfiction has close bilingual
+    partners who offer sourcing, product
+    development and quality control on
+    Chinese ground. They will happily guide
+    you through the process if needed.
 
 ----
 
@@ -81,13 +107,66 @@ Questions3:
     consumer electronics, medical devices,
     luxury, soft goods and packaging.
 - 
-  question: Have you worked with overseas vendors?
-  answer: "Definitely. We work directly with manufacturing and prototyping partners on a regular basis – whether onsite factory visits or via conference calls. Strong relationships are the key to a product's success. These relationships help shepherd products through production and ensure quality, durability and attention to detail."
-- 
   question: Do you collaborate with your clients?
-  answer: 'Always, unless they ask us not to. We engage with our clients to gain firsthand product insights. We frequently sketch, workshop and whiteboard together.  The insights we gain help us understand the product limits and how we can exceed expectations.'
+  answer: 'Always. We engage with our clients to gain firsthand product insights. We frequently sketch, workshop and whiteboard together.  Oftentimes we help construct and actively participate in user studies. We keep the conversation casual, yet targeted. This lowers barriers and encourages open dialogue between ourselves and our clients. The insights we gain help us understand the product limits and how we can exceed expectations.'
 - 
   question: >
     What kind of client projects do you
     prefer?
   answer: "We don't subscribe to a single product category. Rather, we prefer clients that are willing to challenge conventional thinking and have fun while doing it. We engage, collaborate and go wide, then systematically narrow to a focused, cohesive solution."
+- 
+  question: Do you work for equity share?
+  answer: >
+    Unless you have an excellent track
+    record of building hardware companies
+    and selling them for millions, the
+    answer is no.
+- 
+  question: >
+    Do you bill by project or time and
+    materials?
+  answer: >
+    It depends. Project-based contracts are
+    recommended for the best quality of work
+    because it retains our focused attention
+    on your project. We highly recommend
+    this arrangement for the initial design
+    phase that gets you to the prototyping
+    phase. For anything beyond that, time
+    and materials is most likely more
+    manageable.
+- 
+  question: "I don't see work in my category. How do I know you can work in it?"
+  answer: "It is our job as designers to question and rethink the way things have been done in any product category. Additionally, we routinely have to learn new technologies and regulations to adapt to our clients' needs. Our goal is to bring you designs no one else could come up with. Occasionally the idea is so new (yet manufacturable) that you may end up with a patentable idea."
+- 
+  question: >
+    Can you help us design the future of our
+    company?
+  answer: >
+    Absolutely. Branding and product
+    strategies are part of our capabilities.
+    If you have an idea or a technology and
+    would like to turn it into products
+    people desire for the long run, we can
+    help you.
+- 
+  question: "Nonfiction seems pretty small and I'm not sure you can take care of our project."
+  answer: >
+    Each designer at Nonfiction was
+    specifically selected for their talent,
+    professionalism and efficiency. Clients
+    are always surprised by the amount of
+    work that comes out of our studio and
+    how closely aligned it is to their
+    specific needs. Being nimble helps us
+    react quickly to the inevitable mishaps
+    of product development. This is why all
+    of our clients are recurring ones.
+
+----
+
+Metatitle: 
+
+----
+
+Metadescription: 

@@ -10,7 +10,7 @@ Description:
 
 ----
 
-Copyright: © 2017 Nonficiton
+Copyright: © 2018 Nonficiton, LLC.
 
 ----
 

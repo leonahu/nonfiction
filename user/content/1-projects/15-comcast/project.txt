@@ -1,0 +1,58 @@
+Title: Xfinity Entertainment and Home Security Devices
+
+----
+
+Subheading: Bringing High Design to a Commodity Brand.
+
+----
+
+Client: Comcast
+
+----
+
+Coverimage: nonfiction_intro_r1j2.jpg
+
+----
+
+Date: 2018-01-10
+
+----
+
+Tags: Consumer,Home,Internet,IoT,Security,Entertainment
+
+----
+
+Builder: 
+
+- 
+  text1: |
+    A superior Xfinity experience with a minimalistic design language, delightful details and sophisticated colors and materials.
+    Stack feature disks on top of the gateway to add functionality to the system: Home Security, Clock, Games and more.
+  image1: ""
+  _fieldset: column1
+- 
+  text1: ""
+  image1: nonfiction_intro_r1j3.jpg
+  _fieldset: column1
+- 
+  text1: |
+    Connect security cameras and Wi-Fi repeaters where needed.
+    Pair the LED voice-activated remote control by setting it on top of the gateway then dock it on its own base to keep it charged.
+  image1: ""
+  _fieldset: column1
+- 
+  text1: ""
+  image1: nonfiction_intro_r1j1.jpg
+  _fieldset: column1
+
+----
+
+Line2: 
+
+----
+
+Metatitle: 
+
+----
+
+Metadescription: 

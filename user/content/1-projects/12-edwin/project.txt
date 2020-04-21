@@ -1,0 +1,82 @@
+Title: Edwin the Duck: IoT Smart Toy
+
+----
+
+Subheading: The world's first app-connected rubber ducky.
+
+----
+
+Client: Pi Lab
+
+----
+
+Coverimage: edwin-baby.jpg
+
+----
+
+Date: 2018-01-10
+
+----
+
+Tags: IoT,Consumer,Kids
+
+----
+
+Builder: 
+
+- 
+  text1: >
+    Edwin is a waterproof, app-connected
+    rubber ducky designed to engage children
+    at bath time, relax them before naptime,
+    and soothe them during sleepy time. He
+    even plays music and interacts
+    underwater. Color indicator lights and
+    the app help parents determine water
+    temperature instantly.
+  image1: ""
+  _fieldset: column1
+- 
+  text1: ""
+  image1: edwin-in-bath-1200x564px.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: layer-43-copy.png
+  text2: "Edwin launched with retail partners such as Apple,  Best Buy and Target. Edwin has since evolved into a power brand including a product just for babies — a project fine-tuned with Jessica Alba and our participation on Apple TV's Planet of the Apps, a fully animated world populated with friends, and a full-length album on iTunes."
+  image2: ""
+  _fieldset: column2
+- 
+  text1: ""
+  image1: group-9.png
+  _fieldset: column1
+- 
+  text1: ""
+  image1: screen-shot-2014-11-11-at-9.25.40-am.png
+  _fieldset: column1
+- 
+  text1: ""
+  image1: ee7901406730f113e8ee6af9_rw_1920.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: edwin-logo-03-colors-03.jpg
+  text2: ""
+  image2: edwin-logo-03-colors-05.jpg
+  _fieldset: column2
+- 
+  text1: ""
+  image1: layer-58.png
+  _fieldset: column1
+
+----
+
+Line2: 
+
+----
+
+Metatitle: 
+
+----
+
+Metadescription: 

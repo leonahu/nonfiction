@@ -1,0 +1,112 @@
+Title: Midnight Leather Collection
+
+----
+
+Subheading: Handmade luxury goods with the effortlessness of Parisian chic with fearless American flair
+
+----
+
+Client: Eternal Luxe
+
+----
+
+Coverimage: 11midnight_1200x801-for-website.jpg
+
+----
+
+Date: 2018-01-10
+
+----
+
+Tags: Luxury,Softgoods,Fashion
+
+----
+
+Builder: 
+
+- 
+  text1: >
+    A unisex statement piece featuring our
+    signature spine design transitioning
+    into comfortable handles, the Midnight
+    Tote has two drop-in pockets and a large
+    zippered pocket. Great to dress up or
+    dress down, it is discrete yet
+    distinctive, timeless and sophisticated.
+  image1: ""
+  _fieldset: column1
+- 
+  text1: ""
+  image1: el-midnight-final-9334-111.jpg
+  text2: |
+    The construction is extremely rugged, with each panel fully lined with leather. The Midnight Tote is machine stitched, cut and finished by hand.
+    
+    Each piece comes with an Eternal Luxe ID card with serial number and signed by the artisan who made the product.
+  image2: ""
+  _fieldset: column2
+- 
+  text1: >
+    The Midnight Collection was released in
+    2016. It features a tote bag, a
+    continental clutch wallet, a square
+    wallet and a keychain. The outer leather
+    is a pebbled black buffalo from France
+    and the lining is smooth calf from
+    Texas. All the hardware is fabricated in
+    LA.
+  image1: ""
+  _fieldset: column1
+- 
+  text1: ""
+  image1: el-midnight-final-9394-1.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: 01midnight_1200x801-for-website.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: 03midnight_1200x801-for-website.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: 04midnight_1200x801-for-website.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: 05midnight_1200x801-for-website.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: 06midnight_1200x801-for-website.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: 08midnight_1200x801-for-website.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: 09midnight_1200x801-for-website.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: 10midnight_1200x801-for-website.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: 01midnight_542x616-for-website.jpg
+  text2: ""
+  image2: 02midnight_542x616-for-website.jpg
+  _fieldset: column2
+
+----
+
+Line2: 
+
+----
+
+Metatitle: 
+
+----
+
+Metadescription: 

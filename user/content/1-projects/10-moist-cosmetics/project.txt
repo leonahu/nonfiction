@@ -1,0 +1,108 @@
+Title: Moist Cosmetics
+
+----
+
+Subheading: Look good doing things that are good for you.
+
+----
+
+Client: Moist
+
+----
+
+Coverimage: moist.lipstick-r2a-1200px.jpg
+
+----
+
+Date: 2018-08-02
+
+----
+
+Tags: Cosmetics,Packaging,Branding,Makeup,Skincare
+
+----
+
+Builder: 
+
+- 
+  text1: >
+    Moist cosmetics engages the
+    forever-young customer through elegant
+    forms with a playful brand language.
+    With ultra-hydrating natural
+    formulations, your skin and hair glow
+    and feel healthy.
+  image1: ""
+  _fieldset: column1
+- 
+  text1: ""
+  image1: moist-logo-layout-1200px.jpg
+  _fieldset: column1
+- 
+  text1: "Playful sophistication is key to Moist's brand strategy. The vibrant colors are memorable, yet balanced against the clean white packaging while the logo mark remains fun and approachable."
+  image1: 180720_moist.716-2-1200px.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: moist_polish-open-blue-1-1275px.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: moist_lipstick_incontexta-1350px.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: moist-sketches-600px.jpg
+  text2: >
+    Exploring logo options that capture the
+    youthful essence of the brand language.
+  image2: ""
+  _fieldset: column2
+- 
+  text1: ""
+  image1: moist_lipstick_lineup-1200px.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: moist_lipstick_box-1010px.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: 180725_moist.698-r2a-1200px.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: moist_bodyscrub-1200px.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: moist_moisturizer-pedestal-1200px.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: moist_eyeshadow.blue-1275px.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: moist_eyeshadow_incontext-1350px.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: moist_shampoo_incontextb-1350px.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: moist-pms-colorways-1200px.jpg
+  _fieldset: column1
+
+----
+
+Line2: 
+
+----
+
+Metatitle: 
+
+----
+
+Metadescription: 

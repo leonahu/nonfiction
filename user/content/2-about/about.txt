@@ -5,9 +5,9 @@ Title: About
 Intro: 
 
 #The Studio
-Nonfiction is a San Francisco based design studio specializing in industrial design, branding, strategy and packaging. 
+Nonfiction is a San Francisco-based design studio specializing in industrial design, branding, strategy, and packaging. 
 
-We engage consumers through the design of fun and sophisticated products. Our clients range from large corporations and mid-size companies to funded startups all over the world. We leverage our relationships with engineering and manufacturing partners to execute your ideas on time and on budget.
+We engage consumers through the design of unique and sophisticated products with rich backstories. Our clients range from large corporations and mid-size companies to funded startups all over the world. We leverage our relationships with engineering and manufacturing partners to execute your ideas on time and on budget.
 
 ----
 
@@ -19,14 +19,13 @@ Owner1:
 
 ### Phnam Bagley
 
-Phnam is a creative director who creates products in a very wide range of product categories.
-She started her career designing transportation and habitats for manned space missions, then turned to consumer electronics and handcrafted luxury goods. She has designed and led teams at varied design consultancies including IDEO, Lunar, Matter, Enlisted and Lifestyledesign.  Phnam is the CEO and Design Director at Eternal Luxe, a luxury goods brand made in the USA. She also teaches industrial design at California College of the Arts and mentors at Founder Institute.
+Phnam is an Creative Director with 15 years experience designing hardware in Audio, Wearables, Neurotech/Biotech, Luxury & Fashion, Packaging, Sports and Aerospace. She has designed and led teams at varied design consultancies including IDEO, Lunar, Matter, Enlisted and Lifestyledesign. Phnam's work spans 4 continents, and companies ranging from Fortune 500's to startups. Clients include Intel, Comcast, Facebook, Atari, Halo Neuroscience and more. She connects clients and factories via trusted partners, making the transition from design to engineering, prototyping, and marketing as seamless and efficient as possible. She speaks internationally on the subject of “Design for a Better Future”, covering stories of inclusion, responsibility, design thinking, education and space exploration. Phnam is the CEO and Design Director at Eternal Luxe, a brand of luxury goods made in USA. She also teaches industrial design at California College of the Arts and mentors at Founder Institute.
 
 Hometown: Paris, France
 Education: Strate (France)
 Designskolen Kolding (Denmark)
-SICSA U. of Houston (USA)
-Amblard Leather Atelier (USA)
+Sasakawa Intl Center for Space Architecture (Texas)
+Amblard Leather Atelier (California)
 
 ----
 
@@ -34,25 +33,34 @@ Owner2:
 
 ### Mardis Bagley
 
-Mardis is a creative director specialized in consumer electronics, lifestyle, soft goods and packaging.
-Prior to his career in industrial design, Mardis worked in graphic design, managing branding and digital design teams. Mardis specializes in fast, technical execution and shepherds products through mass production, to ensure design intent. He has worked on consumer products for Nike, Dell, Intel, Logitech, Symantec, Facebook and smaller companies too numerous to count. As a founding partner in Felt Audio, Mardis designed, developed and managed the personal audio brand from concept to big-box retail distribution. 
+Mardis is a Creative Director with 15 years of experience in Consumer Electronics, Neurotech, Lifestyle, Soft Goods and Packaging. He specializes in fast, technical execution and has spent extensive time overseas shepherding products through mass production to ensure design intent. He has designed for the likes of Nike, Facebook, Logitech, Dell, Intel, Chevron, Jiffy Lube, Corning, Symantec and for mid-sized companies and startups too numerous to count. His direct efforts have garnered tens of millions of dollars in sales and venture capital funding. Prior to his career in industrial design, he worked for fifteen years in the graphic design field, managing branding, and digital design teams. Mardis teaches Sustainability & Social Impact at the California College of the Arts.
 
-Hometown: Champaign, Illinois, USA
-Education: University of Houston (USA)
-University of Illinois (USA)
+Patents (link: https://patents.justia.com/search?q=mardis+bagley target:"_blank" text: here) and (link: https://patents.justia.com/search?q=steven+mardis+bagley target:"_blank" text: here). 
+
+Hometown: Champaign, Illinois 
+Education: University of Houston 
+University of Illinois
 
 ----
 
 Bottom: 
 
-### Interested in working for us?
-Send us an email and your portfolio to
+### Interested in working with us?
+Send us an email to
 info [at] nonfiction.design
 
 ----
 
-Image1: about_phnam.png
+Image1: phnam01.jpg
 
 ----
 
-Image2: about_mardis.png
+Image2: mardis01.jpg
+
+----
+
+Metatitle: 
+
+----
+
+Metadescription: 

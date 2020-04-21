@@ -1,0 +1,71 @@
+Title: Scollar Mini: Smart Pet Wearable
+
+----
+
+Subheading: Small dog and cat smart collar featuring interchangeable modules with different functions
+
+----
+
+Client: Scollar
+
+----
+
+Coverimage: scollar-mini_tunnel-concept_r4f.312-2.png
+
+----
+
+Date: 2018-01-09
+
+----
+
+Tags: Wearables,IoT,Consumer
+
+----
+
+Builder: 
+
+- 
+  text1: |
+    The Scollar ecosystem is designed for small-size pets to help their humans manage their location, health and access to the house.
+    It centers around a smart collar featuring interchangeable modules with different functions.
+    Designed in collaboration with Enlisted Design of Oakland, CA.
+  image1: ""
+  _fieldset: column1
+- 
+  text1: ""
+  image1: nonfiction_intro_r1j.jpg
+  text2: >
+    The Scollar Mini features a swappable
+    battery, LCD screen on the back on the
+    neck, interchangeable modules, a
+    breakaway feature for cats, strap
+    adjustment and the most reliable GPS on
+    the pet accessory market.
+  image2: ""
+  _fieldset: column2
+- 
+  text1: ""
+  image1: >
+    scollar-mini_tunnel-concept_r4f.313-2.png
+  _fieldset: column1
+- 
+  text1: ""
+  image1: >
+    scollar-mini_r2h-collar-perspective-with-lcd-2.png
+  _fieldset: column1
+- 
+  text1: ""
+  image1: scollar-mini_accessories_r1e.332-2.png
+  _fieldset: column1
+
+----
+
+Line2: 
+
+----
+
+Metatitle: 
+
+----
+
+Metadescription: 

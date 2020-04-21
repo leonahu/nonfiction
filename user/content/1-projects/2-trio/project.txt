@@ -1,0 +1,123 @@
+Title: Trio: Tremor Management Wearable
+
+----
+
+Year: 2014
+
+----
+
+Text: 
+
+----
+
+Coverimage: 2017_03_28-vuli-00032-v2-1200x801px.jpg
+
+----
+
+Date: 2017-12-22
+
+----
+
+Text2: 
+
+- 
+  street: qwef
+  zip: qwef
+  city: |
+    qwefqwef
+    qwefqwef
+
+----
+
+Builder: 
+
+- 
+  text1: >
+    Trio allows people with essential
+    tremors to do tasks that would otherwise
+    not be possible. Users regain the
+    freedom to type on a computer or
+    smartphone, write a letter, hold a cup
+    of coffee and do many other tasks that
+    require fine motor skills.
+  image1: ""
+  _fieldset: column1
+- 
+  text1: ""
+  image1: 2017_03_28-vuli-00510-v1-1200x801px.jpg
+  _fieldset: column1
+- 
+  text1: "To treat essential tremors effectively, users need more than a mass-prescribed medication. They need a personalized solution that targets the source of their tremor. Trio is the first FDA approved, wrist-worn essential tremors therapy device that is calibrated and prescribed specifically to the patient's condition."
+  image1: ""
+  _fieldset: column1
+- 
+  text1: >
+    The discrete, yet familiar form factor
+    is easy to use and contributes to the
+    success of the Trio therapeutic
+    wearable.
+  image1: ""
+  _fieldset: column1
+- 
+  text1: ""
+  image1: >
+    cala-origin_r8r-gray-dark.29-2-1200x801px.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: >
+    cala-origin_r8q-gray-light-floating.40-2-1200x801px.jpg
+  _fieldset: column1
+- 
+  text1: >
+    Docking the Trio for charging was a key
+    interaction. Through extensive user
+    studies, we discovered that aligning
+    charging contacts was a challenge for
+    users. Through an empathetic and
+    iterative design approach, we carefully
+    modeled a base that funneled the
+    wristband into the docking position. The
+    addition of magnets guaranteed good
+    contact every time.
+  image1: ""
+  _fieldset: column1
+- 
+  text1: ""
+  image1: cala-origin_r10q-cmf.87-1200x801px.jpg
+  _fieldset: column1
+- 
+  text1: >
+    Nested cable management allows users to
+    easily travel with Trio anywhere without
+    having to worry about lost cables.
+  image1: ""
+  _fieldset: column1
+- 
+  text1: ""
+  image1: cala-origin_r8q-5-up.33-3-1200x801px.jpg
+  _fieldset: column1
+
+----
+
+Heading: Funneled design and magnetic assistance for easy docking
+
+----
+
+Client: Cala Health
+
+----
+
+Tags: Wearables,Hardware,Medical,Neurostimulator
+
+----
+
+Subheading: Bringing dignity and freedom to people suffering from essential tremors.
+
+----
+
+Metatitle: 
+
+----
+
+Metadescription: 

@@ -1,0 +1,114 @@
+Title: Shuttle Leather Collection
+
+----
+
+Subheading: Collaboration with Divka, A/W 2016
+
+----
+
+Client: Eternal Luxe x Divka
+
+----
+
+Coverimage: 03shuttle_1200x801-for-website.jpg
+
+----
+
+Date: 2018-01-05
+
+----
+
+Tags: Softgoods,Luxury,Fashion
+
+----
+
+Builder: 
+
+- 
+  text1: |
+    The Shuttle Collection: made in collaboration with Divka, a fashion house based in Tokyo.
+    
+    A distintive take on the every day handbag featuring our beautiful custom-dyed leather, signature loop handle design and our exclusive leather covered wood slats at the bottom. The Shuttle Barrel Bag has one large zippered compartment and two drop side pockets.
+  image1: ""
+  _fieldset: column1
+- 
+  text1: ""
+  image1: imageb1.jpg
+  text2: ""
+  image2: imageb2.jpg
+  _fieldset: column2
+- 
+  text1: ""
+  image1: 13shuttle_1200x801-for-website.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: 03shuttle_542x616-for-website.jpg
+  text2: >
+    The construction is extremely rugged,
+    with each panel fully lined with denim
+    or leather. The Shuttle Barrel Bag is
+    hand and machine stitched, cut and
+    finished by hand.
+  image2: ""
+  _fieldset: column2
+- 
+  text1: ""
+  image1: shuttle_01.png
+  _fieldset: column1
+- 
+  text1: ""
+  image1: imageb5.jpg
+  text2: ""
+  image2: imageb6.jpg
+  _fieldset: column2
+- 
+  text1: ""
+  image1: 01shuttle_1200x801-for-website.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: 02shuttle_1200x801-for-website.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: 04shuttle_1200x801-for-website.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: 05shuttle_1200x801-for-website.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: 06shuttle_1200x801-for-website.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: 07shuttle_1200x801-for-website.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: 08shuttle_1200x801-for-website.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: 09shuttle_1200x801-for-website.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: 10shuttle_1200x801-for-website.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: 01shuttle_542x616-for-website.jpg
+  text2: ""
+  image2: 02shuttle_542x616-for-website.jpg
+  _fieldset: column2
+
+----
+
+Metatitle: 
+
+----
+
+Metadescription: 

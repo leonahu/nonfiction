@@ -1,0 +1,90 @@
+Title: The Dipper: Audio Necklace
+
+----
+
+Subheading: Earbuds For Women By Women
+
+----
+
+Client: Tinsel
+
+----
+
+Coverimage: 1155_5d2_2015-08-27_tinsel-edit-full.jpg
+
+----
+
+Date: 2018-11-19
+
+----
+
+Tags: consumer electronics,earbuds,jewelry,wearable,lifestyle,audio
+
+----
+
+Builder: 
+
+- 
+  text1: >
+    As the line between work and play
+    changes, so does the need for
+    accessibility. Tinsel breaks new ground
+    with their connected jewelry line,
+    Dipper. Nonfiction worked closely with
+    Tinsel to design jewelry that funnels
+    music and conference calls to the wearer
+    no matter the setting.
+  image1: ""
+  _fieldset: column1
+- 
+  text1: ""
+  image1: tinsel-sketches-04-2-1200x529px.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: tinsel-03.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: tinsel-01-1200-522px.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: dipper-bud-heart.jpg
+  text2: >
+    Tinsel Dipper draws upon materials that
+    are uncommon in the audio industry. Gold
+    plated woven cables and metal parts are
+    key to a luxurious experience.
+  image2: ""
+  _fieldset: column2
+- 
+  text1: ""
+  image1: 0572_5d2_2015-08-27_tinsel-edit-full.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: 1113_5d2_2015-08-27_tinsel-edit-full.jpg
+  _fieldset: column1
+- 
+  text1: "Moving the aesthetic from standard consumer electronic memes is key to Dipper's success. Inspiration came from geometric architectures, structural forms, and natural crystalline forms."
+  image1: ""
+  _fieldset: column1
+- 
+  text1: ""
+  image1: tinsel-21.jpg
+  text2: ""
+  image2: tinsel-22.jpg
+  _fieldset: column2
+
+----
+
+Line2: 
+
+----
+
+Metatitle: 
+
+----
+
+Metadescription: 

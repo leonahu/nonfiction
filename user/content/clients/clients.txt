@@ -38,7 +38,7 @@ Text:
 
 Nonfiction collaborates on projects of varying scale and scope, both locally and internationally. 
 Our clients are artisans, obsessives, and game-changers. From start-ups to global brands, 
-our engagements are founded on a shared passion for creative innovation, down to the last detail.
+our engagements are founded on a shared passion for creative innovation.
 
 ----
 
@@ -47,6 +47,7 @@ Clients:
 - 
   category: Technology
   text: |
+    Atari
     Intel
     Facebook
     Comcast
@@ -58,8 +59,9 @@ Clients:
 - 
   category: Audio
   text: |
+    Alpine
     Human
-    The House of Marley
+    Marley
     Mark Levinson
     Altec Lansing
     Plantronics
@@ -67,17 +69,7 @@ Clients:
     Denon
     The Sharper Image
 - 
-  category: 'Fashion & Lifestyle'
-  text: |
-    Lancel
-    Eternal Luxe
-    Tinsel
-    Teva
-    Case Logic
-    Twelve South
-    Altego
-- 
-  category: Health care
+  category: 'Biotech & Healthcare'
   text: |
     Philips
     Cala Health
@@ -85,17 +77,40 @@ Clients:
     R2 Technology
     BodyMedia
     Vorso
+    Coretexxus
+- 
+  category: 'Fashion & Lifestyle'
+  text: |
+    Ritz-Carlton
+    Lancel
+    Eternal Luxe
+    Tinsel
+    Teva
+    Case Logic
+    Twelve South
+    Squircle
 - 
   category: Packaging
   text: |
+    Moist
+    White Cosmetics
     Klipsch
     Henge Docks
     Felt Audio
     June
     Archt
 - 
-  category: Kids and Pets
+  category: 'Education & Sustainability'
   text: |
+    Mistletoe
     Edwin The Duck
     Scollar
     Nummy
+
+----
+
+Metatitle: 
+
+----
+
+Metadescription: 

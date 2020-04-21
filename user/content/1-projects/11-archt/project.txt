@@ -1,0 +1,52 @@
+Title: 360º Speaker
+
+----
+
+Subheading: A 360º luxurious audio experience.
+
+----
+
+Client: Archt Audio
+
+----
+
+Coverimage: archt_2.png
+
+----
+
+Date: 2018-01-08
+
+----
+
+Tags: audio,consumer,Technology
+
+----
+
+Builder: 
+
+- 
+  text1: "The Archt One's unique design beautifies the physics of 360 degree superior acoustics: mid-range driver and subwoofer face each other, separated by the Sound Array, which evenly disperses the sound all around the room. The Sounds Array doubles as controller with capacitive touch technology."
+  image1: ""
+  _fieldset: column1
+- 
+  text1: ""
+  image1: archt_1.png
+  _fieldset: column1
+- 
+  text1: ""
+  image1: archt_3.png
+  text2: ""
+  image2: archt_5.png
+  _fieldset: column2
+- 
+  text1: ""
+  image1: archt_4.png
+  _fieldset: column1
+
+----
+
+Metatitle: 
+
+----
+
+Metadescription: 

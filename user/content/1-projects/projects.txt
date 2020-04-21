@@ -3,3 +3,11 @@ Title: Projects
 ----
 
 Text: 
+
+----
+
+Metatitle: 
+
+----
+
+Metadescription: 

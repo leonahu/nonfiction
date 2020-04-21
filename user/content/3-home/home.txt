@@ -2,7 +2,7 @@ Title: Home
 
 ----
 
-Intro: Nonfiction is a boutique, full-service design agency. We create real products that surprise and delight.
+Intro: We are industrial designers. We turn science-fiction into reality for a better future. Come play with us.
 
 ----
 
@@ -10,7 +10,7 @@ Text: We bring concepts to shelves, fiction into reality.
 
 ----
 
-Title2: We bring concepts to shelves, fiction into reality.
+Title2: Nonfiction. Turning sci-fi into reality for a better future.
 
 ----
 
@@ -21,28 +21,28 @@ Link: Check out our portfolio
 Projects: 
 
 - 
-  title: Wearable Technology
-  project: sound
+  title: Biotech
+  project: halo-spark
 - 
   title: Audio
-  project: archt
+  project: human
 - 
-  title: Fashion Soft Goods
-  project: shuttle-collection
-- 
-  title: Consumer IoT
-  project: scollar
+  title: Wearables
+  project: trio
 - 
   title: Branding
-  project: intel
+  project: white-cosmetics
 - 
-  title: Design Strategy
-  project: edwin
+  title: Fashion
+  project: shuttle-collection
+- 
+  title: Home
+  project: puppybowl
 
 ----
 
-Metatitle: Nonfiction
+Metatitle: Nonfiction - industrial design, user experience, brand & packaging
 
 ----
 
-Metadescription: 
+Metadescription: Industrial Design, Medical Design, Consumer Electronics, Audio, Branding, User Experience, Packaging Design, San Francisco, California

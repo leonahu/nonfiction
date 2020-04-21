@@ -1,0 +1,142 @@
+Title: Emirates Wireless Charging Station
+
+----
+
+Subheading: Bringing the future to a luxury space.
+
+----
+
+Client: Intel
+
+----
+
+Coverimage: intel-14823-1200x801px.jpg
+
+----
+
+Date: 2018-01-08
+
+----
+
+Tags: Technology,Consumer,Airport
+
+----
+
+Builder: 
+
+- 
+  text1: >
+    Wireless charging technology from Intel,
+    designed for Emirates First Class
+    Lounges. Integrating our designs into an
+    environment rich in unique materials and
+    textures.
+  image1: ""
+  _fieldset: column1
+- 
+  text1: ""
+  image1: intel01.png
+  _fieldset: column1
+- 
+  text1: >
+    Thermodynamics provided the perfect
+    opportunity for an elegant design of
+    ventilation ports.
+  image1: ""
+  _fieldset: column1
+- 
+  text1: ""
+  image1: intel14773-1200x801.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: intel_5.png
+  text2: >
+    A thorough exploration of the user
+    experience led to a design solution that
+    blends in at a distance, yet is richly
+    detailed upon closer inspection. This
+    integrates flawlessly into the first
+    class lounges. Metal paint, translucency
+    and a beautiful play on geometry and
+    shadows support the form and function.
+  image2: ""
+  _fieldset: column2
+- 
+  text1: ""
+  image1: intel_2.png
+  _fieldset: column1
+- 
+  text1: ""
+  image1: intel09_1200x801-for-website.jpg
+  _fieldset: column1
+- 
+  text1: >
+    By varying the color, material and
+    finish (CMF), the wireless chargers can
+    be targeted to a specific brand or
+    industry.
+  image1: ""
+  text2: ""
+  image2: intel_4.png
+  _fieldset: column2
+- 
+  text1: ""
+  image1: intel01_1200x801-for-website.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: intel02_1200x801-for-website.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: intel03_1200x801-for-website.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: intel04_1200x801-for-website.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: intel05_1200x801-for-website.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: intel06_1200x801-for-website.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: intel07_1200x801-for-website.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: intel08_1200x801-for-website.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: intel10_1200x801-for-website.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: intel02_542x616-for-website.jpg
+  text2: ""
+  image2: intel03_542x616-for-website.jpg
+  _fieldset: column2
+- 
+  text1: ""
+  image1: intel04_542x616-for-website.jpg
+  text2: >
+    The wireless charging devices are
+    designed to fit inconspicuously in the
+    Emirates First First Class Lounges all
+    over the world.
+  image2: ""
+  _fieldset: column2
+
+----
+
+Metatitle: 
+
+----
+
+Metadescription: 

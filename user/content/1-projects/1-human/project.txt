@@ -1,0 +1,125 @@
+Title: Human Headphones
+
+----
+
+Year: 2013
+
+----
+
+Text: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+
+----
+
+Coverimage: human-dark-02.jpg
+
+----
+
+Date: 2017-12-22
+
+----
+
+Subheading: A brand new way to experience sound on the go.
+
+----
+
+Client: Human Inc.
+
+----
+
+Tags: Wearables,headphone,audio
+
+----
+
+Builder: 
+
+- 
+  text1: >
+    A project designed in collaboration with
+    the Human Inc. team. The Human
+    Headphones are a blend of revolutionary
+    user experience, superior aesthetics and
+    physics-defying engineering.
+  image1: ""
+  _fieldset: column1
+- 
+  text1: ""
+  image1: >
+    65603242_1261057297387170_1610720170311942144_o.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: 5ce84af9d7c85.jpg
+  text2: ""
+  image2: 5ce84af947f08.jpg
+  _fieldset: column2
+- 
+  text1: ""
+  image1: human_1200x801-for-website_r3a.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: >
+    67708595_1285191808307052_4275372259331276800_o.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: human_1200x801-for-website_r1a.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: human_1200x801-for-website_r2a.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: >
+    68509751_1292374614255438_4006786092928860160_o.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: >
+    64851985_1267438880082345_7117703382994780160_o.jpg
+  _fieldset: column1
+- 
+  text1: >
+    Human is the reinvention of mobile music
+    where high tech, intuitive user
+    interface, fashion and superior comfort
+    merge to create a never-seen-before
+    experience.
+  image1: ""
+  _fieldset: column1
+- 
+  text1: >
+    More than 700 3D prints were required to
+    refine the ergonomics of the Sound
+    Headphones. Comfort, easy donning,
+    stability and optimized driver and mic
+    positions have been considered to create
+    the optimum music experience.
+  image1: ""
+  _fieldset: column1
+- 
+  text1: ""
+  image1: hum001_-225-542x639px.jpg
+  text2: |
+    The touch-control system transcends other touch technologies by taking advantage of the device's outer real estate. Using natural human motion, listeners can execute multiple playback controls -- including volume adjustment, pause, play, skip a track, replaying a track, accept/deny call, and additional feature controls.
+    
+    The design provides space to house our advanced hardware and support our superior software, while still being unobtrusive and securely attached to the listener's head.
+  image2: ""
+  _fieldset: column2
+- 
+  text1: ""
+  image1: hum001_-179-1200x801px.jpg
+  _fieldset: column1
+- 
+  text1: 'In pursuit of the most comfortable and stable headphones we created over 700 prototypes. The result is a one-of-a-kind headphone that fits over 90% of adult ears. We believe in doing things right – and accept nothing less.'
+  image1: ""
+  _fieldset: column1
+
+----
+
+Metatitle: 
+
+----
+
+Metadescription: 

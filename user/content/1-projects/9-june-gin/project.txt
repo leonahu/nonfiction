@@ -1,0 +1,48 @@
+Title: June. Gin Bottle
+
+----
+
+Subheading: A clean design for a clean-mouthed dry gin.
+
+----
+
+Client: June. Spirits
+
+----
+
+Coverimage: june.gin-03-1200x801-for-website.jpg
+
+----
+
+Date: 2019-01-07
+
+----
+
+Tags: 
+
+----
+
+Builder: 
+
+- 
+  text1: ""
+  image1: june.gin-02-1200x801-for-website.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: june.gin-01-542x616-for-website.jpg
+  text2: 'JUNE. is a small-batch handcrafted dry gin concocted in San Francisco, California. Its refreshing herbal notes marry wonderfully with tree-ripened juniper berries. Perfect for a clean-mouthed gin & tonic or in sophisticated craft cocktails.'
+  image2: ""
+  _fieldset: column2
+
+----
+
+Line2: 
+
+----
+
+Metatitle: 
+
+----
+
+Metadescription: 

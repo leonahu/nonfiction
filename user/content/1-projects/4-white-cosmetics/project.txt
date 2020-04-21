@@ -1,0 +1,94 @@
+Title: White Skincare & Cosmetics
+
+----
+
+Subheading: The future of beauty is here.
+
+----
+
+Client: White Cosmetics
+
+----
+
+Coverimage: white_familya-1200px.jpg
+
+----
+
+Date: 2018-08-02
+
+----
+
+Tags: Cosmetics,Pebble,Future
+
+----
+
+Builder: 
+
+- 
+  text1: "White Cosmetics offers a line of makeup and skincare that embodies the high tech nature of today's needs in beauty regimens."
+  image1: ""
+  _fieldset: column1
+- 
+  text1: ""
+  image1: white_blush_open-1200px.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: white_eyeliner-1200px.jpg
+  _fieldset: column1
+- 
+  text1: >
+    Whether you are a novice or a veteran of
+    high-end skincare, the White Cosmetics
+    numbering system assists you with the
+    correct order of application for each
+    product. Start things off with the 01.
+    Moisturizer, then 02. Sunscreen, 03.
+    Face makeup, 04. Eyes, 05. Lips, etc.
+  image1: ""
+  _fieldset: column1
+- 
+  text1: ""
+  image1: white_family-1200px.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: white_lipstick_pack-1200px.jpg
+  _fieldset: column1
+- 
+  text1: >
+    Men and Women can feel comfortable
+    making White Cosmetics part of their
+    routine. The distinctive yet sober
+    aesthetics elevates any top shelf or
+    dopp kit.
+  image1: ""
+  _fieldset: column1
+- 
+  text1: ""
+  image1: white_lipstick_package-1200px.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: white_lipstick_pedistal-1200px.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: white_moisturizer_open-1200px.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: white_primer-1200px.jpg
+  _fieldset: column1
+
+----
+
+Line2: 
+
+----
+
+Metatitle: 
+
+----
+
+Metadescription: 

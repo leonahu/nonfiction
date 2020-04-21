@@ -1,0 +1,90 @@
+Title: Nummy Baby Bowl
+
+----
+
+Subheading: Eating with baby is fun again!
+
+----
+
+Client: Nummy
+
+----
+
+Coverimage: test-nummy.480-1200px.jpg
+
+----
+
+Date: 2018-08-02
+
+----
+
+Tags: baby,feeding,toy,silicone,suction cup,stackable
+
+----
+
+Builder: 
+
+- 
+  text1: >
+    Fun, iconic, easy to clean – the Nummy
+    Bowl suctions to the tabletop so
+    children can happily eat without
+    constant supervision.
+  image1: nummy_tabletop.477-1200px.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: 717gafsmigl.sl1500-2.jpg
+  _fieldset: column1
+- 
+  text1: >
+    The playful caricature design keeps
+    infants actively engaged while the curve
+    continuous sides let small hands easily
+    scoop food out of the Nummy Bowl.
+  image1: ""
+  _fieldset: column1
+- 
+  text1: ""
+  image1: bowl_hero-1200x761px-2.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: nummy_tabletop.477-1200px.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: test-nummy.487-1200px.jpg
+  text2: ""
+  image2: test-nummy-camera-4.496-1.png
+  _fieldset: column2
+- 
+  text1: ""
+  image1: nummy-sketches-r1a-1200-x-522px.jpg
+  _fieldset: column1
+- 
+  text1: >
+    In the early stages of designing we
+    create playful concept sketches that
+    capture the essence of the design
+    without complicating the form.
+  image1: nummy-sketches-r1a-1200-x-522px.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: bowls_stacked.jpg
+  text2: ""
+  image2: bowl_dishwasher.jpg
+  _fieldset: column2
+
+----
+
+Line2: 
+
+----
+
+Metatitle: 
+
+----
+
+Metadescription: 

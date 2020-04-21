@@ -1,0 +1,52 @@
+Title: Demo:
+
+----
+
+Subheading: gtgtg
+
+----
+
+Client: gygtg
+
+----
+
+Coverimage: feature-1.png
+
+----
+
+Date: 2018-01-14
+
+----
+
+Tags: Wearables,demo
+
+----
+
+Builder: 
+
+- 
+  text1: sdhfuhasudfhaiushdifauhsuidhaiushdiu
+  image1: ""
+  _fieldset: column1
+- 
+  text1: gtgtgtgtgugt
+  image1: ""
+  text2: ""
+  image2: 3.png
+  _fieldset: column2
+- 
+  text1: ""
+  image1: 2.png
+  _fieldset: column1
+
+----
+
+Line2: 
+
+----
+
+Metatitle: 
+
+----
+
+Metadescription: 

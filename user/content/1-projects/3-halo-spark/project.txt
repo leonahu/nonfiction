@@ -1,0 +1,125 @@
+Title: Halo Sport 2 Neuroprimer
+
+----
+
+Subheading: A neuro-stimulating, sports tech wearable.
+
+----
+
+Client: Halo Neuroscience
+
+----
+
+Coverimage: 190513-nf-marketing-renders-r1d-angle-bkg.1180-5-1200x801px.jpg
+
+----
+
+Date: 2019-01-07
+
+----
+
+Tags: neurostimulator,sport tech,headphones,wearable
+
+----
+
+Builder: 
+
+- 
+  text1: "Halo Sport 2 is a neuro-stimulating wearable that leverages the brain's plasticity to improve athletic performance. By priming the neuro pathways during intense warmups, top athletes push the boundaries of their motor skills."
+  image1: ""
+  _fieldset: column1
+- 
+  text1: ""
+  image1: >
+    190314-nf-marketing-renders-r1d-matrix.1147-12-1200x801px.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: >
+    190313-nf-marketing-renders-r1d-weights-scene.1133-1200x801px.jpg
+  _fieldset: column1
+- 
+  text1: >
+    Close collaboration between science and
+    engineering teams let to a product that
+    addresses human factors, durability, and
+    reliability concerns. The PVA primers
+    are designed to be easily replaceable by
+    the user as well as being cost
+    effective.
+  image1: ""
+  _fieldset: column1
+- 
+  text1: ""
+  image1: >
+    halo-sport-2_1200x801-for-website_r5a.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: >
+    halo-sport-2_1200x801-for-website_r1a.jpg
+  _fieldset: column1
+- 
+  text1: "Halo Sport 2 is designed and tested for aggressive use in the gym, whether it be weight training, running, cycling or on the court. The US Olympic Cyclist Team sees so much potential in Sport 2 that they've made it a key component in their training routine."
+  image1: ""
+  _fieldset: column1
+- 
+  text1: ""
+  image1: halo-basketball_sfo6523-1200x801px.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: halo-pullups_sfo1082-542x616px.jpg
+  text2: ""
+  image2: halo-guitar-player_tgp4840-542x617px.jpg
+  _fieldset: column2
+- 
+  text1: "Playing guitar or piano may seem different, but your brain learns each of these movements the same way – via the motor cortex. While the pathways may differ, they're all created through repetition and plasticity."
+  image1: ""
+  _fieldset: column1
+- 
+  text1: ""
+  image1: >
+    180409_sport-basic-bicep-r1h-on-head-1.426-blue-1200x801px.jpg
+  _fieldset: column1
+- 
+  text1: >
+    The headphone form factor and usability
+    is aligned to the gym/athletic
+    lifestyle. Music is played wirelessly
+    via the bluetooth chip.
+  image1: ""
+  _fieldset: column1
+- 
+  text1: ""
+  image1: >
+    180409_sport-basic-bicep-r1h-on-head-3.430-blue-1200x801.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: halo-concepts-1200x437px.jpg
+  _fieldset: column1
+- 
+  text1: >
+    Concepts in 2D, 3D, and material mood
+    boards are key components to the design
+    and development.
+  image1: ""
+  _fieldset: column1
+- 
+  text1: ""
+  image1: >
+    180409_sport-basic-bicep-r1h-on-head-4.437-1200x801px.jpg
+  _fieldset: column1
+
+----
+
+Line2: 
+
+----
+
+Metatitle: 
+
+----
+
+Metadescription: 

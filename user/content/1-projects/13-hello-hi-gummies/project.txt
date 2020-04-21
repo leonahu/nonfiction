@@ -1,0 +1,50 @@
+Title: Cannabis Gummies Packaging
+
+----
+
+Subheading: Child-Proof Packaging for Cannabis-Infused Gummies
+
+----
+
+Client: Hello Hi
+
+----
+
+Coverimage: all-hello-hi_1200x801-for-website_05.jpg
+
+----
+
+Date: 2019-01-08
+
+----
+
+Tags: 
+
+----
+
+Builder: 
+
+- 
+  text1: ""
+  image1: all-hello-hi_1200x801-for-website_03.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: all-hello-hi_1200x801-for-website_04.jpg
+  _fieldset: column1
+- 
+  text1: ""
+  image1: all-hello-hi_1200x801-for-website_01.jpg
+  _fieldset: column1
+
+----
+
+Line2: 
+
+----
+
+Metatitle: 
+
+----
+
+Metadescription: 
