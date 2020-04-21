@@ -3,8 +3,8 @@ Icon
 .DS_Store
 .resources
 
-#new
-panel
+# New
+# panel
 
 # Temporary files
 .sass-cache/**
