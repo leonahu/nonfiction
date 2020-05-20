@@ -49,12 +49,12 @@ b.init = function() {
     });
 
     // Smoke paralax.
-    var smoke = $('#smoke')[0];
-    var paralax = new Parallax(smoke, {
-      relativeInput: false,
-      scalarX: 4,
-      scalarY: 4
-    });
+    // var smoke = $('#smoke')[0];
+    // var paralax = new Parallax(smoke, {
+    //   relativeInput: false,
+    //   scalarX: 4,
+    //   scalarY: 4
+    // });
 
     // Rotating featured images.
     rotator.init();
