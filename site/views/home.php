@@ -12,9 +12,7 @@
   <div class="intro section">
     <div class="box">
       <div class="non">
-        <svg width="470" height="470" viewBox="0 0 470 470" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M23.5526 344.294L132.846 234.451L23.5526 125.706L125.706 23.5526L235 132.297L343.195 24.651L446.447 125.706L337.703 233.902L446.447 343.744L344.843 446.447L235 336.605L125.706 445.349L23.5526 344.294Z" fill="#231F20"/>
-        </svg>
+        <img style="width:100%" src="<?php echo b::asset('/assets/imgs/nonfiction.svg') ?>" alt="Nonfiction - industrial design, user experience, branding, architecture, strategy." />
       </div>
       <h1><?php echo $page->intro()->kt() ?></h1>
       <div class="mouse"><div><span></span></div></div>
