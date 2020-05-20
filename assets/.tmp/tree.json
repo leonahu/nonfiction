@@ -44,6 +44,7 @@
         "4": "assets/imgs/featured/4.png",
         "feature 1": "assets/imgs/featured/feature 1.png"
       },
+      "nonfiction": "assets/imgs/nonfiction.svg",
       "og-1200": "assets/imgs/og-1200.jpg",
       "spritesheet-icons": "assets/imgs/spritesheet-icons.png",
       "spritesheet-icons@2x": "assets/imgs/spritesheet-icons@2x.png"
@@ -52,8 +53,7 @@
       "libs": {
         "1.jquery": "assets/js/libs/1.jquery.js",
         "fullpage": "assets/js/libs/fullpage.js",
-        "object-fit-polyfill": "assets/js/libs/object-fit-polyfill.js",
-        "paralax.min": "assets/js/libs/paralax.min.js"
+        "object-fit-polyfill": "assets/js/libs/object-fit-polyfill.js"
       },
       "main": "assets/js/main.js"
     },
@@ -88,12 +88,13 @@
           "4": "assets/.tmp/imgs/featured/4.png",
           "feature 1": "assets/.tmp/imgs/featured/feature 1.png"
         },
+        "nonfiction": "assets/.tmp/imgs/nonfiction.svg",
         "og-1200": "assets/.tmp/imgs/og-1200.4104e601.jpg",
         "spritesheet-icons": "assets/.tmp/imgs/spritesheet-icons.d41d8cd9.png",
         "spritesheet-icons@2x": "assets/.tmp/imgs/spritesheet-icons@2x.d41d8cd9.png"
       },
       "js": {
-        "main": "assets/.tmp/js/main.30efe001.js"
+        "main": "assets/.tmp/js/main.9e5ca71b.js"
       }
     }
   }
