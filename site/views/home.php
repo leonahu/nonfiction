@@ -12,7 +12,7 @@
   <div class="intro section">
     <div class="box">
       <div class="non">
-        <img style="width:100%" src="<?php echo b::asset('/assets/imgs/nonfiction.svg') ?>" alt="Nonfiction - industrial design, user experience, branding, architecture, strategy." />
+        <img style="width:100%" src="<?php echo b::asset('/assets/imgs/nonfiction.svg') ?>" alt="Nonfiction" />
       </div>
       <h1><?php echo $page->intro()->kt() ?></h1>
       <div class="mouse"><div><span></span></div></div>
